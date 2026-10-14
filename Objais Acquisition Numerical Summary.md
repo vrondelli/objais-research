@@ -109,7 +109,7 @@ The 25 payable leads leave 25 × €18 = €450 after reversals and processing. 
 
 The same ceiling expressed through the funnel rates:
 
-![5% request yield × 50% payable share × €18 − €0.10 = €0.35. Arrows identify requests per click, payable leads per request, the amount retained per paid lead, other service costs per click and the advertising cost ceiling.](<research/formulas/click-cost-ceiling.png>)
+![5% request yield × 50% payable share × €18 − €0.10 = €0.35. Arrows identify requests per click, payable leads per request, the amount retained per paid lead, other service costs per click and the advertising cost ceiling.](./research/formulas/click-cost-ceiling.png)
 
 At the assumed €0.50 CPC, the cohort loses money. At €0.35 it breaks even before overhead. A desired surplus and fixed costs require a lower ceiling.
 

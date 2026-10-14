@@ -14,7 +14,7 @@
     "Full attributable costs, distinct identities and collection dates",
     "Future paid demand, professional account units and country-specific availability"
   ],
-  "local_links_and_anchors_checked": 346,
+  "local_links_and_anchors_checked": 338,
   "input_and_example_hashes_unchanged": {
     "research/revenue-summary/numerical-examples.json": true,
     "research/revenue-model/extension-examples.json": true,

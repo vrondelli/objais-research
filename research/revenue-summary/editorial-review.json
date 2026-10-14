@@ -17,7 +17,7 @@
   "prose_reduction_percent": 36.1,
   "numerical_sha256_after": "94b092f331172ab1aeb9bb6f0d196ba73da912dbe32bfacfcf585a29bc1cb3e8",
   "numerical_results_unchanged": true,
-  "source_sha256": "80d82e407a6504357114ec8a4216ae8b60a632d9c10b2a75abacf287d94becbd",
+  "source_sha256": "59cd9a53e70c375ed691e0f88fedad4f70a625ae39f30cdfb8e236ae4d0aa36a",
   "reading_order": [
     "actors",
     "events",

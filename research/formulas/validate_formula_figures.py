@@ -86,8 +86,11 @@ for panel in panels:
 guides = {}
 for name, count in [('Objais Revenue Model Numerical Summary.md', 7), ('Objais Acquisition Numerical Summary.md', 1)]:
     text = (ROOT / name).read_text()
-    image_lines = re.findall(r'^!\[[^\]]+\]\(<[^>]*research/formulas/[^>]+\.png>\)$', text, re.M)
+    image_lines = re.findall(r'^!\[[^\]]+\]\(\./research/formulas/[^)]+\.png\)$', text, re.M)
     assert len(image_lines) == count, (name, len(image_lines))
+    for line in image_lines:
+        target = re.search(r'\]\(([^)]+)\)$', line).group(1)
+        assert (ROOT / target).is_file(), target
     assert all('Objais Glossary.md#' not in line for line in image_lines)
     guides[name] = {'formula_panels': count, 'source_sha256': hashlib.sha256(text.encode()).hexdigest()}
 

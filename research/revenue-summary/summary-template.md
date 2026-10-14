@@ -43,7 +43,7 @@ In the lead-selling example, Objais passes an insurance enquiry to a partner. Th
 
 For each such owner, the monthly [payment chance](<@GLOSSARY_PATH@#conversion-probability>) combines three steps:
 
-![q = n × p × α. Arrows explain: q is the monthly first-fee chance per eligible owner; n is need this month; p is a qualified request given that need; α is Objais earning a fee given a qualified request.](<@PAYMENT_FORMULA_PATH@>)
+![q = n × p × α. Arrows explain: q is the monthly first-fee chance per eligible owner; n is need this month; p is a qualified request given that need; α is Objais earning a fee given a qualified request.](@PAYMENT_FORMULA_PATH@)
 
 In **q = n × p × α**, acceptance is conditional on a qualified request. A percentage of visitors, requests or owners cannot be substituted without its denominator.
 
@@ -74,7 +74,7 @@ After acquisition and service costs, the group’s [contribution](<@GLOSSARY_PAT
 
 Objais earns lead fees for 100 of the 1,000 owners, while acquisition and service costs apply to all 1,000. The €2,400 loss belongs to the whole group. Dividing it by 1,000 gives an **average loss of €2.40 per acquired owner**; it is not the loss on each paid lead.
 
-![One-visit contribution per owner: C divided by A equals q times the fee after reversals and processing, less owner service and acquisition costs. Arrows label C, A, q, f, ω, h, v_E and k. The example gives an average loss of €2.40 per acquired owner, before fixed overhead.](<@CONTRIBUTION_FORMULA_PATH@>)
+![One-visit contribution per owner: C divided by A equals q times the fee after reversals and processing, less owner service and acquisition costs. Arrows label C, A, q, f, ω, h, v_E and k. The example gives an average loss of €2.40 per acquired owner, before fixed overhead.](@CONTRIBUTION_FORMULA_PATH@)
 
 The calculation is easier to follow in four steps:
 
@@ -115,7 +115,7 @@ Each group has a monthly chance of continuing. After a fee has been earned, anot
 
 For the moment, suppose there is no dormancy or repeat opportunity. Keep the first-month assumptions and let 80% of owners continue each month, both before and after payment. Serving someone whose opportunity has already earned its fee (M) costs €0.30 per month. Set λ = 0, so nobody gains a new payable opportunity and each person can produce at most one paid lead for Objais.
 
-![Retention formulas with arrow labels: E_next = ρ_E × (E − L), and M_next = ρ_M × (M + L). E waits for the first fee, M has already earned Objais its fee, and L is this month’s paid leads. With 80% continuation, 720 owners remain waiting and 80 remain after their fee has been earned. No dormancy or repeat eligibility is assumed.](<@RETENTION_FORMULA_PATH@>)
+![Retention formulas with arrow labels: E_next = ρ_E × (E − L), and M_next = ρ_M × (M + L). E waits for the first fee, M has already earned Objais its fee, and L is this month’s paid leads. With 80% continuation, 720 owners remain waiting and 80 remain after their fee has been earned. No dormancy or repeat eligibility is assumed.](@RETENTION_FORMULA_PATH@)
 
 | The same group of people | Month 1 | Month 2 |
 | --- | ---: | ---: |
@@ -131,7 +131,7 @@ The second month looks better because there is no new acquisition bill for this 
 
 Follow the original group for 36 months with [discounting](<@GLOSSARY_PATH@#discounting>) at 1% per month. This weights later results; collection timing is a separate question.
 
-![36-month contribution with arrow labels: U36 is the sum of each monthly group contribution C_a weighted by δ^a, divided by the original 1,000 owners. a runs from 0 to 35 and δ = 1 / 1.01. Acquisition is included only in the first monthly result; fixed overhead is excluded. The retained-lead example gives +€1.17 per originally acquired owner.](<@RETAINED_VALUE_FORMULA_PATH@>)
+![36-month contribution with arrow labels: U36 is the sum of each monthly group contribution C_a weighted by δ^a, divided by the original 1,000 owners. a runs from 0 to 35 and δ = 1 / 1.01. Acquisition is included only in the first monthly result; fixed overhead is excluded. The retained-lead example gives +€1.17 per originally acquired owner.](@RETAINED_VALUE_FORMULA_PATH@)
 
 After variable and acquisition costs, but before fixed costs, the result is **@RETAINED_UNIT@ per originally acquired owner**, compared with @LEAD_UNIT@ when everyone leaves after the first month. This improvement comes from more first conversions. It does not require another payment for the same lead.
 
@@ -139,7 +139,7 @@ Now change which owners continue: let all owners still waiting for their first f
 
 The reset preserves owner identity and moves qualifying owners back into the eligible group:
 
-![Repeat eligibility with arrow labels: ΔE = ρ_M × λ × (M + L). The 80% continuation rate and 10% reset rate applied to the 100 owners whose enquiries earned fees produce 8 newly eligible owners. Next month has 728 eligible owners and 72 completed owners. A new eligible opportunity still has to reach its payment condition to earn another fee.](<@RESET_FORMULA_PATH@>)
+![Repeat eligibility with arrow labels: ΔE = ρ_M × λ × (M + L). The 80% continuation rate and 10% reset rate applied to the 100 owners whose enquiries earned fees produce 8 newly eligible owners. Next month has 728 eligible owners and 72 completed owners. A new eligible opportunity still has to reach its payment condition to earn another fee.](@RESET_FORMULA_PATH@)
 
 ### Going quiet is not always leaving
 
@@ -175,7 +175,7 @@ The model brings the relationships together each month:
 
 Assume 100 policies start in month 1, 98% remain eligible each month, and an annual renewal earns €15. Their first renewal falls in month 13:
 
-![Annual renewal formula with arrow labels: Rπ = zπ × B × ζ12 × φπ for one original policy group at its first renewal date. B is 100 policies, ζ12 is 0.98 to the power 12, φπ is a €15 renewal fee, and zπ is 1 only with contractual payment rights. Expected renewal revenue is €1,177.08; without rights it is €0. Policy servicing and fixed overhead are excluded.](<@RENEWAL_FORMULA_PATH@>)
+![Annual renewal formula with arrow labels: Rπ = zπ × B × ζ12 × φπ for one original policy group at its first renewal date. B is 100 policies, ζ12 is 0.98 to the power 12, φπ is a €15 renewal fee, and zπ is 1 only with contractual payment rights. Expected renewal revenue is €1,177.08; without rights it is €0. Policy servicing and fixed overhead are excluded.](@RENEWAL_FORMULA_PATH@)
 
 Here π labels renewal income and 12 is policy age in months. The result is earned revenue before policy costs, with cash collected on the agreed terms. The contract must grant the payment right.
 
@@ -183,7 +183,7 @@ Here π labels renewal income and 12 is policy age in months. The result is earn
 
 Suppose 15% of 1,000 new owners start paying and 95% keep paying next month. That gives 142.5 expected accounts in month 2; fractional counts describe scenario averages. Each retains €3 less €0.50 extra account cost:
 
-![Paid-software formula with arrow labels: monthly software contribution is κ × A × η^a × (b − v_S). κ is the share starting to pay, A is the original owner count, η is monthly billing continuation, a is months since joining, b is the net monthly payment and v_S is the extra monthly cost per paid account. In month 2, 15% × 1,000 × 95% × (€3 − €0.50) = €356.25, before acquisition, shared service costs and fixed overhead.](<@SOFTWARE_FORMULA_PATH@>)
+![Paid-software formula with arrow labels: monthly software contribution is κ × A × η^a × (b − v_S). κ is the share starting to pay, A is the original owner count, η is monthly billing continuation, a is months since joining, b is the net monthly payment and v_S is the extra monthly cost per paid account. In month 2, 15% × 1,000 × 95% × (€3 − €0.50) = €356.25, before acquisition, shared service costs and fixed overhead.](@SOFTWARE_FORMULA_PATH@)
 
 Age a = 0 at joining and a = 1 in month 2. Software leaves €375 for the group in month 1; the panel shows month 2. These component amounts exclude shared costs and fixed overhead, and billing continuation has its own measure.
 

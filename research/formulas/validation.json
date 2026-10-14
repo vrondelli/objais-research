@@ -130,11 +130,11 @@
   "guides": {
     "Objais Revenue Model Numerical Summary.md": {
       "formula_panels": 7,
-      "source_sha256": "80d82e407a6504357114ec8a4216ae8b60a632d9c10b2a75abacf287d94becbd"
+      "source_sha256": "59cd9a53e70c375ed691e0f88fedad4f70a625ae39f30cdfb8e236ae4d0aa36a"
     },
     "Objais Acquisition Numerical Summary.md": {
       "formula_panels": 1,
-      "source_sha256": "e593c60e5e294f00ffddea3e9299e159421914498e7258b1ef91985cd3e9c83a"
+      "source_sha256": "2aaa050f240bb639a9a72ba99ffd852576e055233ad80cadd9861e91628b5c71"
     }
   },
   "scope": "Explanatory annotations of existing synthetic scenarios; no new revenue architecture or empirical calibration"
