@@ -43,12 +43,11 @@ Reproduce the calculations from the workspace root:
 
 ```bash
 python3 -m unittest discover -s research/revenue-model -p 'test_*model.py'
-python3 research/revenue-model/build_extension_examples.py
-python3 research/revenue-summary/build_summary.py
+python3 research/publication/rebuild.py
 ```
 
 `extension-examples.json` contains the complete inputs and outputs for 15 cases; CSV files contain results and monthly histories. The original 52 sensitivity experiments remain unchanged in `research/revenue-summary/`.
 
-`build_workbook.py` rebuilds the workbook using XlsxWriter. Stationary benchmark sheets and Acquisition Curve have live formulas. Advanced Inputs, Results and Monthly are labelled snapshots generated from Python; editing them does not recalculate the expanded model. Regenerate the examples before rebuilding these snapshots. `build_math_pdf.py` renders the companion mathematical PDF; the `.tex` file is the authoritative full specification.
+The committed workbook has live formulas for stationary benchmark sheets and Acquisition Curve. Advanced Inputs, Results and Monthly are labelled snapshots generated from Python; editing them does not recalculate the expanded model. The packaged rebuild updates the JSON/CSV examples and reader documents, not the workbooks. Workbook snapshots need a separate regeneration and verification before using changed inputs. The `.tex` file is the authoritative full specification.
 
 Remaining commercial inputs include observed need/return dates, actual adoption by task performer, payment rights, cost/spend curves, acceptance, service costs, capacities and cash dates. Professional account units, later software upgrades, request backlogs, explicit currency consolidation and detailed bad-debt/late-credit handling remain extensions.

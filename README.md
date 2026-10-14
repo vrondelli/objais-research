@@ -34,7 +34,7 @@ python3 research/publication/rebuild.py
 python3 research/publication/check_package.py
 ```
 
-The rebuild regenerates the 15 extended scenarios, 52 benchmark sensitivity experiments, revenue guide, glossary and SVG formula sources. It preserves the manually edited acquisition guide. It converts generated links to relative paths and runs the existing arithmetic and terminology checks. PNGs are committed so readers need no rendering tools. Rebuilding PNGs after changing panel geometry requires Node.js and Playwright:
+The rebuild regenerates the 15 extended scenarios, 52 benchmark sensitivity experiments, revenue guide, glossary and SVG formula sources. It preserves the manually edited acquisition guide and does not update the workbooks. It converts generated links to relative paths and runs the existing arithmetic and terminology checks. PNGs are committed so readers need no rendering tools. Rebuilding PNGs after changing panel geometry requires Node.js and Playwright:
 
 ```bash
 npm install
