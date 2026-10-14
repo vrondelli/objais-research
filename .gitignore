@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+node_modules/
+research/formulas/preview.html
+research/glossary/Feature Glossary Result.md

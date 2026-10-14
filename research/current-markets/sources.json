@@ -1,0 +1,416 @@
+[
+  {
+    "source_id": "S01",
+    "title": "Objais homepage",
+    "url": "https://objais.com/en",
+    "period": "Observed October 2026",
+    "basis": "Company product marketing",
+    "limitation": "Advertised categories; does not prove policies sold or country availability",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S02",
+    "title": "Objais insurance",
+    "url": "https://objais.com/en/insurance",
+    "period": "Observed October 2026",
+    "basis": "Company product marketing; visible HTML saved",
+    "limitation": "Health and home called forthcoming; estimate is nonbinding",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S03",
+    "title": "Objais Select",
+    "url": "https://objais.com/en/select",
+    "period": "Observed October 2026",
+    "basis": "Company product marketing; visible HTML saved",
+    "limitation": "Available now label; older supercars-in-July text persists",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S04",
+    "title": "Objais Family",
+    "url": "https://objais.com/en/family",
+    "period": "Observed October 2026",
+    "basis": "Company product marketing; visible HTML saved",
+    "limitation": "Live label but lists home and health inconsistently with insurance page",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S05",
+    "title": "Objais Business",
+    "url": "https://objais.com/en/business",
+    "period": "Observed October 2026",
+    "basis": "Company roadmap; visible HTML saved",
+    "limitation": "End 2026 and waitlist; not counted as current commercial market",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S06",
+    "title": "Objais FAQ",
+    "url": "https://objais.com/en/faq",
+    "period": "Observed October 2026",
+    "basis": "Company descriptions; visible HTML saved",
+    "limitation": "Wine and musical instruments mentioned only in broad FAQ; commissions differ from user-reported lead model",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S07",
+    "title": "Art Basel UBS Art Market Report summary",
+    "url": "https://www.artbasel.com/stories/the-art-basel-and-ubs-global-art-market-report-2026",
+    "period": "2025; published March 2026",
+    "basis": "Arts Economics market estimates",
+    "limitation": "Art and antiques trade; not art insurance premium or holdings; categories overlap",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S08",
+    "title": "Art Basel UBS 2026 collecting survey methodology",
+    "url": "https://theartmarket.artbasel.com/",
+    "period": "Survey mid-2026",
+    "basis": "Selected high-net-worth art collector survey",
+    "limitation": "3100 HNW respondents across 10 markets; not general population or representative of Objais users",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S09",
+    "title": "Art Basel UBS collector research",
+    "url": "https://theartmarket.artbasel.com/research",
+    "period": "Survey 2026",
+    "basis": "Selected HNW collector survey",
+    "limitation": "Self-reported research/advice; not app retention or verified AI accuracy",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S10",
+    "title": "Art Basel UBS privacy and ownership",
+    "url": "https://theartmarket.artbasel.com/ownership",
+    "period": "Survey 2026",
+    "basis": "Selected HNW collector survey",
+    "limitation": "Preferences depend on the question; privacy of ownership differs from restricting physical viewing",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S11",
+    "title": "UBS collecting in the Americas",
+    "url": "https://www.ubs.com/global/en/our-firm/art/2025/collecting-in-the-americas.html",
+    "period": "Survey 2025 / plans for 2026",
+    "basis": "Selected US and Brazilian HNW collector evidence",
+    "limitation": "Survey behaviour is not national art TAM; intentions are not realised activity",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S12",
+    "title": "FH Swiss watch annual exports",
+    "url": "https://www.fhs.swiss/eng/2026_01_29_statistics.html",
+    "period": "2025",
+    "basis": "Trade association using customs data",
+    "limitation": "Swiss export prices; not global retail sales or resale GMV",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S13",
+    "title": "FH Swiss watch H1 exports",
+    "url": "https://www.fhs.swiss/eng/2026_07_21_statistics.html",
+    "period": "H1 2026",
+    "basis": "Trade association using customs data",
+    "limitation": "France growth affected by logistics and re-export; not domestic demand",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S14",
+    "title": "Deloitte Swiss Watch Industry Study",
+    "url": "https://www.deloitte.com/ch/en/about/press-room/swiss-watch-industry-study-2025.html",
+    "period": "Survey June-July 2025",
+    "basis": "6500 consumer and 111 executive survey",
+    "limitation": "Purchase intentions; surveyed export markets include Mexico, exclude Brazil and Portugal",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S15",
+    "title": "Chrono24 secondary watch report",
+    "url": "https://about.chrono24.com/en/press/Secondary-Watch-Market-Report-H1-2025",
+    "period": "H1 2025; published October 2025",
+    "basis": "Marketplace transaction analysis and audience claims",
+    "limitation": "Monthly users not unique buyers or retained cohorts; listings not sales",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S16",
+    "title": "Altagamma Bain luxury monitor release",
+    "url": "https://altagamma.it/media/source/COMUNICATO%20STAMPA_OSSERVATORIO%20ALTAGAMMA%202025.pdf",
+    "period": "November 2025 estimate for 2025",
+    "basis": "Trade body / Bain annual market estimate",
+    "limitation": "Published before year end; forecast/estimate, not audited 2025 actual; personal luxury includes many categories",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S17",
+    "title": "World Gold Council gold jewellery annual demand",
+    "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2025/jewellery",
+    "period": "2025",
+    "basis": "Research provider demand estimates",
+    "limitation": "Gold jewellery only; demand value reflects gold-price basis, not all jewellery retail markup or gemstones",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S18",
+    "title": "World Gold Council Q2 jewellery demand",
+    "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q2-2026/jewellery",
+    "period": "Q2 / H1 2026",
+    "basis": "Research provider demand estimates",
+    "limitation": "Tonnage and value diverge; H1 value cannot be compared to Q2 volume as same period",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S19",
+    "title": "Richemont FY26 annual results",
+    "url": "https://www.richemont.com/news-media/press-releases-news/richemont-delivers-strong-sales-growth-and-solid-results-for-the-year-ended-31-march-2026/",
+    "period": "FY ended March 31 2026",
+    "basis": "Audited issuer results",
+    "limitation": "Jewellery Maisons also sell watches; company segments are not pure category TAM",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S20",
+    "title": "Hermes FY25 results",
+    "url": "https://assets-finance.hermes.com/s3fs-public/node/pdf_file/2026-02/1770842738/hermes_20260212_pr_2025fullyearresults_va.pdf?VersionId=b_gXeCpcnuB3ftYcPgTb8IVxf8wfnw0k",
+    "period": "2025",
+    "basis": "Issuer results; sector table PDF page 7",
+    "limitation": "Leather segment includes saddlery and small goods; not handbags only; actual and constant-FX growth differ",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S21",
+    "title": "Ferrari FY25 results",
+    "url": "https://cdn.ferrari.com/cms/network/media/pdf/2026_02_10%20-%20Ferrari%20FY%202025%20Results%20Press%20Release.pdf",
+    "period": "2025",
+    "basis": "Official issuer indexed excerpt",
+    "limitation": "13640 shipments verified in official indexed text; full PDF retrieval not available; not whole supercar market",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S22",
+    "title": "European Boating Industry overview",
+    "url": "https://europeanboatingindustry.eu/about-us/about-ebi",
+    "period": "Undated current industry overview",
+    "basis": "Trade association estimates",
+    "limitation": "Installed boats and participation, not annual yacht purchases or unique insured owners",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S23",
+    "title": "NMMA full year retail boat units",
+    "url": "https://www.nmma.org/press/article/25432",
+    "period": "2025; published March 2026",
+    "basis": "US association retail unit tracking",
+    "limitation": "All new recreational boats; not global yacht market or existing fleet",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S24",
+    "title": "Sanlorenzo 2025 financial highlights",
+    "url": "https://www.sanlorenzoyacht.com/en/investors",
+    "period": "2025",
+    "basis": "Issuer financial highlights",
+    "limitation": "One builder; revenues not market size; rounded headline",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S25",
+    "title": "ACEA global and EU auto report",
+    "url": "https://www.acea.auto/publication/economic-and-market-report-global-and-eu-auto-industry-full-year-2025/",
+    "period": "2025",
+    "basis": "Vehicle industry statistics",
+    "limitation": "Worldwide passenger cars; not luxury cars or installed insured fleet",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S26",
+    "title": "SUSEP first half 2026",
+    "url": "https://www.gov.br/susep/pt-br/central-de-conteudos/noticias/2026/agosto/setor-supervisionado-pela-susep-registra-r-207-12-bilhoes-em-receitas-no-primeiro-semestre",
+    "period": "H1 2026",
+    "basis": "Insurance regulator market statistics",
+    "limitation": "Brazil; supervised sectors differ from health regulator ANS; premium is not broker revenue",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S27",
+    "title": "SUSEP 2025 consolidated bulletin release",
+    "url": "https://www.gov.br/susep/pt-br/central-de-conteudos/noticias/2026/fevereiro/em-ano-de-avancos-em-inclusao-e-modernizacao-regulatoria-setor-de-seguros-arrecada-r-415-bilhoes",
+    "period": "2025",
+    "basis": "Insurance regulator statistics",
+    "limitation": "Broad receipts include accumulation products; not addressable Objais premium pool",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S28",
+    "title": "ASF H1 2026 insurance evolution",
+    "url": "https://www.consumidor.asf.com.pt/web/site-asf/publica%C3%A7%C3%B5es/publica%C3%A7%C3%B5es/relat%C3%B3rio-da-evolu%C3%A7%C3%A3o-da-atividade-seguradora",
+    "period": "H1 2026",
+    "basis": "Portuguese regulator publication",
+    "limitation": "Direct insurance production; full statistical series intermittently blocked by access challenge; indexed and accessible summary used",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S29",
+    "title": "APS motor insurance 2025",
+    "url": "https://www.apseguradores.pt/pt/not%C3%ADcias-e-eventos/not%C3%ADcias/2026/articleid/854/seguro-autom%C3%B3vel-mant%C3%A9m-trajet%C3%B3ria-de-crescimento-em-2025",
+    "period": "2025; release August 2026",
+    "basis": "Portuguese insurance trade association",
+    "limitation": "Insured vehicles, not people; claims payments not premiums; HTML copy retained",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S30",
+    "title": "APS motor insurance H1 2026",
+    "url": "https://www.apseguradores.pt/pt/not%C3%ADcias-e-eventos/not%C3%ADcias/2026/articleid/863/seguro-autom%C3%B3vel-indicadores-do-1%C2%BA-semestre-2026",
+    "period": "H1 2026",
+    "basis": "Portuguese insurance trade association indexed excerpt",
+    "limitation": "98.2% market coverage; same rounded 9.3m figure as 2025 does not mean no growth",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S31",
+    "title": "FEDIAF pet population",
+    "url": "https://europeanpetfood.org/about/statistics/",
+    "period": "2024; published June 2026",
+    "basis": "Trade association / Soulor estimates",
+    "limitation": "41 European countries; changed coverage means no naive year-on-year growth; pets not insured pets",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S32",
+    "title": "NAPHIA State of the Industry",
+    "url": "https://naphia.org/industry-data/",
+    "period": "2025; published June 2026",
+    "basis": "Trade association / WTW industry data",
+    "limitation": "US and Canada; North America aggregate premium graphic currency footnote unresolved, therefore not used",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S33",
+    "title": "ABI UK pet claims",
+    "url": "https://www.abi.org.uk/media-hub/news-post/insurance-payouts-for-pawly-pets-top-1-billion-for-third-year-in-a-row",
+    "period": "2024; published May 2025",
+    "basis": "Association member insurance data",
+    "limitation": "Older observed period retained; claims payments not premium revenue or unique pets",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S34",
+    "title": "ABINPET Brazilian sector overview",
+    "url": "https://abinpet.org.br/informacoes-gerais-do-setor/",
+    "period": "2024",
+    "basis": "Brazilian pet trade association",
+    "limitation": "Entire pet sector includes food, products and services; not pet insurance",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S35",
+    "title": "ABEMPET October 2025 outlook",
+    "url": "https://abempet.org.br/2025/10/no-digital-o-varejo-especializado-mantem-a-lideranca/",
+    "period": "Forecast for 2025",
+    "basis": "Trade association forecast",
+    "limitation": "77.2bn forecast is not a verified full-year actual",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S36",
+    "title": "Fidelidade Pets Portugal",
+    "url": "https://fidelidade.pt/particulares/pets/proteger",
+    "period": "Observed October 2026",
+    "basis": "Insurer product marketing",
+    "limitation": "Different assistance, prevention and reimbursement options; terms determine benefits; no Objais partnership established",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S37",
+    "title": "Fidelidade pet reimbursement journey",
+    "url": "https://mypets.fidelidade.pt/usar-seguro",
+    "period": "Observed October 2026",
+    "basis": "Insurer servicing requirements",
+    "limitation": "Shows records required for reimbursement; does not establish Objais servicing access",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S38",
+    "title": "Jewelers Mutual premium factors",
+    "url": "https://www.jewelersmutual.com/jewelry-insurance-explained/cost",
+    "period": "Observed October 2026",
+    "basis": "US insurer advertised typical rates",
+    "limitation": "1-2% annual value rate varies by location, deductible and underwriting; not universal or Objais tariff",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S39",
+    "title": "Jewelers Mutual coverage",
+    "url": "https://www.jewelersmutual.com/jewelry-insurance-explained/coverage",
+    "period": "Observed October 2026",
+    "basis": "US insurer product terms summary",
+    "limitation": "Residence eligibility and conditions apply; travel coverage not permission to sell in Brazil or Europe",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S40",
+    "title": "Pantaenius yacht insurance",
+    "url": "https://www.pantaenius.com/uk-en/",
+    "period": "Observed October 2026",
+    "basis": "Specialist distributor product marketing",
+    "limitation": "UK page; hull and liability distinct; company audience claims not verified retention",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S41",
+    "title": "WAX collection and insurance product",
+    "url": "https://vault.waxcollectibles.com/",
+    "period": "Observed October 2026",
+    "basis": "Company product marketing",
+    "limitation": "Close product benchmark; bindable quote and edits advertised, not independently tested",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S42",
+    "title": "WAX App Store developer description",
+    "url": "https://apps.apple.com/us/app/wax-collectibles/id1511201226",
+    "period": "Observed October 2026",
+    "basis": "Developer-supplied app description",
+    "limitation": "US and UAE partners identified; no evidence of Brazil/Portugal placement",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S43",
+    "title": "Chubb Studio partner directory",
+    "url": "https://studio.chubb.com/connect/partners",
+    "period": "Observed October 2026",
+    "basis": "Insurer partner directory",
+    "limitation": "Confirms WAX and Hodinkee relationships; does not establish access to Chubb APIs for Objais",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S44",
+    "title": "Artlogic collection infrastructure",
+    "url": "https://artlogic.net/",
+    "period": "Observed October 2026",
+    "basis": "Vendor product marketing",
+    "limitation": "Professional art infrastructure; no market share or active-user claim used",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S45",
+    "title": "Howden Portugal fine art placement",
+    "url": "https://www.howdengroup.com/pt-pt/cover/fine-art-insurance",
+    "period": "Verified earlier in this same research session October 2026",
+    "basis": "Specialist intermediary product marketing",
+    "limitation": "Specialist placement exists; category terms and insurer acceptance must be confirmed; refresh intermittently unavailable",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S46",
+    "title": "Porto residential art extension",
+    "url": "https://www.portoseguro.com.br/content/dam/documentos/condicoes_gerais/seguro_residencia/habitual/cg-resid-veraneio-premium-private-dez-25.pdf",
+    "period": "Effective December 5 2025",
+    "basis": "Insurer contract wording; locally retained PDF inspected",
+    "limitation": "Printed p72 / PDF p73; exclusions apply to this extension only, not whole Brazilian insurance market",
+    "accessed": "2026-10-13"
+  }
+]

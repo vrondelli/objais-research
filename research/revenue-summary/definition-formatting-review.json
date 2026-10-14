@@ -1,0 +1,23 @@
+{
+  "contribution_explanation_checks": {
+    "base_average_loss": true,
+    "net_per_paid_lead": true,
+    "pre_acquisition_average": true,
+    "cac_threshold": true,
+    "rounded_payment_threshold_covers_cost": true,
+    "rounded_fee_threshold_covers_cost": true
+  },
+  "displayed_break_even_values": {
+    "cac": 1.6,
+    "paid_event_probability": 0.2334,
+    "lead_fee": 45.27
+  },
+  "rounding": "Probability and fee rounded upward to keep displayed values at or above zero contribution",
+  "status": "pass",
+  "definition_blocks": 0,
+  "format": "Shared glossary with first-use links; contextual explanation stays with the examples",
+  "glossary_terms": 100,
+  "numerical_input_files_unchanged": true,
+  "source_sha256": "80d82e407a6504357114ec8a4216ae8b60a632d9c10b2a75abacf287d94becbd",
+  "local_links_and_anchors_checked": 346
+}

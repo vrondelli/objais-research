@@ -1,0 +1,74 @@
+[
+  [
+    "Watches and jewellery",
+    "Potentially high for valuable collections",
+    "Low to moderate for single-item owner; higher for active collector",
+    "Records, acquisitions, appraisals and protection changes",
+    "Dealers, jewellers, collectors, specialist brokers",
+    "Best first existing-scope test",
+    "Fees, renewal rights and retained cohort not established"
+  ],
+  [
+    "Fine art and antiques",
+    "Potentially high for valuable collections",
+    "Episodic but useful through lifecycle",
+    "Provenance, locations, transit, loans and estate inventory",
+    "Galleries, advisors, auction houses and private banks",
+    "Document and service-led test",
+    "Expertise and professional incumbent tools"
+  ],
+  [
+    "Handbags",
+    "Depends strongly on collection value",
+    "Moderate hypothesis for active buyers/resellers",
+    "Receipts, condition, authentication and sale updates",
+    "Resale dealers, authenticators and repair providers",
+    "Adjacency to watch/jewellery portfolio",
+    "Insurer appetite and valuation basis"
+  ],
+  [
+    "Yachts and superyachts",
+    "Potentially high but complex",
+    "Low purchase frequency; operational events recur",
+    "Survey, mooring, navigation and ownership documents",
+    "Marinas, managers, surveyors, brokers and dealers",
+    "Partner-led specialist segment",
+    "Higher servicing cost; incumbent relationships"
+  ],
+  [
+    "Supercars",
+    "Potentially high but segmented",
+    "Low purchase frequency; events and servicing recur",
+    "Agreed value, maintenance, use and driver changes",
+    "Specialist dealers, clubs and brokers",
+    "Partner-led specialist segment",
+    "Photo reveals little about driver/use exposure"
+  ],
+  [
+    "Everyday cars",
+    "Large premium market, unknown net lead fee",
+    "Renewal and claims events; daily use does not imply app retention",
+    "Policy comparison, renewal, documents and claims",
+    "Dealers, finance, comparison sites and brokers",
+    "Separate mass-market distribution test",
+    "Mature competition and acquisition cost"
+  ],
+  [
+    "Leisure boats",
+    "Variable by vessel and coverage",
+    "Seasonal operational and renewal events",
+    "Hull/liability records, cruising and mooring changes",
+    "Marinas, clubs, dealers and specialist intermediaries",
+    "Separate from superyachts",
+    "Do not apply one premium/ticket assumption across boats"
+  ],
+  [
+    "Pets",
+    "Documented repeat insurance/service workflows",
+    "Care is recurring; intermediary app use must be earned",
+    "Policy limits, records, reimbursements and assistance",
+    "Vets, pet retailers and insurer service channels",
+    "Separate care/service experiment",
+    "Insurers already own service apps; reimbursement access needed"
+  ]
+]

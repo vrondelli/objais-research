@@ -1,0 +1,35 @@
+parameter_id,parameter,unit,grain,definition,low,base,high,evidence_status,source_ref,period,owner,next_request
+P01,Acquired units,unique prospects or documented sessions,segment-country-channel-month,Observed acquisition denominator; identity limitations explicit,,,,unavailable,,,Product/data owner,R06
+P02,Cost per acquired unit,native currency per acquired unit,channel-month,Spend over eligible acquisitions; blended/paid distinguished,,,,unavailable,,,Growth/finance owner,R08
+P03,Qualified-request rate,fraction,acquisition cohort,Qualified requests divided by acquired units,,,,unavailable,,,Operations/finance owner,R07
+P04,Paid acceptance conditional on qualified request,fraction,lead cohort,Paid accepted leads divided by qualified requests,,,,unavailable,,,Operations/finance owner,R07
+P05,Net fee per accepted paid lead,native currency per paid lead,contract/category/country,After contractual partner split; define before/after refunds,,,,unavailable,,,Commercial/finance owner,R02
+P06,Lead reversal fraction,fraction,accepted-lead cohort,Reversed payable leads divided by accepted paid leads,,,,unavailable,,,Commercial/operations owner,R04
+P07,Quote to policy binding fraction,fraction,eligible quote cohort,Bound policies divided by eligible insurer quotes,,,,unavailable,,,Operations/finance owner,R07
+P08,Average written premium per bound policy,native currency per policy,policy cohort,Gross written premium distinct from broker revenue,,,,unavailable,,,Operations/finance owner,R07
+P09,New policy commission rate,fraction of eligible premium,commercial agreement,Base and payable trigger require confirmation,,,,unavailable,,,Commercial/finance owner,R02
+P10,Objais retained commission share,fraction,partner agreement,Do not subtract partner split again from already-net rate,,,,unavailable,,,Commercial/finance owner,R02
+P11,Cancellation and commission clawbacks,native currency or fraction with explicit unit,policy cohort,"Reason, due dates and cash reversal links",,,,unavailable,,,Commercial/operations owner,R04
+P12,Policies due for renewal,policies,policy origination month,Mature due cohorts only,,,,unavailable,,,Operations/finance owner,R12
+P13,Annual policy renewal fraction,fraction,mature policy cohort,Unknown if no annual cohort has matured,,,,unavailable,,,Operations/finance owner,R12
+P14,Renewal net fee or commission,native currency per renewed policy OR fraction,contract,Explicit contractual eligibility and denominator,,,,unavailable,,,Commercial owner,R03
+P15,Meaningful D30/D60/D90 retention,fraction per stated window,user cohort,Completed task among users eligible to reach window,,,,unavailable,,,Product/data owner,R11
+P16,Paid service referral rate,fraction of eligible users/tasks,service cohort,"Triggered by completed paid service, not click",,,,unavailable,,,Research lead / commercial owner,R14; R17
+P17,Net fee per completed paid service,native currency per service,service contract,Refunds/pass-through and cost basis explicit,,,,unavailable,,,Commercial owner,R03; R14
+P18,New paid software conversion,fraction of eligible users/accounts,software cohort,Observed price and actual paid outcome,,,,unavailable,,,Research lead / commercial owner,R14; R22
+P19,Monthly paid software churn,fraction of beginning active paying accounts,software cohort,Cancellations/downgrades; never mix annual and monthly churn,,,,unavailable,,,Commercial/product owner,R22
+P20,Software price and billing period,native currency per account/seat/task and period,offer/contract,Annual cash versus monthly management revenue distinguished,,,,unavailable,,,Commercial/product owner,R22
+P21,Scan and identity cost,native currency per processed image,usage,Provider/compute usage plus failed scans,,,,unavailable,,,Product/operations/finance owner,R09
+P22,Valuation data cost,native currency fixed/month/per record,supplier licence,Coverage and permitted usage documented,,,,unavailable,,,Product/data owner,R16
+P23,Support and specialist cost,native currency per minute/case,observed workflow,"Duration, wage/vendor rate and failed cases included",,,,unavailable,,,Product/operations/finance owner,R09
+P24,Storage and notification cost,native currency per record/month/event,usage,Scale with active holdings/events not new acquisitions only,,,,unavailable,,,Product/operations/finance owner,R09
+P25,Quote and policy servicing cost,native currency per request/policy/update,workflow,Incremental burden of a recurring offer,,,,unavailable,,,Operations and insurer owner,R17
+P26,Payment processing and bad debt,native currency/fraction of documented base,payment cohort,Invoice failures and failed collections,,,,unavailable,,,Product/operations/finance owner,R09; R05
+P27,Settlement lag,months/days with distribution,payer,Recognized revenue/invoice/cash distinct,,,,unavailable,,,Finance owner,R05
+P28,Fixed monthly operating cost,native currency per month,operating plan,"Staff, tools and overhead outside contribution",,,,unavailable,,,Finance/operations owner,R19
+P29,Accepted submission capacity,cases per specialist/partner-month,operational counterparty,Do not grow sales beyond evidenced/assumed capacity,,,,unavailable,,,Finance/operations owner,R19
+P30,Country-category availability,confirmed/unsupported/unknown,jurisdiction and current product,Hard inclusion condition for supported base lane,,,,unavailable,,,Licensed insurance counterpart,R10
+P31,Cross-category paid overlap,linked unique users/events,acquisition cohort,Deduplicate acquisition and payable triggers,,,,unavailable,,,Product/data owner,R18
+P32,Dated FX rate,EUR per BRL or explicitly stated direction,month,Native figures remain available; consolidation reproducible,,,,unavailable,,,Finance owner,R20
+P33,Counterparty concentration,share of net revenue or capacity,payer/channel/month,Shock both revenue and replacement cost,,,,unavailable,,,Finance/operations owner,R21
+P34,Retention cost uplift,native currency per returning user/event,user cohort,Repeat use increases cost even if future fee equals zero,,,,unavailable,,,Product/operations/finance owner,R09; R11

@@ -1,0 +1,47 @@
+{
+  "status": "pass",
+  "engine": "Chrome via Playwright; local SVG; no network",
+  "panels": [
+    {
+      "id": "payment-chance",
+      "label_bounds": "pass",
+      "png": "payment-chance.png"
+    },
+    {
+      "id": "owner-contribution",
+      "label_bounds": "pass",
+      "png": "owner-contribution.png"
+    },
+    {
+      "id": "click-cost-ceiling",
+      "label_bounds": "pass",
+      "png": "click-cost-ceiling.png"
+    },
+    {
+      "id": "retention-states",
+      "label_bounds": "pass",
+      "png": "retention-states.png"
+    },
+    {
+      "id": "retained-contribution",
+      "label_bounds": "pass",
+      "png": "retained-contribution.png"
+    },
+    {
+      "id": "repeat-eligibility",
+      "label_bounds": "pass",
+      "png": "repeat-eligibility.png"
+    },
+    {
+      "id": "policy-renewal",
+      "label_bounds": "pass",
+      "png": "policy-renewal.png"
+    },
+    {
+      "id": "paid-software",
+      "label_bounds": "pass",
+      "png": "paid-software.png"
+    }
+  ],
+  "native_markdown_preview": "not inspected"
+}

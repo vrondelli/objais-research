@@ -1,0 +1,1179 @@
+{
+  "scope": "Shared reader vocabulary for Objais revenue and acquisition, covering current scope and future options",
+  "groups": [
+    "People and routes",
+    "Tasks and payment conditions",
+    "Costs and money",
+    "Returning, renewing and paying",
+    "Measurement and experience",
+    "Evidence status"
+  ],
+  "terms": [
+    {
+      "term": "Asset owner",
+      "definition": "One person whose possessions are being considered. Three watches and a car still count as one owner; a representative acting for them is not an extra owner.",
+      "anchor": "asset-owner",
+      "aliases": [
+        "Owner"
+      ],
+      "category": "People and routes",
+      "kind": "plain-language",
+      "source": "research/revenue-model/README.md",
+      "original_revenue_term": "Asset owner",
+      "cross_scope": true
+    },
+    {
+      "term": "Customer",
+      "definition": "In the consumer revenue examples, the asset owner using Objais, including someone using it for free. The insurer or broker paying a lead fee has a different role; a future professional offer would need its own account unit.",
+      "anchor": "customer",
+      "aliases": [],
+      "category": "People and routes",
+      "kind": "plain-language",
+      "source": "research/revenue-model/README.md",
+      "original_revenue_term": "Customer",
+      "cross_scope": true
+    },
+    {
+      "term": "Representative",
+      "definition": "Someone authorised to act for an owner, such as a staff member or adviser.",
+      "anchor": "representative",
+      "aliases": [],
+      "category": "People and routes",
+      "kind": "plain-language",
+      "source": "research/revenue-model/README.md",
+      "original_revenue_term": "Representative",
+      "cross_scope": true
+    },
+    {
+      "term": "Acquisition",
+      "definition": "Bringing a new owner into the measured service.",
+      "anchor": "acquisition",
+      "aliases": [],
+      "category": "People and routes",
+      "kind": "plain-language",
+      "source": "research/revenue-model/README.md",
+      "original_revenue_term": "Acquisition",
+      "cross_scope": true
+    },
+    {
+      "term": "Acquisition cost (CAC)",
+      "definition": "Total attributable cost of bringing in new owners, divided by the number of distinct newly acquired owners. Include advertising, introduction fees and onboarding work; clicks, installs and returning owners do not automatically add to that denominator.",
+      "anchor": "acquisition-cost-cac",
+      "aliases": [
+        "Owner CAC"
+      ],
+      "category": "People and routes",
+      "kind": "formal",
+      "source": "research/revenue-model/README.md",
+      "original_revenue_term": "Acquisition cost (CAC)",
+      "cross_scope": true
+    },
+    {
+      "term": "Channel",
+      "definition": "The route that brings someone in, such as an advertisement or a dealer introduction.",
+      "anchor": "channel",
+      "aliases": [],
+      "category": "People and routes",
+      "kind": "plain-language",
+      "source": "research/revenue-model/README.md",
+      "original_revenue_term": "Channel",
+      "cross_scope": true
+    },
+    {
+      "term": "Prospect",
+      "definition": "A distinct person reached before they join the service.",
+      "anchor": "prospect",
+      "aliases": [],
+      "category": "People and routes",
+      "kind": "plain-language",
+      "source": "research/revenue-model/README.md",
+      "original_revenue_term": "Prospect",
+      "cross_scope": false
+    },
+    {
+      "term": "Adoption",
+      "definition": "The share of prospects who join the measured service.",
+      "anchor": "adoption",
+      "aliases": [],
+      "category": "People and routes",
+      "kind": "plain-language",
+      "source": "research/revenue-model/README.md",
+      "original_revenue_term": "Adoption",
+      "cross_scope": false
+    },
+    {
+      "term": "Actor",
+      "definition": "A person or organisation participating in the service, such as an owner, representative, Objais or an insurer. Roles explain who acts and who pays; they are not interchangeable counting units.",
+      "anchor": "actor",
+      "aliases": [
+        "Actors"
+      ],
+      "category": "People and routes",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model Diagrams.html",
+      "original_revenue_term": "Actors",
+      "cross_scope": false
+    },
+    {
+      "term": "Referral fee",
+      "definition": "An agreed payment to Objais when a service introduction meets its payment condition.",
+      "anchor": "referral-fee",
+      "aliases": [],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Referral fee",
+      "cross_scope": false
+    },
+    {
+      "term": "Opportunity",
+      "definition": "A possible transaction that could earn Objais a fee.",
+      "anchor": "opportunity",
+      "aliases": [],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Opportunity",
+      "cross_scope": true
+    },
+    {
+      "term": "Paid event",
+      "definition": "An occurrence that meets the agreement’s condition for earning an Objais fee. Both guides also call this a payable event. The fee may be earned before cash arrives, and the contract determines whether acceptance, policy binding or another occurrence qualifies.",
+      "anchor": "paid-event",
+      "aliases": [
+        "Payable event"
+      ],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Paid event",
+      "cross_scope": true
+    },
+    {
+      "term": "Lead",
+      "definition": "An insurance enquiry passed to a partner.",
+      "anchor": "lead",
+      "aliases": [],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Lead",
+      "cross_scope": true
+    },
+    {
+      "term": "Qualified request",
+      "definition": "An enquiry that meets the agreed requirements.",
+      "anchor": "qualified-request",
+      "aliases": [],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Qualified request",
+      "cross_scope": true
+    },
+    {
+      "term": "Paid lead",
+      "definition": "A lead accepted as payable under the partner agreement. “Paid” describes the entitlement to the fee in these examples; it does not establish that money has already arrived.",
+      "anchor": "paid-lead",
+      "aliases": [],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Paid lead",
+      "cross_scope": true
+    },
+    {
+      "term": "Eligible owner",
+      "definition": "An owner with an opportunity that can still earn its first fee.",
+      "anchor": "eligible-owner",
+      "aliases": [],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Eligible owner",
+      "cross_scope": false
+    },
+    {
+      "term": "Need probability",
+      "definition": "The chance that an active eligible owner needs help in the month being modelled. The symbol is n; need can depend on season or time since acquisition.",
+      "anchor": "need-probability",
+      "aliases": [
+        "n"
+      ],
+      "category": "Tasks and payment conditions",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Need probability, n",
+      "cross_scope": false
+    },
+    {
+      "term": "Request probability",
+      "definition": "The chance of a qualified request, given that an active eligible owner needs help. The symbol is p. This is a conditional rate, not a share of all visitors.",
+      "anchor": "request-probability",
+      "aliases": [
+        "p"
+      ],
+      "category": "Tasks and payment conditions",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Request probability, p",
+      "cross_scope": false
+    },
+    {
+      "term": "Paid acceptance",
+      "definition": "The chance that a qualified request meets the contractual payment condition. The symbol is α (alpha). Under a binding arrangement, the condition is effective cover rather than lead acceptance.",
+      "anchor": "paid-acceptance",
+      "aliases": [
+        "α",
+        "Alpha"
+      ],
+      "category": "Tasks and payment conditions",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Paid acceptance, α",
+      "cross_scope": false
+    },
+    {
+      "term": "Conversion probability",
+      "definition": "The monthly chance of an active eligible owner reaching the initial payable event: q = n × p × α. Payment-history rules and delivery capacity may reduce realised events further. Click-to-request and request-to-payment yields have different denominators.",
+      "anchor": "conversion-probability",
+      "aliases": [
+        "q"
+      ],
+      "category": "Tasks and payment conditions",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Conversion probability, q = n × p × α",
+      "cross_scope": false
+    },
+    {
+      "term": "Insurance policy",
+      "definition": "The contract providing insurance cover.",
+      "anchor": "insurance-policy",
+      "aliases": [],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Insurance policy",
+      "cross_scope": false
+    },
+    {
+      "term": "Policy binding",
+      "definition": "The point when insurance cover becomes effective under its contract. A quotation or accepted enquiry does not by itself establish effective cover.",
+      "anchor": "policy-binding",
+      "aliases": [],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Policy binding",
+      "cross_scope": true
+    },
+    {
+      "term": "Premium",
+      "definition": "The price of the insurance.",
+      "anchor": "premium",
+      "aliases": [],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Premium",
+      "cross_scope": true
+    },
+    {
+      "term": "Commission",
+      "definition": "The agreed payment for arranging the cover.",
+      "anchor": "commission",
+      "aliases": [],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Commission",
+      "cross_scope": true
+    },
+    {
+      "term": "Revenue",
+      "definition": "The amount Objais has earned.",
+      "anchor": "revenue",
+      "aliases": [],
+      "category": "Costs and money",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Revenue",
+      "cross_scope": true
+    },
+    {
+      "term": "Payment reversal",
+      "definition": "A fee withdrawn or credited back.",
+      "anchor": "payment-reversal",
+      "aliases": [],
+      "category": "Costs and money",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Payment reversal",
+      "cross_scope": true
+    },
+    {
+      "term": "Invoice",
+      "definition": "A request for payment.",
+      "anchor": "invoice",
+      "aliases": [],
+      "category": "Costs and money",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Invoice",
+      "cross_scope": false
+    },
+    {
+      "term": "Receivable",
+      "definition": "An amount earned and still awaiting payment.",
+      "anchor": "receivable",
+      "aliases": [],
+      "category": "Costs and money",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Receivable",
+      "cross_scope": false
+    },
+    {
+      "term": "Cash receipts",
+      "definition": "Money actually received.",
+      "anchor": "cash-receipts",
+      "aliases": [],
+      "category": "Costs and money",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Cash receipts",
+      "cross_scope": true
+    },
+    {
+      "term": "Variable costs",
+      "definition": "Costs that change with the people served or work done, such as service and processing expenses.",
+      "anchor": "variable-costs",
+      "aliases": [],
+      "category": "Costs and money",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Variable costs",
+      "cross_scope": true
+    },
+    {
+      "term": "Fixed costs",
+      "definition": "Expenses assumed to stay the same within the volume being considered, such as the monthly overhead used later in this guide.",
+      "anchor": "fixed-costs",
+      "aliases": [],
+      "category": "Costs and money",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Fixed costs",
+      "cross_scope": true
+    },
+    {
+      "term": "Contribution",
+      "definition": "Revenue minus variable costs and acquisition costs. Fixed costs have not yet been deducted.",
+      "anchor": "contribution",
+      "aliases": [],
+      "category": "Costs and money",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Contribution",
+      "cross_scope": true
+    },
+    {
+      "term": "Break-even",
+      "definition": "The point where the stated result reaches zero. Owner contribution, company operating result and cash result have different break-even conditions; always name the result and period.",
+      "anchor": "break-even",
+      "aliases": [],
+      "category": "Costs and money",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Break-even",
+      "cross_scope": true
+    },
+    {
+      "term": "Cohort",
+      "definition": "A group followed from a stated entry period or experiment. The revenue guide groups distinct owners by acquisition month; the acquisition guide can follow linked entry journeys. State the counting unit and entry rule before comparing cohorts.",
+      "anchor": "cohort",
+      "aliases": [
+        "Owner cohort",
+        "Entry cohort"
+      ],
+      "category": "Returning, renewing and paying",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Cohort",
+      "cross_scope": true
+    },
+    {
+      "term": "Retention",
+      "definition": "Continuation in a specified relationship over time. App use, an active opportunity, insurance cover and software billing each need their own measure; continuation in one does not prove continuation in another.",
+      "anchor": "retention",
+      "aliases": [],
+      "category": "Returning, renewing and paying",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Retention",
+      "cross_scope": true
+    },
+    {
+      "term": "Eligible state (E)",
+      "definition": "An active owner whose current opportunity has not yet earned its initial payment. Payment history and capacity still determine whether an event can occur this month.",
+      "anchor": "eligible-state-e",
+      "aliases": [
+        "E"
+      ],
+      "category": "Returning, renewing and paying",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "E: eligible",
+      "cross_scope": false
+    },
+    {
+      "term": "Monetised state (M)",
+      "definition": "An active owner whose current opportunity has earned its initial payment. Continued use alone cannot earn that same fee again.",
+      "anchor": "monetised-state-m",
+      "aliases": [
+        "M"
+      ],
+      "category": "Returning, renewing and paying",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "M: monetised",
+      "cross_scope": false
+    },
+    {
+      "term": "Dormant states (D_E and D_M)",
+      "definition": "Owners who have gone quiet but may return, retaining the unpaid or paid status of their opportunity. Return preserves owner identity and payment history.",
+      "anchor": "dormant-states-d_e-and-d_m",
+      "aliases": [
+        "D_E",
+        "D_M",
+        "Dormancy"
+      ],
+      "category": "Returning, renewing and paying",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "D_E and D_M: dormant",
+      "cross_scope": false
+    },
+    {
+      "term": "Permanent exit (X)",
+      "definition": "The opportunity relationship has ended in the model. This does not automatically end a policy or software billing relationship.",
+      "anchor": "permanent-exit-x",
+      "aliases": [
+        "X"
+      ],
+      "category": "Returning, renewing and paying",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "X: permanent exit",
+      "cross_scope": false
+    },
+    {
+      "term": "Monthly continuation rate",
+      "definition": "The share remaining in the opportunity relationship next month. It can differ before and after payment.",
+      "anchor": "monthly-continuation-rate",
+      "aliases": [],
+      "category": "Returning, renewing and paying",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Monthly continuation rate",
+      "cross_scope": false
+    },
+    {
+      "term": "Reset rate",
+      "definition": "The share of continuing monetised owners who gain a genuinely new eligible opportunity. The symbol is λ (lambda). Another item or return visit qualifies only when the agreement supports a new fee.",
+      "anchor": "reset-rate",
+      "aliases": [
+        "λ",
+        "Lambda"
+      ],
+      "category": "Returning, renewing and paying",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Reset rate, λ",
+      "cross_scope": false
+    },
+    {
+      "term": "Owner-month",
+      "definition": "One owner served for one month.",
+      "anchor": "owner-month",
+      "aliases": [],
+      "category": "Returning, renewing and paying",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Owner-month",
+      "cross_scope": false
+    },
+    {
+      "term": "Discounting",
+      "definition": "Giving money earned later less weight than money earned now when comparing amounts across time.",
+      "anchor": "discounting",
+      "aliases": [],
+      "category": "Returning, renewing and paying",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Discounting",
+      "cross_scope": false
+    },
+    {
+      "term": "Customer contribution over a stated horizon",
+      "definition": "Discounted revenue less variable and acquisition costs, per originally acquired owner over the stated period. The guide normally uses 36 months and a 1% monthly discount rate. Fixed costs are excluded.",
+      "anchor": "customer-contribution-over-a-stated-horizon",
+      "aliases": [
+        "36-month customer contribution",
+        "Lifetime contribution"
+      ],
+      "category": "Returning, renewing and paying",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "36-month customer contribution",
+      "cross_scope": true
+    },
+    {
+      "term": "Rolling payment cap",
+      "definition": "A limit on initial paid events for each owner over every consecutive window, such as two events in any 12 months.",
+      "anchor": "rolling-payment-cap",
+      "aliases": [],
+      "category": "Returning, renewing and paying",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Rolling payment cap",
+      "cross_scope": false
+    },
+    {
+      "term": "Cooldown",
+      "definition": "A minimum gap between initial paid events, such as six months.",
+      "anchor": "cooldown",
+      "aliases": [],
+      "category": "Returning, renewing and paying",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Cooldown",
+      "cross_scope": false
+    },
+    {
+      "term": "Paid software",
+      "definition": "A software service sold for a recurring payment.",
+      "anchor": "paid-software",
+      "aliases": [],
+      "category": "Returning, renewing and paying",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Paid software",
+      "cross_scope": false
+    },
+    {
+      "term": "Paid account",
+      "definition": "The record of that billing relationship.",
+      "anchor": "paid-account",
+      "aliases": [],
+      "category": "Returning, renewing and paying",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Paid account",
+      "cross_scope": false
+    },
+    {
+      "term": "Net monthly payment",
+      "definition": "What Objais retains after payment fees or partner shares, before service costs.",
+      "anchor": "net-monthly-payment",
+      "aliases": [],
+      "category": "Returning, renewing and paying",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Net monthly payment",
+      "cross_scope": false
+    },
+    {
+      "term": "Billed continuation",
+      "definition": "The share of paid accounts still paying next month.",
+      "anchor": "billed-continuation",
+      "aliases": [],
+      "category": "Returning, renewing and paying",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Billed continuation",
+      "cross_scope": false
+    },
+    {
+      "term": "Billing churn",
+      "definition": "The share of paid accounts whose payments stop.",
+      "anchor": "billing-churn",
+      "aliases": [],
+      "category": "Returning, renewing and paying",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Billing churn",
+      "cross_scope": false
+    },
+    {
+      "term": "Policy survival",
+      "definition": "The share of policies still in force each month.",
+      "anchor": "policy-survival",
+      "aliases": [],
+      "category": "Returning, renewing and paying",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Policy survival",
+      "cross_scope": false
+    },
+    {
+      "term": "Renewal",
+      "definition": "Continuing insurance cover for another term.",
+      "anchor": "renewal",
+      "aliases": [],
+      "category": "Returning, renewing and paying",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Renewal",
+      "cross_scope": false
+    },
+    {
+      "term": "Renewal payment rights",
+      "definition": "The contractual right for Objais to receive a payment when a policy renews.",
+      "anchor": "renewal-payment-rights",
+      "aliases": [],
+      "category": "Returning, renewing and paying",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Renewal payment rights",
+      "cross_scope": false
+    },
+    {
+      "term": "Percentage point",
+      "definition": "The difference between two percentage rates. Moving from 95% to 96% is one percentage point; it is not a 1% relative increase.",
+      "anchor": "percentage-point",
+      "aliases": [],
+      "category": "Costs and money",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Percentage point",
+      "cross_scope": false
+    },
+    {
+      "term": "Cost curve",
+      "definition": "The relationship between the number of prospects reached and the cost of reaching them. In this model, a rising curve makes additional prospects more expensive.",
+      "anchor": "cost-curve",
+      "aliases": [],
+      "category": "Costs and money",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Cost curve",
+      "cross_scope": false
+    },
+    {
+      "term": "Competition multiplier",
+      "definition": "An assumed or measured factor that changes prospect costs over time to represent cost pressure.",
+      "anchor": "competition-multiplier",
+      "aliases": [],
+      "category": "Costs and money",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Competition multiplier",
+      "cross_scope": false
+    },
+    {
+      "term": "Company operating result",
+      "definition": "Revenue less variable, acquisition and fixed costs during the calendar period being considered.",
+      "anchor": "company-operating-result",
+      "aliases": [],
+      "category": "Costs and money",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Company operating result",
+      "cross_scope": false
+    },
+    {
+      "term": "Cash result",
+      "definition": "Money received minus expenses paid during that period.",
+      "anchor": "cash-result",
+      "aliases": [],
+      "category": "Costs and money",
+      "kind": "formal",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Cash result",
+      "cross_scope": false
+    },
+    {
+      "term": "Funding gap",
+      "definition": "The cash shortfall that needs financing when expenses fall due before enough receipts arrive. The largest shortfall can occur before the end of the forecast, even if the final cash balance is positive.",
+      "anchor": "funding-gap",
+      "aliases": [],
+      "category": "Costs and money",
+      "kind": "plain-language",
+      "source": "Objais Revenue Model.tex",
+      "original_revenue_term": "Funding gap",
+      "cross_scope": true
+    },
+    {
+      "term": "Measured",
+      "definition": "Based on actual records.",
+      "anchor": "measured",
+      "aliases": [],
+      "category": "Evidence status",
+      "kind": "plain-language",
+      "source": "Objais Revenue Research Strategy.md",
+      "original_revenue_term": "Measured",
+      "cross_scope": false
+    },
+    {
+      "term": "Documented",
+      "definition": "Supported by an agreement or other written evidence.",
+      "anchor": "documented",
+      "aliases": [],
+      "category": "Evidence status",
+      "kind": "plain-language",
+      "source": "Objais Revenue Research Strategy.md",
+      "original_revenue_term": "Documented",
+      "cross_scope": false
+    },
+    {
+      "term": "Assumed",
+      "definition": "Chosen to explore a possibility.",
+      "anchor": "assumed",
+      "aliases": [],
+      "category": "Evidence status",
+      "kind": "plain-language",
+      "source": "Objais Revenue Research Strategy.md",
+      "original_revenue_term": "Assumed",
+      "cross_scope": false
+    },
+    {
+      "term": "Unknown",
+      "definition": "The evidence is still missing.",
+      "anchor": "unknown",
+      "aliases": [],
+      "category": "Evidence status",
+      "kind": "plain-language",
+      "source": "Objais Revenue Research Strategy.md",
+      "original_revenue_term": "Unknown",
+      "cross_scope": false
+    },
+    {
+      "term": "Advertising",
+      "definition": "Paid messages or placements that bring people toward the service. Compare their downstream outcomes as well as their reach.",
+      "anchor": "advertising",
+      "aliases": [],
+      "category": "People and routes",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "Advertising platforms and distribution choices",
+      "cross_scope": false
+    },
+    {
+      "term": "Funnel",
+      "definition": "A sequence connecting arrival, a useful task, a request and a commercial outcome. Different entry routes may have different steps while reaching comparable payment conditions.",
+      "anchor": "funnel",
+      "aliases": [],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "The customer journey and commercial funnel",
+      "cross_scope": false
+    },
+    {
+      "term": "Metric",
+      "definition": "A measure used to understand an outcome or diagnose a stage of the journey. Each metric needs a counting unit, denominator, period and source.",
+      "anchor": "metric",
+      "aliases": [
+        "Metrics"
+      ],
+      "category": "Measurement and experience",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "Metrics to track",
+      "cross_scope": false
+    },
+    {
+      "term": "Activation",
+      "definition": "The first useful product result under a stated rule, such as obtaining a usable estimate in the proposed photo journey. This product milestone is separate from activation of insurance cover.",
+      "anchor": "activation",
+      "aliases": [],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "The customer journey and commercial funnel",
+      "cross_scope": false
+    },
+    {
+      "term": "Intent",
+      "definition": "Evidence that someone wants the offered help, such as a request for a personalised quotation. Interest in trying a feature alone does not establish insurance intent.",
+      "anchor": "intent",
+      "aliases": [],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "The customer journey and commercial funnel",
+      "cross_scope": false
+    },
+    {
+      "term": "Qualification",
+      "definition": "Checking whether a request meets the relevant country, asset and service requirements. The criteria must be stated; a qualified request is not automatically payable.",
+      "anchor": "qualification",
+      "aliases": [],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "The customer journey and commercial funnel",
+      "cross_scope": false
+    },
+    {
+      "term": "Impression",
+      "definition": "One appearance of an advertisement in platform reporting. Several impressions can belong to the same person.",
+      "anchor": "impression",
+      "aliases": [],
+      "category": "Measurement and experience",
+      "kind": "plain-language",
+      "source": "research/acquisition/metrics.csv",
+      "cross_scope": false
+    },
+    {
+      "term": "Click-through rate (CTR)",
+      "definition": "Outbound link clicks divided by impressions for the same platform and period. The example’s 1,000 clicks from 20,000 impressions give 5%; other definitions of “click” would change the measure.",
+      "anchor": "click-through-rate-ctr",
+      "aliases": [
+        "CTR",
+        "Outbound CTR"
+      ],
+      "category": "Measurement and experience",
+      "kind": "formal",
+      "source": "Objais Metrics Research.md",
+      "source_heading": "Outbound CTR",
+      "cross_scope": false
+    },
+    {
+      "term": "Cost per click (CPC)",
+      "definition": "Media spend divided by outbound clicks in the stated campaign and period. It measures advertising cost per click, not the full cost per acquired owner.",
+      "anchor": "cost-per-click-cpc",
+      "aliases": [
+        "CPC",
+        "Media CPC"
+      ],
+      "category": "Costs and money",
+      "kind": "formal",
+      "source": "Objais Metrics Research.md",
+      "source_heading": "Media CPC",
+      "cross_scope": false
+    },
+    {
+      "term": "Cost per thousand impressions (CPM)",
+      "definition": "Media spend divided by impressions, multiplied by 1,000. Keep the platform, reporting period and currency consistent.",
+      "anchor": "cost-per-thousand-impressions-cpm",
+      "aliases": [
+        "CPM",
+        "Media CPM"
+      ],
+      "category": "Costs and money",
+      "kind": "formal",
+      "source": "Objais Metrics Research.md",
+      "source_heading": "Media CPM",
+      "cross_scope": false
+    },
+    {
+      "term": "Payable yield",
+      "definition": "The share reaching a payable event from a named starting group. Twenty-five payable events mean 50% of 50 submissions, 62.5% of 40 qualified requests, or 2.5% of 1,000 entry clicks; these rates cannot be substituted for one another.",
+      "anchor": "payable-yield",
+      "aliases": [],
+      "category": "Measurement and experience",
+      "kind": "formal",
+      "source": "Objais Metrics Research.md",
+      "source_heading": "Payable yield",
+      "cross_scope": false
+    },
+    {
+      "term": "Cost per acquisition (CPA)",
+      "definition": "Cost divided by the number of a named outcome, such as submitted requests or payable events. State the cost scope: a media-only CPA excludes introduction and onboarding costs. Owner CAC uses full attributable costs and distinct new owners.",
+      "anchor": "cost-per-acquisition-cpa",
+      "aliases": [
+        "CPA"
+      ],
+      "category": "Costs and money",
+      "kind": "formal",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "Translate the funnel into acquisition limits",
+      "cross_scope": false
+    },
+    {
+      "term": "Return on advertising spend (ROAS)",
+      "definition": "Attributable revenue divided by advertising spend. These examples use Objais fees after expected reversals, not premiums or asset values. A ratio above one can still leave a loss after delivery costs.",
+      "anchor": "return-on-advertising-spend-roas",
+      "aliases": [
+        "ROAS",
+        "Objais revenue ROAS"
+      ],
+      "category": "Costs and money",
+      "kind": "formal",
+      "source": "Objais Metrics Research.md",
+      "source_heading": "Objais revenue ROAS",
+      "cross_scope": false
+    },
+    {
+      "term": "Network",
+      "definition": "The underlying platform, such as WhatsApp or Facebook. One network can host many separate communities. This community meaning is different from an advertising network that buys media across publishers.",
+      "anchor": "network",
+      "aliases": [],
+      "category": "People and routes",
+      "kind": "plain-language",
+      "source": "Objais Networks and Communities Research.md",
+      "source_heading": "Separate the network from the community and its organiser",
+      "cross_scope": false
+    },
+    {
+      "term": "Community",
+      "definition": "A particular group using a network. Membership does not establish that someone saw an invitation or became an Objais owner.",
+      "anchor": "community",
+      "aliases": [],
+      "category": "People and routes",
+      "kind": "plain-language",
+      "source": "Objais Networks and Communities Research.md",
+      "source_heading": "Separate the network from the community and its organiser",
+      "cross_scope": false
+    },
+    {
+      "term": "Operator",
+      "definition": "The person or business organising a community or its activity, such as an administrator, store or auction host. An operator may run several groups and is a different role from the owner of a collectible.",
+      "anchor": "operator",
+      "aliases": [],
+      "category": "People and routes",
+      "kind": "plain-language",
+      "source": "Objais Networks and Communities Research.md",
+      "source_heading": "Separate the network from the community and its organiser",
+      "cross_scope": false
+    },
+    {
+      "term": "Commerce event",
+      "definition": "A listing, auction, sale, exchange, shipment or collection update that creates a possible task need. It does not automatically earn Objais a fee.",
+      "anchor": "commerce-event",
+      "aliases": [],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Networks and Communities Research.md",
+      "source_heading": "Separate the network from the community and its organiser",
+      "cross_scope": false
+    },
+    {
+      "term": "Trading card game (TCG)",
+      "definition": "A game using collectible trading cards. In these guides, TCG identifies a possible collection and community market; it does not establish Objais recognition capability, insurance availability or paid demand.",
+      "anchor": "trading-card-game-tcg",
+      "aliases": [
+        "TCG"
+      ],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Objais Networks and Communities Research.md",
+      "source_heading": "Match the offer to the moment",
+      "cross_scope": false
+    },
+    {
+      "term": "User experience (UX)",
+      "definition": "What it takes for a person to complete their task and understand the result: effort, errors, recovery and confidence, including any partner handoff.",
+      "anchor": "user-experience-ux",
+      "aliases": [
+        "UX",
+        "User experience"
+      ],
+      "category": "Measurement and experience",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "User experience research",
+      "cross_scope": false
+    },
+    {
+      "term": "Task success",
+      "definition": "Whether the intended task is completed correctly under a stated rule. Finishing screens quickly does not establish that the result is understood.",
+      "anchor": "task-success",
+      "aliases": [],
+      "category": "Measurement and experience",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "Proposed first usability round",
+      "cross_scope": false
+    },
+    {
+      "term": "Time to value",
+      "definition": "Time from a defined start to the first useful result. For the proposed photo journey, that result could be a usable estimate; it is not the time until insurance cover begins.",
+      "anchor": "time-to-value",
+      "aliases": [],
+      "category": "Measurement and experience",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "Diagnostic metrics",
+      "cross_scope": false
+    },
+    {
+      "term": "Comprehension",
+      "definition": "Whether a person understands the result, checked against a stated question or criterion. In the proposed research, owners explain the estimate in their own words.",
+      "anchor": "comprehension",
+      "aliases": [],
+      "category": "Measurement and experience",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "Proposed first usability round",
+      "cross_scope": false
+    },
+    {
+      "term": "Latency",
+      "definition": "Elapsed time between a defined start and result. State the attempts included; report failures separately rather than making them disappear from performance results.",
+      "anchor": "latency",
+      "aliases": [],
+      "category": "Measurement and experience",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "Diagnostic metrics",
+      "cross_scope": false
+    },
+    {
+      "term": "Median (p50)",
+      "definition": "The middle value of ordered observations, also called the 50th percentile. For completed-attempt times, it describes a typical completion; failed attempts still need their own count.",
+      "anchor": "median-p50",
+      "aliases": [
+        "Median",
+        "p50",
+        "50th percentile"
+      ],
+      "category": "Measurement and experience",
+      "kind": "formal",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "Diagnostic metrics",
+      "cross_scope": false
+    },
+    {
+      "term": "95th percentile (p95)",
+      "definition": "A value at or below which 95% of the measured observations fall. For completed-attempt latency, it describes the slower tail; it does not account for excluded failures.",
+      "anchor": "95th-percentile-p95",
+      "aliases": [
+        "p95"
+      ],
+      "category": "Measurement and experience",
+      "kind": "formal",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "Diagnostic metrics",
+      "cross_scope": false
+    },
+    {
+      "term": "Mature cohort",
+      "definition": "A cohort that has had the agreed observation window. Maturity does not make every request resolved: show pending outcomes and their ages separately.",
+      "anchor": "mature-cohort",
+      "aliases": [],
+      "category": "Measurement and experience",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "Decision rules",
+      "cross_scope": false
+    },
+    {
+      "term": "Segmentation",
+      "definition": "Separating results by meaningful differences, such as country, asset, channel, partner, device or acquisition period. Small groups may still be too uncertain to compare reliably.",
+      "anchor": "segmentation",
+      "aliases": [],
+      "category": "Measurement and experience",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "Metrics to track",
+      "cross_scope": false
+    },
+    {
+      "term": "Event",
+      "definition": "A recorded occurrence, such as a request submission or fee being earned. A product event or commerce event is not necessarily a payable event.",
+      "anchor": "event",
+      "aliases": [],
+      "category": "Measurement and experience",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "Proposed event sequence",
+      "cross_scope": false
+    },
+    {
+      "term": "Reconciliation",
+      "definition": "Checking that product, partner and finance records agree about the same underlying opportunities and fees. It helps expose retries, duplicates and mismatched decisions.",
+      "anchor": "reconciliation",
+      "aliases": [],
+      "category": "Measurement and experience",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "Measurement architecture and attribution",
+      "cross_scope": false
+    },
+    {
+      "term": "Attribution",
+      "definition": "Assigning credit for an outcome to a channel or interaction under a stated rule. Several platforms can claim the same outcome; their claims do not create several underlying fees.",
+      "anchor": "attribution",
+      "aliases": [],
+      "category": "Measurement and experience",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "Feedback to advertising systems",
+      "cross_scope": false
+    },
+    {
+      "term": "Incrementality",
+      "definition": "The additional activity caused by an intervention, such as an advertisement. Assigning channel credit alone cannot establish this effect.",
+      "anchor": "incrementality",
+      "aliases": [],
+      "category": "Measurement and experience",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "Feedback to advertising systems",
+      "cross_scope": false
+    },
+    {
+      "term": "Holdout",
+      "definition": "A comparison group not exposed to the intervention being studied. A credible comparison can help estimate its additional effect; a small pilot may support only a directional conclusion.",
+      "anchor": "holdout",
+      "aliases": [],
+      "category": "Measurement and experience",
+      "kind": "plain-language",
+      "source": "Objais Funnels Advertising Metrics and UX Research.md",
+      "source_heading": "Feedback to advertising systems",
+      "cross_scope": false
+    },
+    {
+      "term": "Trading cards",
+      "definition": "Collectible cards used in games or collected for subjects such as sports. Trading card games (TCGs) are one part of this market; sports cards need their own demand and service assumptions.",
+      "anchor": "trading-cards",
+      "aliases": [],
+      "category": "Tasks and payment conditions",
+      "kind": "plain-language",
+      "source": "Collectibles Market Research.md",
+      "source_heading": "Trading card games and sports cards",
+      "cross_scope": false
+    },
+    {
+      "term": "Advertising network",
+      "definition": "A service connecting advertisers with space across participating publishers’ websites or apps. This is a media-buying route, distinct from a community platform such as WhatsApp.",
+      "anchor": "advertising-network",
+      "aliases": [],
+      "category": "People and routes",
+      "kind": "plain-language",
+      "source": "Objais External Advertising Inventory Research.md",
+      "cross_scope": false
+    },
+    {
+      "term": "Advertising inventory",
+      "definition": "The ad space a publisher or network makes available to buy. A large or relevant audience does not establish that this space is offered to outside advertisers.",
+      "anchor": "advertising-inventory",
+      "aliases": [],
+      "category": "People and routes",
+      "kind": "plain-language",
+      "source": "Objais External Advertising Inventory Research.md",
+      "cross_scope": false
+    },
+    {
+      "term": "Placement",
+      "definition": "The particular banner, feed item, app surface or sponsored message where an advertisement appears. Availability depends on the publisher, country, format and offer.",
+      "anchor": "placement",
+      "aliases": [],
+      "category": "People and routes",
+      "kind": "plain-language",
+      "source": "Objais External Advertising Inventory Research.md",
+      "cross_scope": false
+    }
+  ],
+  "unresolved_vocabulary": [],
+  "commercial_gaps": [
+    "Actual contractual payment conditions and renewal rights",
+    "Observed need, return, conversion and adoption rates",
+    "Full attributable costs, distinct identities and collection dates",
+    "Future paid demand, professional account units and country-specific availability"
+  ]
+}

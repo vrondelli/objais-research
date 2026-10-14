@@ -1,0 +1,329 @@
+{
+  "status": "pass",
+  "defined_terms": [
+    {
+      "term": "Asset owner",
+      "glossary_term": "Asset owner",
+      "glossary_anchor": "asset-owner"
+    },
+    {
+      "term": "Customer",
+      "glossary_term": "Customer",
+      "glossary_anchor": "customer"
+    },
+    {
+      "term": "Representative",
+      "glossary_term": "Representative",
+      "glossary_anchor": "representative"
+    },
+    {
+      "term": "Acquisition",
+      "glossary_term": "Acquisition",
+      "glossary_anchor": "acquisition"
+    },
+    {
+      "term": "Acquisition cost (CAC)",
+      "glossary_term": "Acquisition cost (CAC)",
+      "glossary_anchor": "acquisition-cost-cac"
+    },
+    {
+      "term": "Channel",
+      "glossary_term": "Channel",
+      "glossary_anchor": "channel"
+    },
+    {
+      "term": "Prospect",
+      "glossary_term": "Prospect",
+      "glossary_anchor": "prospect"
+    },
+    {
+      "term": "Adoption",
+      "glossary_term": "Adoption",
+      "glossary_anchor": "adoption"
+    },
+    {
+      "term": "Actors",
+      "glossary_term": "Actor",
+      "glossary_anchor": "actor"
+    },
+    {
+      "term": "Referral fee",
+      "glossary_term": "Referral fee",
+      "glossary_anchor": "referral-fee"
+    },
+    {
+      "term": "Opportunity",
+      "glossary_term": "Opportunity",
+      "glossary_anchor": "opportunity"
+    },
+    {
+      "term": "Paid event",
+      "glossary_term": "Paid event",
+      "glossary_anchor": "paid-event"
+    },
+    {
+      "term": "Lead",
+      "glossary_term": "Lead",
+      "glossary_anchor": "lead"
+    },
+    {
+      "term": "Qualified request",
+      "glossary_term": "Qualified request",
+      "glossary_anchor": "qualified-request"
+    },
+    {
+      "term": "Paid lead",
+      "glossary_term": "Paid lead",
+      "glossary_anchor": "paid-lead"
+    },
+    {
+      "term": "Eligible owner",
+      "glossary_term": "Eligible owner",
+      "glossary_anchor": "eligible-owner"
+    },
+    {
+      "term": "Need probability, n",
+      "glossary_term": "Need probability",
+      "glossary_anchor": "need-probability"
+    },
+    {
+      "term": "Request probability, p",
+      "glossary_term": "Request probability",
+      "glossary_anchor": "request-probability"
+    },
+    {
+      "term": "Paid acceptance, \u03b1",
+      "glossary_term": "Paid acceptance",
+      "glossary_anchor": "paid-acceptance"
+    },
+    {
+      "term": "Conversion probability, q = n \u00d7 p \u00d7 \u03b1",
+      "glossary_term": "Conversion probability",
+      "glossary_anchor": "conversion-probability"
+    },
+    {
+      "term": "Insurance policy",
+      "glossary_term": "Insurance policy",
+      "glossary_anchor": "insurance-policy"
+    },
+    {
+      "term": "Policy binding",
+      "glossary_term": "Policy binding",
+      "glossary_anchor": "policy-binding"
+    },
+    {
+      "term": "Premium",
+      "glossary_term": "Premium",
+      "glossary_anchor": "premium"
+    },
+    {
+      "term": "Commission",
+      "glossary_term": "Commission",
+      "glossary_anchor": "commission"
+    },
+    {
+      "term": "Revenue",
+      "glossary_term": "Revenue",
+      "glossary_anchor": "revenue"
+    },
+    {
+      "term": "Payment reversal",
+      "glossary_term": "Payment reversal",
+      "glossary_anchor": "payment-reversal"
+    },
+    {
+      "term": "Invoice",
+      "glossary_term": "Invoice",
+      "glossary_anchor": "invoice"
+    },
+    {
+      "term": "Receivable",
+      "glossary_term": "Receivable",
+      "glossary_anchor": "receivable"
+    },
+    {
+      "term": "Cash receipts",
+      "glossary_term": "Cash receipts",
+      "glossary_anchor": "cash-receipts"
+    },
+    {
+      "term": "Variable costs",
+      "glossary_term": "Variable costs",
+      "glossary_anchor": "variable-costs"
+    },
+    {
+      "term": "Fixed costs",
+      "glossary_term": "Fixed costs",
+      "glossary_anchor": "fixed-costs"
+    },
+    {
+      "term": "Contribution",
+      "glossary_term": "Contribution",
+      "glossary_anchor": "contribution"
+    },
+    {
+      "term": "Break-even",
+      "glossary_term": "Break-even",
+      "glossary_anchor": "break-even"
+    },
+    {
+      "term": "Cohort",
+      "glossary_term": "Cohort",
+      "glossary_anchor": "cohort"
+    },
+    {
+      "term": "Retention",
+      "glossary_term": "Retention",
+      "glossary_anchor": "retention"
+    },
+    {
+      "term": "E: eligible",
+      "glossary_term": "Eligible state (E)",
+      "glossary_anchor": "eligible-state-e"
+    },
+    {
+      "term": "M: monetised",
+      "glossary_term": "Monetised state (M)",
+      "glossary_anchor": "monetised-state-m"
+    },
+    {
+      "term": "D_E and D_M: dormant",
+      "glossary_term": "Dormant states (D_E and D_M)",
+      "glossary_anchor": "dormant-states-d_e-and-d_m"
+    },
+    {
+      "term": "X: permanent exit",
+      "glossary_term": "Permanent exit (X)",
+      "glossary_anchor": "permanent-exit-x"
+    },
+    {
+      "term": "Monthly continuation rate",
+      "glossary_term": "Monthly continuation rate",
+      "glossary_anchor": "monthly-continuation-rate"
+    },
+    {
+      "term": "Reset rate, \u03bb",
+      "glossary_term": "Reset rate",
+      "glossary_anchor": "reset-rate"
+    },
+    {
+      "term": "Owner-month",
+      "glossary_term": "Owner-month",
+      "glossary_anchor": "owner-month"
+    },
+    {
+      "term": "Discounting",
+      "glossary_term": "Discounting",
+      "glossary_anchor": "discounting"
+    },
+    {
+      "term": "36-month customer contribution",
+      "glossary_term": "Customer contribution over a stated horizon",
+      "glossary_anchor": "customer-contribution-over-a-stated-horizon"
+    },
+    {
+      "term": "Rolling payment cap",
+      "glossary_term": "Rolling payment cap",
+      "glossary_anchor": "rolling-payment-cap"
+    },
+    {
+      "term": "Cooldown",
+      "glossary_term": "Cooldown",
+      "glossary_anchor": "cooldown"
+    },
+    {
+      "term": "Paid software",
+      "glossary_term": "Paid software",
+      "glossary_anchor": "paid-software"
+    },
+    {
+      "term": "Paid account",
+      "glossary_term": "Paid account",
+      "glossary_anchor": "paid-account"
+    },
+    {
+      "term": "Net monthly payment",
+      "glossary_term": "Net monthly payment",
+      "glossary_anchor": "net-monthly-payment"
+    },
+    {
+      "term": "Billed continuation",
+      "glossary_term": "Billed continuation",
+      "glossary_anchor": "billed-continuation"
+    },
+    {
+      "term": "Billing churn",
+      "glossary_term": "Billing churn",
+      "glossary_anchor": "billing-churn"
+    },
+    {
+      "term": "Policy survival",
+      "glossary_term": "Policy survival",
+      "glossary_anchor": "policy-survival"
+    },
+    {
+      "term": "Renewal",
+      "glossary_term": "Renewal",
+      "glossary_anchor": "renewal"
+    },
+    {
+      "term": "Renewal payment rights",
+      "glossary_term": "Renewal payment rights",
+      "glossary_anchor": "renewal-payment-rights"
+    },
+    {
+      "term": "Percentage point",
+      "glossary_term": "Percentage point",
+      "glossary_anchor": "percentage-point"
+    },
+    {
+      "term": "Cost curve",
+      "glossary_term": "Cost curve",
+      "glossary_anchor": "cost-curve"
+    },
+    {
+      "term": "Competition multiplier",
+      "glossary_term": "Competition multiplier",
+      "glossary_anchor": "competition-multiplier"
+    },
+    {
+      "term": "Company operating result",
+      "glossary_term": "Company operating result",
+      "glossary_anchor": "company-operating-result"
+    },
+    {
+      "term": "Cash result",
+      "glossary_term": "Cash result",
+      "glossary_anchor": "cash-result"
+    },
+    {
+      "term": "Funding gap",
+      "glossary_term": "Funding gap",
+      "glossary_anchor": "funding-gap"
+    },
+    {
+      "term": "Measured",
+      "glossary_term": "Measured",
+      "glossary_anchor": "measured"
+    },
+    {
+      "term": "Documented",
+      "glossary_term": "Documented",
+      "glossary_anchor": "documented"
+    },
+    {
+      "term": "Assumed",
+      "glossary_term": "Assumed",
+      "glossary_anchor": "assumed"
+    },
+    {
+      "term": "Unknown",
+      "glossary_term": "Unknown",
+      "glossary_anchor": "unknown"
+    }
+  ],
+  "definition_location": "Objais Glossary.md",
+  "review": "64 former inline definitions now resolve to the shared glossary; context and first-use links remain in the guide.",
+  "source_sha256": "80d82e407a6504357114ec8a4216ae8b60a632d9c10b2a75abacf287d94becbd",
+  "numeric_results_sha256": "94b092f331172ab1aeb9bb6f0d196ba73da912dbe32bfacfcf585a29bc1cb3e8"
+}

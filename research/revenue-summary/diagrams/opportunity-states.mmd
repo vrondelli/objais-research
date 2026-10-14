@@ -1,0 +1,20 @@
+flowchart TB
+    New["New owner<br/>Acquisition charged once"] --> E["E: active unpaid opportunity"]
+    DE["D_E: dormant unpaid"] -->|"Returns; reactivation cost"| E
+    DM["D_M: dormant after payment"] -->|"Returns without new eligibility"| M["M: active completed opportunity"]
+    DM -.->|"Return with genuine new eligibility"| E
+    E --> Gate{"Need, request and acceptance;<br/>history permits payment?"}
+    Gate -->|"Paid event within capacity"| M
+    Gate -->|"No payment; continues"| EN["E next month"]
+    M -->|"Continues; no new eligibility"| MN["M next month"]
+    M -.->|"Genuine new eligibility"| EN
+    E -->|"Becomes dormant"| DEN["D_E next month"]
+    M -->|"Becomes dormant"| DMN["D_M next month"]
+    E -->|"Leaves permanently"| X["X: permanent exit"]
+    M -->|"Leaves permanently"| X
+    DE -->|"Leaves permanently"| X
+    DM -->|"Leaves permanently"| X
+    classDef active fill:#eaf3f5,color:#173247,stroke:#007d89;
+    classDef sleeping fill:#fff4df,color:#173247,stroke:#b88b67;
+    class New,E,M,EN,MN active;
+    class DE,DM,DEN,DMN sleeping;

@@ -1,0 +1,56 @@
+[
+  [
+    "TCGs",
+    "High potential",
+    "Moderate, concentrated in valuable collections",
+    "Strong price/catalog ecosystem",
+    "Very high",
+    "First retention experiment",
+    "Need differentiation beyond scan and price"
+  ],
+  [
+    "Coins and banknotes",
+    "Moderate potential",
+    "Potentially strong for valuable holdings",
+    "Strong taxonomy; grade and authenticity difficult",
+    "High",
+    "Parallel insurance experiment",
+    "Separate bullion, modern coins and ancient coins"
+  ],
+  [
+    "Figures and designer toys",
+    "Moderate to high potential",
+    "Collection-dependent",
+    "SKU catalogs useful; boxes and variants matter",
+    "High",
+    "Second wave",
+    "Avoid dependence on one fashionable IP"
+  ],
+  [
+    "Antiques and decorative objects",
+    "Variable potential",
+    "Potentially strong for valuable collections",
+    "Heterogeneous; specialist appraisal often necessary",
+    "High",
+    "Selective expansion",
+    "Use provenance/documentation before instant valuation"
+  ],
+  [
+    "Archaeological antiquities",
+    "Unproven",
+    "Case-specific",
+    "Complex provenance and authenticity",
+    "Specialist",
+    "Defer broad rollout",
+    "Trade, title and import/export requirements"
+  ],
+  [
+    "Comics, vintage games, diecast",
+    "Plausible adjacency",
+    "Collection-dependent",
+    "Some structured data available",
+    "High",
+    "Watch list",
+    "Validate each niche independently"
+  ]
+]

@@ -1,0 +1,13 @@
+flowchart TB
+    Current["Current researched categories<br/>Art, valuables, vehicles,<br/>boats and pets"] --> Inputs["Inputs for each segment<br/>Category, country, channel,<br/>payment agreement, timing<br/>and acquisition cost curve"]
+    Existing["Changes within existing scope<br/>Better acquisition or conversion;<br/>earned renewals or paid services"] --> Inputs
+    Future["Optional future categories<br/>or countries"] -.->|"Measure local inputs"| Inputs
+    Business["Optional professional offers"] -.->|"Adapt account unit<br/>and event counts first"| Inputs
+    Inputs --> Model["Cohorts, paid events,<br/>continuation, costs and collections"]
+    Model --> Unit["Customer contribution<br/>and break-even thresholds"]
+    Model --> Profit["Company operating result"]
+    Model --> Cash["Cash result and funding needs"]
+    classDef core fill:#173247,color:#fff,stroke:#173247;
+    classDef option fill:#eaf3f5,color:#173247,stroke:#007d89;
+    class Model core;
+    class Current,Existing,Future,Business,Inputs,Unit,Profit,Cash option;

@@ -1,0 +1,43 @@
+{
+  "source": "Objais Funnels Advertising Metrics and UX Research.md",
+  "source_sha256": "bfe06c114fca2bf3fc08968e985ee226743ba198a72cfb15c46fb2efa99b337c",
+  "central": "Objais Acquisition Numerical Summary.md",
+  "topic_files": [
+    "Objais Funnels Research.md",
+    "Objais Advertising Platforms Research.md",
+    "Objais Metrics Research.md",
+    "Objais Measurement and Attribution Research.md",
+    "Objais User Experience Research.md",
+    "Objais Acquisition Experiments Research.md",
+    "Objais External Advertising Inventory Research.md",
+    "Objais Advertising Prices and Requirements.md",
+    "Objais Networks and Communities Research.md",
+    "Objais Established Offers and Category Capture Strategy.md",
+    "Objais Pets Market Capture Research.md",
+    "Objais Boats Market Capture Research.md",
+    "Objais Jewellery Market Capture Research.md",
+    "Objais Watches Market Capture Research.md"
+  ],
+  "original_sections_retained": [
+    "The customer journey and commercial funnel",
+    "Advertising platforms and distribution choices",
+    "Metrics to track",
+    "Measurement architecture and attribution",
+    "User experience research",
+    "Translate the funnel into acquisition limits",
+    "A proposed first research cycle",
+    "Expansion comparisons",
+    "Evidence and delivery"
+  ],
+  "metric_definitions": 38,
+  "event_definitions": 22,
+  "supplemental_community_metrics": 10,
+  "status": "Complete; central guide and focused references checked",
+  "category_reference_files": [
+    "Objais Established Offers and Category Capture Strategy.md",
+    "Objais Pets Market Capture Research.md",
+    "Objais Boats Market Capture Research.md",
+    "Objais Jewellery Market Capture Research.md",
+    "Objais Watches Market Capture Research.md"
+  ]
+}

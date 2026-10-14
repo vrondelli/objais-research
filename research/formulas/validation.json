@@ -1,0 +1,141 @@
+{
+  "status": "pass",
+  "rendering": {
+    "status": "pass",
+    "engine": "Chrome via Playwright; local SVG; no network",
+    "panels": [
+      {
+        "id": "payment-chance",
+        "label_bounds": "pass",
+        "png": "payment-chance.png"
+      },
+      {
+        "id": "owner-contribution",
+        "label_bounds": "pass",
+        "png": "owner-contribution.png"
+      },
+      {
+        "id": "click-cost-ceiling",
+        "label_bounds": "pass",
+        "png": "click-cost-ceiling.png"
+      },
+      {
+        "id": "retention-states",
+        "label_bounds": "pass",
+        "png": "retention-states.png"
+      },
+      {
+        "id": "retained-contribution",
+        "label_bounds": "pass",
+        "png": "retained-contribution.png"
+      },
+      {
+        "id": "repeat-eligibility",
+        "label_bounds": "pass",
+        "png": "repeat-eligibility.png"
+      },
+      {
+        "id": "policy-renewal",
+        "label_bounds": "pass",
+        "png": "policy-renewal.png"
+      },
+      {
+        "id": "paid-software",
+        "label_bounds": "pass",
+        "png": "paid-software.png"
+      }
+    ],
+    "native_markdown_preview": "not inspected"
+  },
+  "visual_inspection": "All panels inspected; terms are connected to their labels, units and time windows are explicit, and cohort counts, renewal rights and software component scope agree with the model.",
+  "mathematical_agreement": {
+    "one_visit_contribution_per_owner": -2.4,
+    "media_cpc_ceiling": 0.35,
+    "retention_E_next": 720.0,
+    "retention_M_next": 80.0,
+    "retained_36_month_contribution_per_owner": 1.1746776843088118,
+    "reset_extra_eligible": 8.000000000000002,
+    "reset_completed_next": 72.00000000000001,
+    "month_13_renewal_revenue": 1177.0750856021998,
+    "renewal_without_payment_rights": 0,
+    "month_2_expected_paid_accounts": 142.5,
+    "month_2_software_component": 356.25,
+    "discounted_software_component_per_original_owner": 5.616383824715178,
+    "combined_software_and_lead_contribution_per_owner": 1.0878202429893529
+  },
+  "model_inputs_unchanged": {
+    "research/revenue-summary/numerical-examples.json": true,
+    "research/revenue-model/extension-examples.json": true,
+    "research/acquisition/central-examples.json": true,
+    "Objais Funnels Advertising Metrics and UX Research.md": true
+  },
+  "images": {
+    "payment-chance.png": {
+      "pixels": [
+        1800,
+        422
+      ],
+      "sha256": "b6db27e440c3faff98224e124bd8b794102258e58d8cf6c62b557157d52f8493"
+    },
+    "owner-contribution.png": {
+      "pixels": [
+        1800,
+        630
+      ],
+      "sha256": "a89a29d23644ecd91ad647210fd1da4eba3f3345454df1181803b26bacecc080"
+    },
+    "click-cost-ceiling.png": {
+      "pixels": [
+        1800,
+        422
+      ],
+      "sha256": "d5b8b0552a217512ea8fa1c725544ea1aa25a050904be359982f9519768e7721"
+    },
+    "retention-states.png": {
+      "pixels": [
+        1800,
+        494
+      ],
+      "sha256": "e9927eb1d3b78b5517cb608cbde9e80e9966ea3e29df1b41233ef03b9044df97"
+    },
+    "retained-contribution.png": {
+      "pixels": [
+        1800,
+        574
+      ],
+      "sha256": "5b6a855a9f66e960d687d512f321441b3a3975a3537d5cdf028de5b094a7cbcd"
+    },
+    "repeat-eligibility.png": {
+      "pixels": [
+        1800,
+        534
+      ],
+      "sha256": "b8abdb78b804a345fd92e30d11faf2b2ed4b07dd8dedf0190e85b9d65b13981d"
+    },
+    "policy-renewal.png": {
+      "pixels": [
+        1800,
+        534
+      ],
+      "sha256": "ee6c8fd4fdb0259c45bfb8c51beb60623979a46f9cc9bcbba662c266ca33093a"
+    },
+    "paid-software.png": {
+      "pixels": [
+        1800,
+        630
+      ],
+      "sha256": "10671cd6acfcc4f1a19af8337212840556ffb16c3ff0967f0b87bb519d7c9164"
+    }
+  },
+  "guides": {
+    "Objais Revenue Model Numerical Summary.md": {
+      "formula_panels": 7,
+      "source_sha256": "80d82e407a6504357114ec8a4216ae8b60a632d9c10b2a75abacf287d94becbd"
+    },
+    "Objais Acquisition Numerical Summary.md": {
+      "formula_panels": 1,
+      "source_sha256": "e593c60e5e294f00ffddea3e9299e159421914498e7258b1ef91985cd3e9c83a"
+    }
+  },
+  "scope": "Explanatory annotations of existing synthetic scenarios; no new revenue architecture or empirical calibration"
+}

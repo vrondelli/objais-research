@@ -1,0 +1,30 @@
+{
+  "status": "Illustrative outcomes applied to a verified public list price; not observed campaign results",
+  "source_url": "https://comunique.publico.pt/publicidade/publico_publicidade.pdf",
+  "public_price_eur_cpm": 60,
+  "source": "2026 PDF page 29",
+  "impressions": 20000,
+  "media_eur": 1200,
+  "assumed_ctr_scenarios": [
+    {
+      "ctr": 0.05,
+      "clicks": 1000,
+      "effective_cpc_eur": 1.2
+    },
+    {
+      "ctr": 0.01,
+      "clicks": 200,
+      "effective_cpc_eur": 6
+    }
+  ],
+  "net_fees_eur": 475,
+  "processing_eur": 25,
+  "other_variable_cost_eur": 100,
+  "contribution_eur": -850,
+  "section_cpm_eur": 75,
+  "section_media_eur": 1500,
+  "section_contribution_eur": -1150,
+  "media_available_eur": 350,
+  "impressions_affordable_at_general_list_price": 5833.333333333333,
+  "tax_discount_minimum": "Unknown"
+}

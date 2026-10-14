@@ -1,0 +1,110 @@
+[
+  [
+    "Collectr",
+    "TCGs",
+    "Global",
+    "Scanning, portfolios, price history, trade comparison, social",
+    "Freemium; PRO",
+    "Strong incumbent for daily collection tasks",
+    "S10; S11"
+  ],
+  [
+    "CollX",
+    "Sports cards and TCGs",
+    "Primarily US-facing",
+    "Scan, variants, marketplace, collections; manual condition",
+    "PRO and marketplace",
+    "Identification is already offered; documented price fallbacks",
+    "S32; S50"
+  ],
+  [
+    "Ludex",
+    "Cards",
+    "Global app",
+    "Scanning, collection and price tracking",
+    "Membership",
+    "Another specialist tool; performance not tested",
+    "S49"
+  ],
+  [
+    "PriceCharting",
+    "Cards, games, comics",
+    "Global; USD-oriented",
+    "Sold-price reference, inventory, alerts, API",
+    "Free plus subscriptions",
+    "Possible data provider; no historical API and rights need agreement",
+    "S29; S30"
+  ],
+  [
+    "Cardmarket",
+    "TCGs",
+    "Europe",
+    "Marketplace, inventory and trade infrastructure",
+    "Transaction platform",
+    "Large installed base; API closed to new applicants",
+    "S12; S31"
+  ],
+  [
+    "eBay",
+    "Multiple collectibles",
+    "Global",
+    "Marketplace, AI scanning, grading, authenticity, sold research",
+    "Marketplace fees",
+    "Owns transaction context and data; acquisition competitor",
+    "S43; S44; S46"
+  ],
+  [
+    "Whatnot",
+    "Cards, toys, comics and other goods",
+    "US and Europe-led",
+    "Live sales, community, seller analytics",
+    "Transaction platform",
+    "Demonstrates frequent commerce; broad company claims",
+    "S26"
+  ],
+  [
+    "hobbyDB / Pop Price Guide",
+    "Figures, toys, diecast and other collectibles",
+    "Global",
+    "Catalog, values, inventory, wishlist, trades",
+    "Free plus annual plan",
+    "Competes in figures; pricing source quality is part of product",
+    "S28; S33"
+  ],
+  [
+    "Numista",
+    "Coins and banknotes",
+    "Global including Portuguese",
+    "Catalog, inventories, swaps, forums",
+    "Free registration; other terms vary",
+    "Strong specialist community and taxonomy",
+    "S27"
+  ],
+  [
+    "Catawiki",
+    "Special objects incl antiques and coins",
+    "Europe-led international",
+    "Curated auctions and repeat buyer relationships",
+    "Platform revenue",
+    "Demonstrates collector repeat buying across categories",
+    "S25"
+  ],
+  [
+    "Collectibles Insurance Services",
+    "Cards, toys, coins and other collections",
+    "US",
+    "Collection policies and dealer products",
+    "Insurance distribution",
+    "Underwriting reference; no assumed cross-border access",
+    "S34; S35; S36"
+  ],
+  [
+    "Howden Portugal",
+    "Art, antiques, coins and other collections",
+    "Portugal / international placement",
+    "Specialist broker placement",
+    "Insurance distribution",
+    "Potential market counterpart; no partnership assumed",
+    "S37"
+  ]
+]

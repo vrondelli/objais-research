@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "checks": 64,
+  "walkthrough_checks": 7,
+  "one_factor_experiments": 52,
+  "cash_comparisons": 3,
+  "empirical_calibration": false
+}

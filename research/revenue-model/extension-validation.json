@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "model_version": 2,
+  "reference_tests": 48,
+  "legacy_cases_preserved": 6,
+  "extension_cases": 15,
+  "company_cash_identities_checked": 15,
+  "new_dormant_acquisition_no_same_month_return": true,
+  "legacy_sensitivity_numbers_unchanged": true,
+  "owner_history_caps_and_dormant_return": "covered by reference tests",
+  "diagram_browser_rendering": "six updated diagrams pass",
+  "empirical_calibration": false,
+  "pdf_pages": 9,
+  "workbook_sheets": 14,
+  "workbook_formulas_checked": 11005,
+  "advanced_workbook_snapshots_verified": 15,
+  "pdf_updated_pages_visually_reviewed": [
+    8,
+    9
+  ],
+  "native_latex_compilation": false,
+  "pdf_renderer": "ReportLab with mathematical equation renders"
+}

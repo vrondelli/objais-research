@@ -1,0 +1,128 @@
+[
+  {
+    "market": "Watches",
+    "scope": "Current advertised",
+    "segment": "Single owner vs multi-watch collector",
+    "recurring_task": "Serials, invoices, purchases, service, disposal and coverage records",
+    "revenue_route": "Accepted initial lead; renewal only with rights; paid dealer workflow if contracted",
+    "viability_assumption": "Dealer/service distribution lowers CAC or documentation raises q; repeat episodes must be payable",
+    "missing_data": "Reference and authenticity requirements, net fee, multi-piece share, dealer CAC"
+  },
+  {
+    "market": "Jewellery",
+    "scope": "Current advertised",
+    "segment": "One-piece owner vs growing collection",
+    "recurring_task": "Appraisal, gifts, repair and insured-value changes",
+    "revenue_route": "Initial lead or binding commission; policy renewal with rights",
+    "viability_assumption": "Actual payment and conversion cover acquisition and appraisal/support costs",
+    "missing_data": "Premium basis, broker share, net fee, appraisals, renewal ownership"
+  },
+  {
+    "market": "Luxury handbags",
+    "scope": "Current advertised",
+    "segment": "User of one bag vs valuable resale collection",
+    "recurring_task": "Model, variant, receipts, condition and ownership changes",
+    "revenue_route": "Initial placement; contracted service or paid inventory tool",
+    "viability_assumption": "Insurable collection and reliable variants produce paid demand; monitoring alone earns nothing",
+    "missing_data": "Insurer appetite, collection value distribution, matching accuracy and verification cost"
+  },
+  {
+    "market": "Fine art",
+    "scope": "Current advertised",
+    "segment": "Private collector vs professional managing clients",
+    "recurring_task": "Provenance, location, loan, transit, restoration and estate records",
+    "revenue_route": "Placement; contracted expert referrals; professional subscription",
+    "viability_assumption": "Larger contribution survives specialist costs, or professionals pay for repeated work",
+    "missing_data": "Expert minutes, placement yield, referral ledger, payer and documentation acceptance"
+  },
+  {
+    "market": "Decorative antiques",
+    "scope": "Existing broader scope and expansion overlap",
+    "segment": "Documented collection vs isolated inherited object",
+    "recurring_task": "Appraisal, restoration, provenance, estate and movement records",
+    "revenue_route": "Placement and separately contracted services",
+    "viability_assumption": "Accepted documented niche, trusted partner access and adequate net fee",
+    "missing_data": "Category acceptance, provenance cost, expert turnaround, completed referrals"
+  },
+  {
+    "market": "Yachts and superyachts",
+    "scope": "Current advertised",
+    "segment": "Owner, yacht manager or specialist broker",
+    "recurring_task": "Surveys, cruising/use changes and renewal submissions",
+    "revenue_route": "Specialist placement or paid partner workflow",
+    "viability_assumption": "Net fee exceeds long sales-cycle and specialist work; partner relationship can recur",
+    "missing_data": "Decision maker, premium/fee share, acquisition hours, survey costs and payment lag"
+  },
+  {
+    "market": "Leisure boats",
+    "scope": "Current advertised",
+    "segment": "Private leisure owner vs marina-led channel",
+    "recurring_task": "Mooring, use, records and renewal preparation",
+    "revenue_route": "Placement; earned renewal or marina workflow",
+    "viability_assumption": "Partner-sourced contribution positive after servicing; eligibility follows actual cover",
+    "missing_data": "Marina sourcing CAC, acceptance, usage rules, support and renewal rights"
+  },
+  {
+    "market": "Supercars",
+    "scope": "Current advertised with rollout wording conflict",
+    "segment": "Single-car owner vs collectible fleet",
+    "recurring_task": "Provenance, agreed value, mileage, storage and transfers",
+    "revenue_route": "Specialist placement and documented renewal rights",
+    "viability_assumption": "Specialist net remuneration covers verification and distribution; no premium-to-fee shortcut",
+    "missing_data": "Rollout status, collector/fleet mix, lead value, specialist effort and policy terms"
+  },
+  {
+    "market": "Everyday cars",
+    "scope": "Current advertised",
+    "segment": "Owner shopping at purchase or renewal",
+    "recurring_task": "Quote, renewal and claims documentation",
+    "revenue_route": "Paid lead or binding/renewal commission",
+    "viability_assumption": "One-off contribution positive or later renewal payment actually belongs to Objais",
+    "missing_data": "Channel CAC, duplicate rejection, binding yield, commissions, renewal attribution"
+  },
+  {
+    "market": "Pets",
+    "scope": "Current advertised",
+    "segment": "Caregiving household vs occasional insurance shopper",
+    "recurring_task": "Veterinary evidence, benefits and claims records",
+    "revenue_route": "Placement; contracted renewal or paid care/document service",
+    "viability_assumption": "Revenue funds recurring support; insurer integration makes workflow useful",
+    "missing_data": "Insurance vs assistance scope, support minutes, access to insurer systems and payer"
+  },
+  {
+    "market": "TCGs and sports cards",
+    "scope": "Proposed expansion; categories kept distinct",
+    "segment": "Casual player/bulk owner vs valuable adult collection",
+    "recurring_task": "Batch additions, variants, trades, grading certificates and inventory",
+    "revenue_route": "Collection placement; genuinely paid repeat service; optional subscription",
+    "viability_assumption": "Insurable fraction and conversion sufficient, or paid-tool margin supports free usage",
+    "missing_data": "Collection values, insurable fraction, paid conversion, billed churn, scans and data licence cost"
+  },
+  {
+    "market": "Action figures and designer toys",
+    "scope": "Proposed expansion",
+    "segment": "Mass-market pieces vs boxed limited editions/statues",
+    "recurring_task": "Edition, completeness, box condition, wish lists and inventory",
+    "revenue_route": "Collection placement; paid inventory or documented referral",
+    "viability_assumption": "Catalogue-defined niche and paid demand exceed matching/storage/licence costs",
+    "missing_data": "Exact variant coverage, collection value, cost per item and willingness to pay"
+  },
+  {
+    "market": "Modern or certified coins",
+    "scope": "Proposed expansion; broad collections overlap",
+    "segment": "Numismatic collection; bullion separate",
+    "recurring_task": "Mint/date, certification, grade, provenance and swaps",
+    "revenue_route": "Specialist placement; appraisal referrals; paid documentation",
+    "viability_assumption": "Accepted specialist coverage and accurate documentation with controlled verification cost",
+    "missing_data": "Numismatic/bullion split, accepted grades, partner yield, certificate and appraisal costs"
+  },
+  {
+    "market": "Archaeological antiquities and ancient coins",
+    "scope": "Separate proposed expansion",
+    "segment": "Objects with documented provenance and lawful title",
+    "recurring_task": "Provenance, title, expert attribution and movement records",
+    "revenue_route": "Specialist placement or paid expert documentation",
+    "viability_assumption": "Specialist acceptance and full costs proven before an automated mass-market offer",
+    "missing_data": "Title/provenance requirements by country, insurer acceptance, expert cost and responsibility"
+  }
+]

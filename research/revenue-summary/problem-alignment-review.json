@@ -1,0 +1,87 @@
+{
+  "status": "implemented mechanisms validated; commercial inputs remain uncalibrated",
+  "review_basis": "Business concerns addressed throughout the reader-focused guide; mathematical model unchanged.",
+  "numerical_input_status": "synthetic; no empirical calibration",
+  "mathematical_model_modified": true,
+  "intro_line": 5,
+  "coverage_review_line": 416,
+  "findings": [
+    {
+      "problem": "Occasional insurance need",
+      "coverage": "implemented",
+      "evidence": "Need age/calendar profiles, dormant states/return, history-based rolling cap and cooldown",
+      "required_evidence_or_extension": "Measure need dates, return/exit rates and justify optional cap/gap"
+    },
+    {
+      "problem": "No retention or no revenue from retained activity",
+      "coverage": "modeled as scenarios",
+      "evidence": "rho_e=rho_m=0 baseline; reset_probability=0 prevents another lead payment; completed_month_cost continues when rho_m>0",
+      "required_evidence_or_extension": "Measured continuation before/after first fee and incremental service cost"
+    },
+    {
+      "problem": "High-spend buyers delegate",
+      "coverage": "segmented adoption implemented; demand remains empirical",
+      "evidence": "Mutually exclusive direct/delegated groups with separate adoption and economics; no extra acquisition for representative",
+      "required_evidence_or_extension": "Measure task performer/adoption; professional multi-client units remain extension"
+    },
+    {
+      "problem": "Small fees versus acquisition cost",
+      "coverage": "financial dependence represented",
+      "evidence": "q*(fee*(1-reversal)-event_cost)-eligible_month_cost-cac in one-off case",
+      "required_evidence_or_extension": "Actual rights, fees, acceptance, CAC and cost records"
+    },
+    {
+      "problem": "Competition and scale",
+      "coverage": "assumed or calibrated functional relationships implemented",
+      "evidence": "Quadratic cost/volume and budget inversion; time-varying cost, adoption, acceptance and fee; contact pool and allocated segment service capacity",
+      "required_evidence_or_extension": "Estimate curves and limits; competitive behavior and advantage remain empirical"
+    },
+    {
+      "problem": "Future category frequency versus monetisation",
+      "coverage": "conditional mechanisms represented",
+      "evidence": "Only initial contractual payments, software charges and documented renewal rights earn calculator revenue; category name does not earn income",
+      "required_evidence_or_extension": "Priced demand, payable repeat eligibility, costs and continuing payment history"
+    }
+  ],
+  "behavior_checks": {
+    "legacy_special_cases_reproduced": true,
+    "rolling_cap_and_cooldown_enforced": true,
+    "dormant_return_preserves_history_and_owner": true,
+    "direct_delegated_adoption_separate": true,
+    "nonlinear_cac_budget_inverse": true,
+    "company_fixed_cost_once_and_cash_identity": true
+  },
+  "formal_specification_supports_segment_and_period_specific_inputs": true,
+  "reference_examples_use_stationary_inputs": "Legacy only; extended engine supports specified profiles and schedules",
+  "numeric_results_sha256": "94b092f331172ab1aeb9bb6f0d196ba73da912dbe32bfacfcf585a29bc1cb3e8",
+  "document_sha256": "321598132dbf63acaaf7158d0a8cfa13650466683ba5a6331b12c60d1bbb0cfd",
+  "reference_model_tests": {
+    "tests": 48,
+    "legacy": 22,
+    "extension": 26,
+    "status": "pass"
+  },
+  "summary_numerical_checks": {
+    "checks": 64,
+    "walkthrough_checks": 7,
+    "status": "pass"
+  },
+  "model_version": 2,
+  "updated_engine": "research/revenue-model/episodic_model.py",
+  "extension_cases": 15,
+  "previous_audit": {
+    "cap_counterexample": {
+      "assumptions": {
+        "q": 1,
+        "rho_e": 1,
+        "rho_m": 1,
+        "reset_probability": 1,
+        "horizon_months": 12
+      },
+      "paid_events_per_original_owner": 12,
+      "interpretation": "Demonstrates absence of hard annual cap; does not estimate real insurance frequency"
+    },
+    "interpretation": "Original restricted engine remains a benchmark; updated engine enforces configured history caps."
+  },
+  "source_sha256": "80d82e407a6504357114ec8a4216ae8b60a632d9c10b2a75abacf287d94becbd"
+}

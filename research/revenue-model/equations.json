@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "tex": "q=p\\alpha,\\quad \\bar f=f(1-\\omega),\\quad L_t=A_tq_t,\\quad R_t^L=\\bar f_tA_tq_t",
+    "interpretation": "Conditional probability factorisation; no independence assumption is needed."
+  },
+  {
+    "id": 2,
+    "tex": "C_t=A_t\\left[q_t(\\bar f_t-h_t)-v_{E,t}-k_t\\right],\\quad \\Pi_t=C_t-F_t",
+    "interpretation": ""
+  },
+  {
+    "id": 3,
+    "tex": "k^*=q(\\bar f-h)-v_E",
+    "interpretation": "One-visit break-even CAC before fixed-cost allocation. A fee is not the insurance premium."
+  },
+  {
+    "id": 4,
+    "tex": "L_{c,a}=qE_{c,a}",
+    "interpretation": ""
+  },
+  {
+    "id": 5,
+    "tex": "E_{c,a+1}=\\rho_E(E_{c,a}-L_{c,a})",
+    "interpretation": ""
+  },
+  {
+    "id": 6,
+    "tex": "M_{c,a+1}=\\rho_M(M_{c,a}+L_{c,a})",
+    "interpretation": ""
+  },
+  {
+    "id": 7,
+    "tex": "\\frac{\\mathbb{E}[L_{c,\\infty}]}{A_c}=\\frac{q}{1-\\rho_E(1-q)}\\leq 1",
+    "interpretation": "At q = 0 and rho E = 1 the lead count is defined as zero; do not evaluate 0/0."
+  },
+  {
+    "id": 8,
+    "tex": "V_H=\\frac{1}{A_c}\\sum_{a=0}^{H-1}\\delta^a\\left[mL_{c,a}-v_EE_{c,a}-v_MM_{c,a}\\right]",
+    "interpretation": ""
+  },
+  {
+    "id": 9,
+    "tex": "d_E=1-\\delta\\rho_E(1-q),\\quad \\delta=(1+i)^{-1}",
+    "interpretation": ""
+  },
+  {
+    "id": 10,
+    "tex": "V_\\infty=\\frac{mq-v_E-v_M\\frac{\\delta\\rho_Mq}{1-\\delta\\rho_M}}{d_E}",
+    "interpretation": "Requires d E > 0 and delta \u00d7 rho M < 1; use a finite horizon at divergent boundaries."
+  },
+  {
+    "id": 11,
+    "tex": "\\frac{\\partial V_\\infty}{\\partial\\rho_M}=-\\frac{v_M\\delta q}{(1-\\delta\\rho_M)^2d_E}\\leq 0",
+    "interpretation": ""
+  },
+  {
+    "id": 12,
+    "tex": "\\frac{\\partial V_\\infty}{\\partial\\rho_M}=\\frac{(g_M-v_M)\\delta q}{(1-\\delta\\rho_M)^2d_E}",
+    "interpretation": "The sign changes exactly when recurring payment exceeds incremental continuing cost, holding other parameters fixed."
+  },
+  {
+    "id": 13,
+    "tex": "E_{c,a+1}=\\rho_E(E_{c,a}-L_{c,a})+\\rho_M\\lambda(M_{c,a}+L_{c,a})",
+    "interpretation": ""
+  },
+  {
+    "id": 14,
+    "tex": "M_{c,a+1}=\\rho_M(1-\\lambda)(M_{c,a}+L_{c,a})",
+    "interpretation": ""
+  },
+  {
+    "id": 15,
+    "tex": "z_{c,a+1}=Tz_{c,a},\\quad w=(mq-v_E,-v_M)^\\top",
+    "interpretation": ""
+  },
+  {
+    "id": 16,
+    "tex": "V_H^{opp}=w^\\top\\sum_{a=0}^{H-1}(\\delta T)^ae_E",
+    "interpretation": ""
+  },
+  {
+    "id": 17,
+    "tex": "V_\\infty^{opp}=w^\\top(I-\\delta T)^{-1}e_E",
+    "interpretation": "The discounted transition matrix must have spectral radius below one. A singular inverse is not a forecast."
+  },
+  {
+    "id": 18,
+    "tex": "\\pi_E=\\frac{\\lambda}{q+\\lambda-q\\lambda},\\quad \\ell^*=\\frac{q\\lambda}{q+\\lambda-q\\lambda}",
+    "interpretation": "No-churn long-run eligible fraction and event rate when q and lambda are both positive. With lambda zero, there is no sustained repeat lead income after all opportunities monetise."
+  },
+  {
+    "id": 19,
+    "tex": "\\phi^N=\\bar P\\nu_Ns_N",
+    "interpretation": ""
+  },
+  {
+    "id": 20,
+    "tex": "R_t^{\\pi}=z_\\pi\\sum_{c<t}\\mathbf{1}_{\\{t-c\\in12\\mathbb{N}\\}}B_c\\zeta_{c,t-c}\\phi_{c,t}^{\\pi}",
+    "interpretation": ""
+  },
+  {
+    "id": 21,
+    "tex": "V_\\pi=z_\\pi\\phi^\\pi\\frac{u}{1-u}-\\frac{v_\\pi}{1-\\delta s_\\pi},\\quad u=(\\delta s_\\pi)^{12}",
+    "interpretation": "Future revenue and active-policy cost per newly bound policy. Consumer app retention does not replace policy survival."
+  },
+  {
+    "id": 22,
+    "tex": "V_\\infty^S=\\frac{\\kappa(b-v_S)}{1-\\delta\\eta}",
+    "interpretation": "kappa: initial paid-software conversion; eta: billed-account continuation; b: monthly payment; v S: monthly software cost."
+  },
+  {
+    "id": 23,
+    "tex": "R_t=\\sum_s\\sum_{e:\\tau(e)=t}z_{e,s}a_{e,s}-credits_t",
+    "interpretation": "Unique event identifiers and contractual stream masks prevent duplicate monetisation. Acquisition cost is charged once per acquired owner."
+  },
+  {
+    "id": 24,
+    "tex": "C_t=R_t-V_t-k_tA_t,\\quad \\Pi_t=C_t-F_t-W_t",
+    "interpretation": ""
+  },
+  {
+    "id": 25,
+    "tex": "X_t=\\sum_s\\sum_jK_{s,j}I^s_{t-j},\\quad W_t=\\sum_s\\sum_jH_{s,j}I^s_{t-j}",
+    "interpretation": ""
+  },
+  {
+    "id": 26,
+    "tex": "AR_t=AR_{t-1}+I_t-X_t-W_t",
+    "interpretation": ""
+  },
+  {
+    "id": 27,
+    "tex": "A_{g,t}=d_{g,t}N_{g,t},\\quad K_{g,t}=b_gm_{g,t}N_{g,t}(1+\\beta_gN_{g,t}/N_g^*)+o_gA_{g,t}",
+    "interpretation": ""
+  },
+  {
+    "id": 28,
+    "tex": "\\mathrm{CAC}_{g,t}=K_{g,t}/A_{g,t}",
+    "interpretation": "CAC is undefined with zero adoption; marketing can still cost money."
+  },
+  {
+    "id": 29,
+    "tex": "N=\\frac{2B}{\\ell+\\sqrt{\\ell^2+4aB}},\\quad a=b m\\beta/N^*,\\quad\\ell=b m+o d",
+    "interpretation": "Budget inversion when a > 0. With a = 0 and positive ell, use N = B / ell. Contact capacity and reachable audience can leave budget unspent."
+  },
+  {
+    "id": 30,
+    "tex": "q_{g,a,t}=n_{g,a,t}p_g\\alpha_{g,t},\\quad\\widehat L_{g,t}=\\sum_{c,h,l}\\widetilde E_{g,c,h,l}b_{t,h,l}q_{g,t-c,t}",
+    "interpretation": ""
+  },
+  {
+    "id": 31,
+    "tex": "b_{t,h,l}=\\mathbf{1}_{\\{|h\\cap(t-W,t]|<J\\}}\\mathbf{1}_{\\{l<0\\ \\mathrm{or}\\ t-l\\geq w\\}}",
+    "interpretation": "h records recent paid months; l is the last paid month. J is an optional cap in W rolling months; w is cooldown. Each paid branch updates history, which survives dormancy and return. Renewal/software charges are separate."
+  },
+  {
+    "id": 32,
+    "tex": "\\widetilde E=E+(1-\\mu)rD_E+(1-\\mu)r\\xi D_M",
+    "interpretation": ""
+  },
+  {
+    "id": 33,
+    "tex": "\\widetilde M=M+(1-\\mu)r(1-\\xi)D_M",
+    "interpretation": ""
+  },
+  {
+    "id": 34,
+    "tex": "V_t=v_E\\widetilde E+v_M\\widetilde M+v_DD+v_RU+jQ+hL+v_SS+v_\\pi P",
+    "interpretation": "D: dormant after returns; U: returns; j: cost/request. Contribution subtracts this variable cost and acquisition spend. Fixed cost is subtracted once at company level."
+  }
+]

@@ -1,0 +1,12 @@
+flowchart TB
+    Use["Owner uses the service"] --> Record["Record or estimate updated<br/>Usage cost; no automatic fee"]
+    Record -->|"Owner requests insurance"| Request["Qualified enquiry submitted"]
+    Record -->|"No request"| Continue["Continue or leave<br/>No insurance fee"]
+    Request --> Agreement{"Which event does<br/>the agreement pay for?"}
+    Agreement --> Lead["Partner accepts a payable lead"]
+    Agreement --> Bind["Policy bound under<br/>a commission arrangement"]
+    Agreement --> Unpaid["Rejected, pending or not payable<br/>No earned fee yet"]
+    Lead --> Earn["Unique event earns its agreed fee"]
+    Bind --> Earn
+    Earn --> Invoice["Invoice or payment statement<br/>Same earned fee"]
+    Invoice --> Receipt["Cash received later<br/>Same fee collected"]

@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "diagrams": 6,
+  "embedded_sources_match_exported_sources": true,
+  "browser_rendering": "pass",
+  "visual_inspection": "Diagram geometry unchanged; titles and captions simplified; all six re-rendered in Chrome.",
+  "numeric_examples_unchanged": true,
+  "markdown_native_preview": "not inspected; offline HTML gallery supplied",
+  "source_sha256": "80d82e407a6504357114ec8a4216ae8b60a632d9c10b2a75abacf287d94becbd",
+  "gallery_sha256": "c24776fd7f1a2ece5ed09cfb26f590cbc3055908dd773ee8833632df7304da68",
+  "reading_order": [
+    "actors",
+    "events",
+    "opportunity-states",
+    "independent-clocks",
+    "cash",
+    "scope"
+  ],
+  "expanded_model_diagrams_updated": true,
+  "glossary_migration_check": "All six embedded sources match their exports; first-use links leave Mermaid blocks intact. No new browser inspection performed."
+}

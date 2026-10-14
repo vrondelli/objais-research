@@ -1,0 +1,53 @@
+﻿label,baseline,changes,unit_before,unit_after,unit_change
+20% lower CAC,One-off paid-lead arrangement,"{""cac"": 3.2}",-2.4000000000000004,-1.6000000000000003,0.8
+20% lower CAC,Retained paid-lead arrangement,"{""cac"": 3.2}",1.1746776843088114,1.9746776843088112,0.7999999999999998
+20% lower CAC,Policy binding with renewal rights,"{""cac"": 3.2}",0.24908164471655425,1.049081644716554,0.7999999999999998
+20% lower CAC,Lead plus optional paid-tool arrangement,"{""cac"": 3.2}",1.087820242989352,1.8878202429893518,0.7999999999999998
+20% higher paid-event probability,One-off paid-lead arrangement,"{""q"": 0.12}",-2.4000000000000004,-2.04,0.3600000000000003
+20% higher paid-event probability,Retained paid-lead arrangement,"{""q"": 0.12}",1.1746776843088114,2.016930268844461,0.8422525845356494
+20% higher paid-event probability,Policy binding with renewal rights,"{""q"": 0.12}",0.24908164471655425,1.1388979736598648,0.8898163289433105
+20% higher paid-event probability,Lead plus optional paid-tool arrangement,"{""q"": 0.024}",1.087820242989352,1.4521277340050451,0.36430749101569315
+20% higher initial payment,One-off paid-lead arrangement,"{""initial_payment"": 24.0}",-2.4000000000000004,-2.0199999999999996,0.3800000000000008
+20% higher initial payment,Retained paid-lead arrangement,"{""initial_payment"": 24.0}",1.1746776843088114,2.4981191976691726,1.3234415133603612
+20% higher initial payment,Policy binding with renewal rights,"{""initial_payment"": 36.0}",0.24908164471655425,0.8490816447165548,0.6000000000000005
+20% higher initial payment,Lead plus optional paid-tool arrangement,"{""initial_payment"": 24.0}",1.087820242989352,1.6829450147241998,0.5951247717348478
+20% lower cost before monetisation,One-off paid-lead arrangement,"{""eligible_month_cost"": 0.16000000000000003}",-2.4000000000000004,-2.3600000000000003,0.040000000000000036
+20% lower cost before monetisation,Retained paid-lead arrangement,"{""eligible_month_cost"": 0.16000000000000003}",1.1746776843088114,1.313987317294112,0.13930963298530052
+20% lower cost before monetisation,Policy binding with renewal rights,"{""eligible_month_cost"": 0.16000000000000003}",0.24908164471655425,0.2890816447165543,0.040000000000000036
+20% lower cost before monetisation,Lead plus optional paid-tool arrangement,"{""eligible_month_cost"": 0.24}",1.087820242989352,1.5576555890958108,0.46983534610645883
+20% lower cost after monetisation,One-off paid-lead arrangement,"{""completed_month_cost"": 0.24}",-2.4000000000000004,-2.4000000000000004,0.0
+20% lower cost after monetisation,Retained paid-lead arrangement,"{""completed_month_cost"": 0.24}",1.1746776843088114,1.254219211329458,0.07954152702064654
+20% lower cost after monetisation,Policy binding with renewal rights,"{""completed_month_cost"": 0.24}",0.24908164471655425,0.24908164471655425,0.0
+20% lower cost after monetisation,Lead plus optional paid-tool arrangement,"{""completed_month_cost"": 0.4}",1.087820242989352,1.287500028555809,0.19967978556645694
+20% lower cost per paid event,One-off paid-lead arrangement,"{""event_cost"": 0.8}",-2.4000000000000004,-2.38,0.020000000000000462
+20% lower cost per paid event,Retained paid-lead arrangement,"{""event_cost"": 0.8}",1.1746776843088114,1.2443325008014616,0.06965481649265026
+20% lower cost per paid event,Policy binding with renewal rights,"{""event_cost"": 0.8}",0.24908164471655425,0.2690816447165547,0.020000000000000462
+20% lower cost per paid event,Lead plus optional paid-tool arrangement,"{""event_cost"": 0.8}",1.087820242989352,1.119142599396449,0.03132235640709702
+20% lower reversal fraction,One-off paid-lead arrangement,"{""reversal_fraction"": 0.04000000000000001}",-2.4000000000000004,-2.38,0.020000000000000462
+20% lower reversal fraction,Retained paid-lead arrangement,"{""reversal_fraction"": 0.04000000000000001}",1.1746776843088114,1.2443325008014616,0.06965481649265026
+20% lower reversal fraction,Policy binding with renewal rights,"{""reversal_fraction"": 0.0}",0.24908164471655425,0.24908164471655425,0.0
+20% lower reversal fraction,Lead plus optional paid-tool arrangement,"{""reversal_fraction"": 0.04000000000000001}",1.087820242989352,1.1191425993964499,0.03132235640709791
+Paid starts: 15% to 18%,Lead plus optional paid-tool arrangement,"{""software_conversion"": 0.18}",1.087820242989352,2.2110970079323895,1.1232767649430375
+Monthly net payment: €3 to €3.60,Lead plus optional paid-tool arrangement,"{""software_month_payment"": 3.6}",1.087820242989352,2.4357523609209952,1.3479321179316432
+Billed monthly continuation: 95% to 96%,Lead plus optional paid-tool arrangement,"{""software_survival"": 0.96}",1.087820242989352,1.8286319297475417,0.7408116867581898
+Billed monthly cost: €0.50 to €0.40,Lead plus optional paid-tool arrangement,"{""software_month_cost"": 0.4}",1.087820242989352,1.3124755959779595,0.2246553529886075
+Pre-event continuation: 0% to 80%,One-off paid-lead arrangement,"{""rho_e"": 0.8}",-2.4000000000000004,1.572385319412044,3.9723853194120444
+Post-event continuation: 0% to 80%,One-off paid-lead arrangement,"{""rho_m"": 0.8}",-2.4000000000000004,-2.514252988249299,-0.11425298824929886
+Paid-tool example pre-event continuation: 90% to 92%,Lead plus optional paid-tool arrangement,"{""rho_e"": 0.92}",1.087820242989352,1.0244556497448887,-0.06336459324446331
+Paid-tool example post-event continuation: 95% to 96%,Lead plus optional paid-tool arrangement,"{""rho_m"": 0.96}",1.087820242989352,0.9635198154795219,-0.12430042750983006
+Billed monthly continuation: 95% to 90%,Lead plus optional paid-tool arrangement,"{""software_survival"": 0.9}",1.087820242989352,-1.1395969355518498,-2.227417178541202
+New paid eligibility: 0% to 10%,Retained paid-lead arrangement,"{""reset_probability"": 0.1}",1.1746776843088114,1.8769524938485045,0.7022748095396931
+New paid eligibility: 0% to 10%,Retained service without software payment,"{""reset_probability"": 0.1}",-4.528563581725825,-3.9423970916685347,0.5861664900572903
+Paid-tool starts: 0%,Retained service without software payment,"{""software_conversion"": 0}",-4.528563581725825,-4.528563581725825,0.0
+Paid-tool starts: 5%,Retained service without software payment,"{""software_conversion"": 0.05}",-4.528563581725825,-2.6564356401540996,1.8721279415717254
+Paid-tool starts: 10%,Retained service without software payment,"{""software_conversion"": 0.1}",-4.528563581725825,-0.7843076985823729,3.744255883143452
+Paid-tool starts: 15%,Retained service without software payment,"{""software_conversion"": 0.15}",-4.528563581725825,1.087820242989352,5.616383824715177
+Binding without renewal rights,Policy binding with renewal rights,"{""renewal_rights"": false}",0.24908164471655425,-1.5229643305322282,-1.7720459752487825
+Policy monthly survival: 98% to 99%,Policy binding with renewal rights,"{""policy_month_survival"": 0.99}",0.24908164471655425,0.5488965772116163,0.2998149324950621
+Renewal payment: €15 to €30,Policy binding with renewal rights,"{""renewal_payment"": 30}",0.24908164471655425,2.0211276199653367,1.7720459752487825
+Horizon: 12 months,Lead plus optional paid-tool arrangement,"{""horizon"": 12}",1.087820242989352,-0.6727081464167797,-1.7605283894061317
+Horizon: 24 months,Lead plus optional paid-tool arrangement,"{""horizon"": 24}",1.087820242989352,0.5648052973163544,-0.5230149456729976
+Horizon: 36 months,Lead plus optional paid-tool arrangement,"{""horizon"": 36}",1.087820242989352,1.087820242989352,0.0
+Monthly discount: 0%,Lead plus optional paid-tool arrangement,"{""monthly_discount_rate"": 0}",1.087820242989352,1.6373909171841738,0.5495706741948219
+Monthly discount: 1%,Lead plus optional paid-tool arrangement,"{""monthly_discount_rate"": 0.01}",1.087820242989352,1.087820242989352,0.0
+Monthly discount: 2%,Lead plus optional paid-tool arrangement,"{""monthly_discount_rate"": 0.02}",1.087820242989352,0.631591335897518,-0.45622890709183395

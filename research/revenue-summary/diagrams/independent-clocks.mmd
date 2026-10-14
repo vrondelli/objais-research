@@ -1,0 +1,21 @@
+flowchart TB
+    subgraph Opportunity["Opportunity relationship"]
+      direction LR
+      E["Eligible opportunity"] -->|"First paid event"| M["Completed opportunity"]
+      M -->|"Continued app relationship alone"| M
+    end
+    subgraph Software["Optional paid software"]
+      direction LR
+      Start["Owner starts paying"] --> Bill["Billed month"]
+      Bill -->|"Billed continuation and next month"| Bill
+      Bill -->|"Billing stops"| Stop["No further software fee"]
+    end
+    subgraph Insurance["Insurance policy"]
+      direction LR
+      Bind["Policy bound"] --> Active["Policy remains in force"]
+      Active -->|"Survives to renewal date"| Renew["Renewed policy term"]
+      Renew --> Active
+      Renew -.->|"Only with renewal payment rights"| Fee["Earned renewal fee"]
+    end
+    Opportunity ~~~ Software
+    Software ~~~ Insurance

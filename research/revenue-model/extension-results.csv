@@ -1,0 +1,16 @@
+﻿id,name,evidence,contacts_month1,acquired_month1,cac_month1,unit_net36,operating36,cash36,receivables36
+E1,One-off lead benchmark,SYNTHETIC; no calibrated market assignment,1000,1000,4.0,-2.4,-122400.0,-124300.0,1900.0
+E2,Occasional returns; first fee only,SYNTHETIC; no calibrated market assignment,2000,1000.0,4.0,1.1991714690768895,-37941.534000000014,-46844.155,8902.621
+E3,Occasional returns; new payable enquiries,SYNTHETIC; no calibrated market assignment,2000,1000.0,4.0,3.2208653552125375,-1800.0,-13200.0,11400.0
+E4,Occasional returns; 2% dormant exit,SYNTHETIC; no calibrated market assignment,2000,1000.0,4.0,1.6194609649587872,-30676.439666446706,-39277.661940006656,8601.222273559963
+E5,Direct use; 50% adoption,SYNTHETIC; no calibrated market assignment,2000,1000.0,4.0,-2.4,-122400.0,-124300.0,1900.0
+E6,Delegated use; 10% adoption,SYNTHETIC; no calibrated market assignment,2000,200.0,20.0,-18.4,-168480.0,-168860.0,380.0
+E7,Frequent free service; occasional insurance,SYNTHETIC; no calibrated market assignment,1000,1000,4.0,-6.175076282468135,-242827.14219627623,-243604.32490468863,777.1827084123739
+E8,Paid service; 15% paid starts,SYNTHETIC; no calibrated market assignment,1000,1000,4.0,-0.5586924577529562,-92843.60408895391,-101200.77386427225,8357.169775318325
+E9,Paid service; 25% paid starts,SYNTHETIC; no calibrated market assignment,1000,1000,4.0,3.1855634253904954,7145.421315927635,-6265.073170661324,13410.494486588961
+E10,Lower CAC; flat cost; 2000 contacts,SYNTHETIC; no calibrated market assignment,2000,2000,1.0,0.6,7200.0,3400.0,3800.0
+E11,Lower CAC; curved cost; 1000 contacts,SYNTHETIC; no calibrated market assignment,1000,1000,1.5,0.1,-32400.0,-34300.0,1900.0
+E12,Lower CAC; curved cost; 2000 contacts,SYNTHETIC; no calibrated market assignment,2000,2000,2.0,-0.4,-64800.0,-68600.0,3800.0
+E13,Annual return; binding and renewal rights,SYNTHETIC; no calibrated market assignment,1000,1000,4.0,4.0747634887133595,31011.877592537614,19721.764425129833,11290.113167407797
+E14,Capacity limit; failed request costs,SYNTHETIC; no calibrated market assignment,1000,1000,4.0,-3.35,-156600.0,-157550.0,950.0
+E15,Fixed budget; curved acquisition cost,SYNTHETIC; no calibrated market assignment,1236.0679774997895,618.0339887498948,6.47213595499958,-4.872135954999579,-144401.24224800605,-145575.50682663085,1174.2645786248002

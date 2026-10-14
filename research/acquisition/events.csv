@@ -1,0 +1,23 @@
+Internal event,Occurrence definition,Source,Identity or deduplication key,Critical fields,Advertising export,Implementation status
+landing_view,Eligible destination becomes visible,Permitted web measurement,Session/page-view identity,route; category; campaign source where permitted,Only approved minimal fields,Proposed; not implemented
+store_outbound,User activates store destination,Permitted web measurement,Session plus navigation event,OS; route; destination,Diagnostic only,Proposed; not implemented
+first_open,Observable app instance opens for first time,Permitted app measurement or store aggregate,App instance where permitted; never owner,OS; version; route when lawfully available,Conditional on measurement/privacy assessment,Proposed; not implemented
+photo_attempt_started,Input attempt starts at documented UI point,Product,Journey plus attempt identity,category; OS; start timestamp,Aggregate preferred initially,Proposed; not implemented
+photo_attempt_failed,Attempt terminates or reaches declared timeout,Product/backend,Attempt identity plus terminal transition,reason code; duration; version,No sensitive data,Proposed; not implemented
+recognition_confirmed,User confirms or corrects recognised item,Product,Attempt/result plus transition,correction indicator; category,Do not export identity/photo/free text,Proposed; not implemented
+estimate_viewed,Usable indicative result is actually displayed,Product,Estimate identity plus first-view transition,duration; category; indicative status,Exclude asset and premium amounts by default,Proposed; not implemented
+quote_request_started,User begins personalised enquiry,Product,Journey plus form-start identity,route; category,Diagnostic; not generated lead,Proposed; not implemented
+quote_request_submitted,Backend accepts unique valid request,Backend/CRM,Request idempotency key and opportunity,opportunity; category; eligibility country; contact availability,Map to generate_lead only where permitted and meaningful,Proposed; not implemented
+lead_qualified,Request meets written service criteria,CRM,Opportunity plus qualification decision,criteria version; reason; occurrence time,Map to qualify_lead if exported,Proposed; not implemented
+lead_delivered,Partner acknowledges delivered request,Backend/partner,Opportunity-partner delivery key,partner; timestamp; delivery status,Internal unless justified,Proposed; not implemented
+partner_decision_recorded,Partner gives substantive accepted/rejected/pending decision,Partner/CRM,Opportunity plus partner decision version,decision; reason; partner; occurrence time,Minimal outcome only if permitted,Proposed; not implemented
+quote_issued,Formal personalised quote issued,Partner/CRM,Quote identity,opportunity; insurer; issue time; status,Do not assume fee earned,Proposed; not implemented
+policy_bound,Cover effective under contract evidence,Policy record,Policy identity plus bind transition,opportunity; effective time; policy status,Completed transaction mapping only if meaning fits,Proposed; not implemented
+payable_event_confirmed,Contractual fee condition satisfied,Commercial record,Agreement plus payable-event identity,agreement; trigger; opportunity; occurrence time,Candidate primary optimisation signal; consent assessed,Proposed; not implemented
+fee_earned,Fee recorded as earned under agreed convention,Finance,Fee identity linked to payable event,fee amount; currency; earned date; split treatment,Value only with defined nonduplicating convention,Proposed; not implemented
+fee_reversed,Earned fee partly or fully withdrawn,Finance,Reversal identity plus original fee,amount; currency; reason; original fee,Use platform-specific adjustment only if supported,Proposed; not implemented
+cash_received,Actual receipt allocated to earned fee,Finance,Receipt plus allocation identity,amount; currency; fee/invoice; receipt date,Internal; not a second conversion,Proposed; not implemented
+item_added,Owner saves an additional collection item,Product,Asset identity plus creation transition,owner when known; category; timestamp,Useful task signal; no automatic payable event,Proposed; not implemented
+documentation_updated,Owner completes a defined documentation task,Product/CRM,Task identity plus completed transition,task type; asset; timestamp,Internal task measurement preferred,Proposed; not implemented
+coverage_update_requested,Owner requests a real policy coverage review,CRM,Opportunity/request idempotency key,owner; policy link; request timestamp,Qualification and payment assessed separately,Proposed; not implemented
+renewal_completed,Eligible due policy renews,Policy record,Policy plus renewal-term identity,due date; term; status; rights reference,Fee only if renewal remuneration earned,Proposed; not implemented

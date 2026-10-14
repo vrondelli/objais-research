@@ -1,0 +1,98 @@
+[
+  {
+    "priority": "P0",
+    "owner": "Commercial / finance",
+    "question": "Payment trigger and contract",
+    "fields": "Counterparty, country, category, event basis, fee schedule, acceptance definition, payout split, reversal rules, renewal/service rights and attribution window",
+    "evidence": "Signed agreement and anonymised invoice examples",
+    "parameters": "Architecture, f, omega, renewal-rights mask"
+  },
+  {
+    "priority": "P0",
+    "owner": "Product / commercial",
+    "question": "Actual operating scope",
+    "fields": "Live vs waitlist, supported country, local intermediary, insurer, category, accepted value range, required ownership/valuation documents",
+    "evidence": "Category-country availability matrix and acceptance record",
+    "parameters": "Whether a modeled revenue stream is available"
+  },
+  {
+    "priority": "P0",
+    "owner": "Growth / finance",
+    "question": "Acquisition denominator and cost",
+    "fields": "Channel spend, attributable labour, partner fees, unique acquired owners, acquisition date, country, category and referral source",
+    "evidence": "Monthly channel exports, invoices and owner-level acquisition keys",
+    "parameters": "CAC; avoid using CAC per paid lead with q a second time"
+  },
+  {
+    "priority": "P0",
+    "owner": "Product / commercial",
+    "question": "First payment funnel",
+    "fields": "Unique eligible owners, qualified requests, submission, acceptance/rejection reason, policy binding if relevant, dates and paid amount",
+    "evidence": "Owner/event-level anonymised funnel for all available history, ideally 12-24 months",
+    "parameters": "p, alpha, q and paid-event delay"
+  },
+  {
+    "priority": "P0",
+    "owner": "Finance / operations",
+    "question": "Variable cost and servicing",
+    "fields": "AI/OCR calls, images/items, licensed-data charges, storage, payment/platform fees, support/expert minutes and wage rates, per policy costs",
+    "evidence": "Usage invoices, operational time samples and allocation rules",
+    "parameters": "h, vE, vM, vS, vPolicy; costs of free users"
+  },
+  {
+    "priority": "P0",
+    "owner": "Finance",
+    "question": "Invoices and collections",
+    "fields": "Event ID, invoice date/amount, credits, due date, actual receipts, writeoffs, insurer share and currency",
+    "evidence": "Anonymised receivables and receipts ledger tied to event IDs",
+    "parameters": "Net fees, cash lag, bad debt and working capital"
+  },
+  {
+    "priority": "P1",
+    "owner": "Product / data",
+    "question": "Continuation before and after payment",
+    "fields": "Cohort, first payment date, eligible state, post-payment state, meaningful task timestamps, deletion/contactability and exposure months",
+    "evidence": "Anonymised monthly owner/event panel with observation end",
+    "parameters": "rhoE/rhoM with censoring; app visit frequency measured separately"
+  },
+  {
+    "priority": "P1",
+    "owner": "Commercial / data",
+    "question": "Genuine repeat eligibility",
+    "fields": "New asset/contract episode, relationship to first lead, consent, duplicate disposition, incremental accepted fee and date",
+    "evidence": "Repeat-event ledger plus explicit contract clause",
+    "parameters": "lambda; never infer from scans or portfolio additions"
+  },
+  {
+    "priority": "P1",
+    "owner": "Insurance / finance",
+    "question": "Renewals and revenue rights",
+    "fields": "Policy births, term, premium, cancellation, renewal due/observed dates, surviving policies, actual renewal fees, service costs and ownership of book",
+    "evidence": "Mature policy cohorts and counterparty renewal statements",
+    "parameters": "Policy survival and phiRenewal; young cohorts are censored"
+  },
+  {
+    "priority": "P1",
+    "owner": "Product / research",
+    "question": "Collector fit and willingness to pay",
+    "fields": "Category, owner vs dealer, collection-value bands, items, changes per month, existing tools, insured status, locale and completed protection need",
+    "evidence": "Consented targeted interviews plus paid pilot outcomes",
+    "parameters": "Insurable fraction, q by segment, substitution and differentiation"
+  },
+  {
+    "priority": "P1",
+    "owner": "Product / finance",
+    "question": "Paid tools and service referrals",
+    "fields": "Offer exposure, actual payer, starts, billed renewal, cancellations/refunds, net recurring price, app-store/payment costs, completed referral fee",
+    "evidence": "Paid pilot or existing billing ledger; signed service terms",
+    "parameters": "kappa, eta, b-vS and event-level referral margin"
+  },
+  {
+    "priority": "P1",
+    "owner": "Finance / leadership",
+    "question": "Operating scale and concentration",
+    "fields": "Actual fixed spend, incremental build/licence/integration cost, channel capacity, signed distribution reach, insurer concentration and currencies",
+    "evidence": "Management accounts, pipeline and partner channel history",
+    "parameters": "Company profit, startup funding, concentration and obtainable volume"
+  }
+]

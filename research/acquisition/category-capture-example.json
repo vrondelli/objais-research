@@ -1,0 +1,14 @@
+{
+  "evidence_status": "Invented scenario; no measured venue fees or conversion",
+  "new_distinct_owners": 100,
+  "requests": 10,
+  "payable_events": 5,
+  "contribution_per_payable_before_acquisition_and_other_delivery_eur": 18,
+  "other_delivery_eur": 20,
+  "acquisition_eur": 100,
+  "contribution_eur": -30,
+  "owner_cac_eur": 1,
+  "acquisition_per_payable_eur": 20,
+  "break_even_total_acquisition_eur": 70,
+  "break_even_acquisition_per_payable_eur": 14
+}

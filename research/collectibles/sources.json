@@ -1,0 +1,452 @@
+[
+  {
+    "source_id": "S01",
+    "title": "Circana global toy report",
+    "url": "https://www.circana.com/post/global-toy-market-hits-123b-as-play-expands-across-ages-and-markets",
+    "period": "2025",
+    "basis": "Research provider estimate",
+    "limitation": "All toys; not collectible figures alone",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S02",
+    "title": "Circana G12 toy results",
+    "url": "https://www.circana.com/post/global-toy-industry-rebounds-in-2025-as-sales-rise-7-fueled-by-pop-culture-collectibles-and-kidu",
+    "period": "2025",
+    "basis": "Retail tracking and consumer research",
+    "limitation": "12 tracked markets; collectibles includes cards and figures",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S03",
+    "title": "Circana regional toy dynamics",
+    "url": "https://www.circana.com/post/circana-reveals-regional-toy-market-dynamics-across-europe-the-americas-and-asia-pacific",
+    "period": "H1 2026 / rolling year",
+    "basis": "Retail tracking",
+    "limitation": "G14 coverage differs from 2025 G12; LATAM is not Brazil alone",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S04",
+    "title": "Circana US first half",
+    "url": "https://www.circana.com/post/us-toy-industry-posts-strongest-first-half-in-six-years-circana-reports",
+    "period": "H1 2026",
+    "basis": "Retail tracking",
+    "limitation": "US; category growth is not user retention",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S05",
+    "title": "Hasbro FY 2025",
+    "url": "https://corp.hasbro.com/news-releases/news-release-details/hasbro-reports-fourth-quarter-and-full-year-2025-financial",
+    "period": "FY 2025",
+    "basis": "Issuer financial disclosure",
+    "limitation": "Magic includes tabletop and digital; manufacturer revenue is not resale GMV",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S06",
+    "title": "Hasbro Q2 and H1 2026",
+    "url": "https://newsroom.hasbro.com/node/36961",
+    "period": "H1 2026",
+    "basis": "Issuer financial disclosure",
+    "limitation": "Magic brand revenue includes digital",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S07",
+    "title": "Pokemon corporate figures",
+    "url": "https://corporate.pokemon.co.jp/en/aboutus/figures/",
+    "period": "March 2026",
+    "basis": "Publisher statistics",
+    "limitation": "Lifetime production, not annual sales; animated counters absent in plain HTML; values available in indexed official page",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S08",
+    "title": "Pokemon TCG business",
+    "url": "https://corporate.pokemon.co.jp/en/business/cardgame/",
+    "period": "May 2026",
+    "basis": "Publisher operational claims",
+    "limitation": "Japan only; event count is not unique players",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S09",
+    "title": "Collectr 2025 recap",
+    "url": "https://www.linkedin.com/posts/collectr-inc_2025-was-a-year-were-still-processing-at-activity-7413235631927001088-Joi6",
+    "period": "2025 / year end",
+    "basis": "Company self-report",
+    "limitation": "Users are not MAU; app uses are not retained users; partner GMV not app revenue",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S10",
+    "title": "Collectr current product",
+    "url": "https://www.getcollectr.com/",
+    "period": "Observed October 2026",
+    "basis": "Product marketing",
+    "limitation": "User claim has no independently audited active-user definition",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S11",
+    "title": "Collectr PRO",
+    "url": "https://www.getcollectr.com/pro.html",
+    "period": "Observed October 2026",
+    "basis": "Advertised subscription",
+    "limitation": "USD; regional and promotional prices may differ",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S12",
+    "title": "Cardmarket eighteenth anniversary",
+    "url": "https://www.linkedin.com/posts/cardmarket-com_tradingcardgames-activity-7328071468594995200-smOn",
+    "period": "2025 anniversary",
+    "basis": "Company self-report",
+    "limitation": "Lifetime items and active offers are not annual GMV or unique buyers",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S13",
+    "title": "GemRate September recap",
+    "url": "https://www.gemrate.com/september-2026-recap",
+    "period": "September 2026",
+    "basis": "Population report aggregation",
+    "limitation": "Excludes Beckett; includes approximately 60k CGC AUTH additions; not unique cards or sales",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S14",
+    "title": "GemRate methodology",
+    "url": "https://www.gemrate.com/faq",
+    "period": "Observed October 2026",
+    "basis": "Methodology disclosure",
+    "limitation": "Snapshot changes can reflect recategorisation and corrections",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S15",
+    "title": "Funko FY 2025",
+    "url": "https://investor.funko.com/news-and-events/press-releases/Press-Releases/2026/Funko-Reports-2025-Fourth-Quarter-Full-Year-Financial-Results-Provides-Full-Year-Outlook-for-2026/default.aspx",
+    "period": "2025",
+    "basis": "Issuer financial disclosure",
+    "limitation": "Company includes multiple brands; not global action figure market",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S16",
+    "title": "Funko Q2 2026",
+    "url": "https://investor.funko.com/news-and-events/press-releases/Press-Releases/2026/Funko-Reports-Strong-Second-Quarter-2026-Financial-Results-Reiterates-Full-Year-Net-Sales-Outlook-and-Raises-Adjusted-EBITDA-Guidance/default.aspx",
+    "period": "Q2 / H1 2026",
+    "basis": "Issuer financial disclosure",
+    "limitation": "Profit includes tariff benefit; Core Collectibles is an issuer category",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S17",
+    "title": "Pop Mart annual results",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032500285.pdf",
+    "period": "2025",
+    "basis": "Audited issuer results",
+    "limitation": "RMB; broad pop toys incl plush, figures and other products; tables on printed pages 27 and 34",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S18",
+    "title": "Pop Mart interim results",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000353.pdf",
+    "period": "H1 2026",
+    "basis": "Unaudited issuer results",
+    "limitation": "RMB; Overseas excludes mainland China, Hong Kong, Macau and Taiwan; Europe grouped with other regions",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S19",
+    "title": "ABRIN Brazilian toy retail",
+    "url": "https://abrin.com.br/industria-de-brinquedos-supera-10-bilhoes/",
+    "period": "2025",
+    "basis": "Trade fair statement citing Abrinq yearbook",
+    "limitation": "BRL; whole toy retail, not Brazilian collectibles TAM",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S20",
+    "title": "US Mint annual report",
+    "url": "https://www.usmint.gov/content/dam/usmint/reports/2025-annual-report.pdf",
+    "period": "FY 2025",
+    "basis": "Official report indexed extract",
+    "limitation": "Fiscal year; one issuer primary sales only; full PDF retrieval unavailable at review",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S21",
+    "title": "Heritage annual auction results",
+    "url": "https://www.ha.com/heritage-auctions-press-releases-and-news/heritage-auctions-closes-2025-above-2.15-billion-for-its-fifth-consecutive-annual-sales-record.s?releaseId=5383",
+    "period": "2025",
+    "basis": "Auction house reported sales",
+    "limitation": "Categories nested within company total; sales not auction-house revenue; basis follows house definition",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S22",
+    "title": "Stacks Bowers annual auctions",
+    "url": "https://stacksbowers.com/sbpressreleases/stacks-bowers-galleries-announces-record-shattering-325-million-year-of-auctions-in-2025/",
+    "period": "2025",
+    "basis": "Auction house reported sales",
+    "limitation": "Public auctions; can include resale of previously sold objects; not global numismatics TAM",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S23",
+    "title": "Art Basel UBS report summary",
+    "url": "https://www.artbasel.com/stories/the-art-basel-and-ubs-global-art-market-report-2026",
+    "period": "2025",
+    "basis": "Arts Economics market estimate",
+    "limitation": "Art and antiques covered by report; not all vintage goods; country totals nested in world total",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S24",
+    "title": "UBS US report summary",
+    "url": "https://www.ubs.com/us/en/wealth-management/who-we-serve/ultra-high-net-worth-investors/art-advisory/art-basel-art-market-report.html",
+    "period": "2025",
+    "basis": "Same Arts Economics report",
+    "limitation": "Not an independent second estimate",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S25",
+    "title": "Catawiki FY24 results",
+    "url": "https://www.catawiki.com/en/press/1860-catawiki-crosses-100m-revenue-mark",
+    "period": "2024",
+    "basis": "Company reported results",
+    "limitation": "Multiple categories; returning-buyer sales share is not a cohort retention rate",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S26",
+    "title": "Whatnot seller information",
+    "url": "https://www.whatnot.com/seller",
+    "period": "2025 / current undated claim",
+    "basis": "Company marketing",
+    "limitation": "All platform categories; monthly purchase claim denominator and cohort method unspecified",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S27",
+    "title": "Numista homepage",
+    "url": "https://en.numista.com/",
+    "period": "Observed 13 October 2026",
+    "basis": "Live platform counters",
+    "limitation": "Types not owned objects; reviews not unique monthly buyers; changes daily",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S28",
+    "title": "hobbyDB Pop Price Guide plans",
+    "url": "https://www.hobbydb.com/marketplaces/poppriceguide/subs/pop-price-guide-landing-page",
+    "period": "Observed October 2026",
+    "basis": "Product offering",
+    "limitation": "USD; annual plan price, not willingness to pay in Brazil",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S29",
+    "title": "PriceCharting subscription",
+    "url": "https://www.pricecharting.com/pricecharting-pro",
+    "period": "Observed October 2026",
+    "basis": "Product offering",
+    "limitation": "USD; Legendary tier is different from consumer subscription",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S30",
+    "title": "PriceCharting API documentation",
+    "url": "https://www.pricecharting.com/api-documentation",
+    "period": "Observed October 2026",
+    "basis": "Technical documentation",
+    "limitation": "Current price API excludes historical prices and sales; commercial rights require agreement",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S31",
+    "title": "Cardmarket API access",
+    "url": "https://help.cardmarket.com/en/cardmarket-api",
+    "period": "Observed October 2026",
+    "basis": "Platform policy",
+    "limitation": "New applications not accepted; no assumed data access",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S32",
+    "title": "CollX FAQ",
+    "url": "https://www.collx.app/faq",
+    "period": "Observed October 2026",
+    "basis": "Product and pricing methodology",
+    "limitation": "Does not assess card condition automatically; fallback estimates need distinction",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S33",
+    "title": "hobbyDB pricing methodology",
+    "url": "https://help.hobbydb.com/support/solutions/articles/36000247575",
+    "period": "Observed October 2026",
+    "basis": "Product methodology",
+    "limitation": "Completed sales and unverifiable references are treated differently",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S34",
+    "title": "Collectibles Insurance Services",
+    "url": "https://collectinsure.com/",
+    "period": "Observed October 2026",
+    "basis": "US insurer/intermediary product marketing",
+    "limitation": "Territory and policy restrictions apply; different category pages contain inconsistent dealer deductibles",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S35",
+    "title": "CIS categories and exclusions",
+    "url": "https://collectinsure.com/what-we-insure/",
+    "period": "Observed October 2026",
+    "basis": "US insurance product terms summary",
+    "limitation": "Not full policy; gold/platinum handling needs separate confirmation",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S36",
+    "title": "CIS Pokemon insurance",
+    "url": "https://collectinsure.com/pokemon-insurance/",
+    "period": "Observed October 2026",
+    "basis": "US category product",
+    "limitation": "US product availability is not availability for Brazil or EU residents",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S37",
+    "title": "Howden Portugal art and collections",
+    "url": "https://www.howdengroup.com/pt-pt/cover/fine-art-insurance",
+    "period": "Observed October 2026",
+    "basis": "Broker product description",
+    "limitation": "Custom placement; explicit coin/antique scope does not confirm TCG acceptance",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S38",
+    "title": "Porto residential wording",
+    "url": "https://www.portoseguro.com.br/content/dam/documentos/condicoes_gerais/seguro_residencia/habitual/cg-resid-veraneio-premium-private-dez-25.pdf",
+    "period": "Effective 5 December 2025",
+    "basis": "Published policy wording",
+    "limitation": "Printed page 72 / PDF page 73: art extension excludes antiques, numismatics and archaeological objects",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S39",
+    "title": "Hiscox UK existing collections customers",
+    "url": "https://www.hiscox.co.uk/existing-customers/collections-insurance",
+    "period": "Observed October 2026",
+    "basis": "Provider availability notice",
+    "limitation": "Standalone collections no longer offered to new customers; home options may remain",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S40",
+    "title": "European Commission cultural imports",
+    "url": "https://trade.ec.europa.eu/access-to-markets/en/news/eu-introduces-new-import-controls-cultural-goods",
+    "period": "Applicable since 28 June 2025",
+    "basis": "Official regulatory guidance",
+    "limitation": "Ancient/archaeological objects require provenance and category-specific checks",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S41",
+    "title": "IPHAN CNART",
+    "url": "https://cnart.iphan.gov.br/cnart/",
+    "period": "Observed October 2026",
+    "basis": "Official guidance",
+    "limitation": "Antique/art dealer registration; some objects require registration; not a rule for every modern collectible",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S42",
+    "title": "IPHAN cultural exports",
+    "url": "https://www.gov.br/iphan/pt-br/servicos/saida-de-bens-culturais-do-brasil",
+    "period": "Observed October 2026",
+    "basis": "Official guidance",
+    "limitation": "Category and historical-date restrictions apply",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S43",
+    "title": "eBay card technology results",
+    "url": "https://www.ebayinc.com/stories/news/ebay-inc-reports-fourth-quarter-and-full-year-2025-results/",
+    "period": "Q4 2025",
+    "basis": "Issuer product disclosure",
+    "limitation": "Feature launch not evidence of Objais integration or access rights",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S44",
+    "title": "eBay Q2 2026 card features",
+    "url": "https://www.ebayinc.com/stories/news/ebay-inc-reports-second-quarter-2026-results/",
+    "period": "Q2 2026",
+    "basis": "Issuer product disclosure",
+    "limitation": "UK authenticity threshold and US grading apply to specific programs",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S45",
+    "title": "eBay recollecting survey",
+    "url": "https://www.ebayinc.com/recommerce-report/",
+    "period": "2026",
+    "basis": "Company commissioned survey",
+    "limitation": "Secondhand shopping generally; 10,523 shoppers and 1,707 sellers; not TCG purchase frequency",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S46",
+    "title": "eBay Product Research",
+    "url": "https://www.ebay.co.uk/sellercentre/news/2024-june/product-research?targetgroup=B2C",
+    "period": "Observed October 2026",
+    "basis": "Product documentation",
+    "limitation": "Research interface is not a redistribution licence or bulk data API",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S47",
+    "title": "COPAG launch record",
+    "url": "https://copag.com.br/balancosocial/pdfs/clientes-e-fornecedores-distribuindo-sorrisos.pdf",
+    "period": "2023",
+    "basis": "Publisher social report",
+    "limitation": "Historical Brazilian product cadence; not current revenue",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S48",
+    "title": "INCM Portuguese numismatic program",
+    "url": "https://loja.incm.pt/pages/plano-numismatico-2025",
+    "period": "2025",
+    "basis": "Official mint program",
+    "limitation": "Product cadence; no collectible-market revenue total",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S49",
+    "title": "Ludex collection tools",
+    "url": "https://collections.ludex.com/",
+    "period": "Observed October 2026",
+    "basis": "Product description",
+    "limitation": "Feature availability not independently performance-tested",
+    "accessed": "2026-10-13"
+  },
+  {
+    "source_id": "S50",
+    "title": "CollX PRO",
+    "url": "https://www.collx.app/collx-pro",
+    "period": "Observed October 2026",
+    "basis": "Product description",
+    "limitation": "Subscriptions and trading tools; price not settled here",
+    "accessed": "2026-10-13"
+  }
+]

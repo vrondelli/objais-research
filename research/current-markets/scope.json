@@ -1,0 +1,114 @@
+[
+  [
+    "Fine art",
+    "Select",
+    "Advertised current",
+    "Homepage and Select",
+    "Europe and beyond advertised; Brazil placement unverified",
+    "S01; S03"
+  ],
+  [
+    "Luxury watches",
+    "Select",
+    "Advertised current",
+    "Homepage and Select",
+    "Country/insurer acceptance unverified",
+    "S01; S03"
+  ],
+  [
+    "Jewellery",
+    "Select",
+    "Advertised current",
+    "Homepage and Select",
+    "Country/insurer acceptance unverified",
+    "S01; S03"
+  ],
+  [
+    "Luxury handbags",
+    "Select",
+    "Advertised current",
+    "Homepage and Select",
+    "Country/insurer acceptance unverified",
+    "S01; S03"
+  ],
+  [
+    "Yachts and superyachts",
+    "Select",
+    "Advertised current",
+    "Homepage and Select",
+    "Private/charter and navigation scope unverified",
+    "S01; S03"
+  ],
+  [
+    "Supercars",
+    "Select",
+    "Advertised current",
+    "Homepage and insurance page; Select contains old July wording",
+    "Actual launched-country matrix unverified",
+    "S01; S02; S03"
+  ],
+  [
+    "Cars",
+    "Family",
+    "Advertised current",
+    "Homepage and insurance page",
+    "Driver/geography-dependent binding quote",
+    "S01; S02; S04"
+  ],
+  [
+    "Leisure boats",
+    "Family",
+    "Advertised current",
+    "Homepage and Family",
+    "Hull/liability/navigation scope unverified",
+    "S01; S04"
+  ],
+  [
+    "Pets",
+    "Family",
+    "Advertised current",
+    "Homepage and insurance page",
+    "Coverage type and country acceptance unverified",
+    "S01; S02; S04"
+  ],
+  [
+    "Antiques and collections",
+    "Select/Family",
+    "Advertised broad scope",
+    "Insurance page and FAQ",
+    "Not proof of every collectible category accepted",
+    "S02; S06"
+  ],
+  [
+    "Wine collections and musical instruments",
+    "Broad FAQ",
+    "Mentioned; availability unresolved",
+    "FAQ only in reviewed category mapping",
+    "No confirmed category-specific rollout/traction",
+    "S06"
+  ],
+  [
+    "Home and contents",
+    "Family",
+    "Availability inconsistent",
+    "Family lists; insurance page says forthcoming",
+    "Exclude from current market totals",
+    "S02; S04"
+  ],
+  [
+    "Health",
+    "Family",
+    "Availability inconsistent",
+    "Family lists; insurance page says forthcoming",
+    "Exclude from current market totals",
+    "S02; S04"
+  ],
+  [
+    "Professional liability, fleets, group health, SME multi-risk",
+    "Business",
+    "Planned end 2026",
+    "Waitlist and future launch",
+    "Exclude from current market totals",
+    "S05"
+  ]
+]

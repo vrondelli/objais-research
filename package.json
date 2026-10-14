@@ -1,0 +1,10 @@
+{
+  "name": "objais-research",
+  "private": true,
+  "scripts": {
+    "render:formulas": "node research/formulas/render_formula_figures.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

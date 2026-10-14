@@ -1,0 +1,46 @@
+{
+  "total_words_before": 8238,
+  "prose_words_before": 7730,
+  "numerical_sha256_before": "94b092f331172ab1aeb9bb6f0d196ba73da912dbe32bfacfcf585a29bc1cb3e8",
+  "diagram_sources_before": {
+    "actors": "flowchart TB\n    subgraph Service[\"Service relationships\"]\n      direction TB\n      Owner[\"Asset owner<br/>or representative\"] -->|\"Records and request\"| Objais[\"Objais\"]\n      Acquisition[\"Acquisition partner\"] -->|\"Introduces owners\"| Objais\n      Objais -->|\"Enquiry\"| Partner[\"Insurer or broker partner\"]\n      Objais -.->|\"Optional introduction\"| Expert[\"Independent service provider\"]\n    end\n    subgraph Economics[\"Fees and costs\"]\n      direction TB\n      FeePartner[\"Insurer or broker partner\"] -->|\"Fee if earned\"| Fees[\"Objais\"]\n      FeeOwner[\"Asset owner\"] -.->|\"Optional service fee\"| Fees\n      FeeExpert[\"Service provider\"] -.->|\"Referral fee if earned\"| Fees\n      Fees -->|\"Software and data cost\"| Supplier[\"Technology supplier\"]\n      Fees -->|\"Acquisition cost if incurred\"| CostPartner[\"Acquisition partner\"]\n    end\n    Service ~~~ Economics\n    classDef platform fill:#173247,color:#fff,stroke:#173247;\n    classDef party fill:#eaf3f5,color:#173247,stroke:#007d89;\n    class Objais,Fees platform;\n    class Owner,Partner,Acquisition,Supplier,Expert,FeePartner,FeeOwner,FeeExpert,CostPartner party;",
+    "opportunity-states": "flowchart TB\n    New[\"Newly acquired owner<br/>Acquisition charged once\"] --> E[\"E: unexhausted opportunity\"]\n    M[\"M at month start<br/>Already monetised opportunity\"] --> Pool[\"Completed owners<br/>Existing M plus newly monetised owners\"]\n    E -->|\"Paid event earns its fee\"| Pool\n    E -->|\"No payment and owner continues\"| NextE[\"E next month\"]\n    E -->|\"No payment and relationship ends\"| Exit[\"Leaves opportunity model\"]\n    Pool -->|\"Continues without new eligibility\"| NextM[\"M next month\"]\n    Pool -.->|\"Continues and gets genuine new eligibility\"| NextE\n    Pool -->|\"Relationship ends\"| Exit\n    classDef state fill:#eaf3f5,color:#173247,stroke:#007d89;\n    classDef closed fill:#f6f0eb,color:#173247,stroke:#b88b67;\n    class New,E,M,Pool,NextE,NextM state;\n    class Exit closed;",
+    "independent-clocks": "flowchart TB\n    subgraph Opportunity[\"Opportunity relationship\"]\n      direction LR\n      E[\"Eligible opportunity\"] -->|\"First paid event\"| M[\"Completed opportunity\"]\n      M -->|\"Continued app relationship alone\"| M\n    end\n    subgraph Software[\"Optional paid software\"]\n      direction LR\n      Start[\"Owner starts paying\"] --> Bill[\"Billed month\"]\n      Bill -->|\"Billed continuation and next month\"| Bill\n      Bill -->|\"Billing stops\"| Stop[\"No further software fee\"]\n    end\n    subgraph Insurance[\"Insurance policy\"]\n      direction LR\n      Bind[\"Policy bound\"] --> Active[\"Policy remains in force\"]\n      Active -->|\"Survives to renewal date\"| Renew[\"Renewed policy term\"]\n      Renew --> Active\n      Renew -.->|\"Only with renewal payment rights\"| Fee[\"Earned renewal fee\"]\n    end\n    Opportunity ~~~ Software\n    Software ~~~ Insurance",
+    "events": "flowchart TB\n    Use[\"Owner uses the service\"] --> Record[\"Record or estimate updated<br/>Usage cost; no automatic fee\"]\n    Record -->|\"Owner requests insurance\"| Request[\"Qualified enquiry submitted\"]\n    Record -->|\"No request\"| Continue[\"Continue or leave<br/>No insurance fee\"]\n    Request --> Agreement{\"Which event does<br/>the agreement pay for?\"}\n    Agreement --> Lead[\"Partner accepts a payable lead\"]\n    Agreement --> Bind[\"Policy bound under<br/>a commission arrangement\"]\n    Agreement --> Unpaid[\"Rejected, pending or not payable<br/>No earned fee yet\"]\n    Lead --> Earn[\"Unique event earns its agreed fee\"]\n    Bind --> Earn\n    Earn --> Invoice[\"Invoice or payment statement<br/>Same earned fee\"]\n    Invoice --> Receipt[\"Cash received later<br/>Same fee collected\"]",
+    "cash": "flowchart TB\n    Event[\"Payable event occurs\"] --> Revenue[\"Earned revenue\"]\n    Revenue --> Profit[\"Operating result<br/>Revenue less variable,<br/>acquisition and fixed costs\"]\n    Event --> Invoice[\"Invoice or payment statement\"]\n    Invoice --> Due[\"Receivable<br/>Amount awaiting collection\"]\n    Due -->|\"Payment received\"| Receipts[\"Cash receipts\"]\n    Receipts --> Balance[\"Cash result<br/>Receipts less expenses paid\"]\n    Costs[\"Costs and expenses\"] -->|\"Cost incurred\"| Profit\n    Costs -->|\"Expense paid\"| Balance\n    classDef earned fill:#eaf3f5,color:#173247,stroke:#007d89;\n    classDef waiting fill:#fff4df,color:#173247,stroke:#b88b67;\n    class Revenue,Profit,Receipts,Balance earned;\n    class Due waiting;",
+    "scope": "flowchart TB\n    Current[\"Current researched categories<br/>Art, valuables, vehicles,<br/>boats and pets\"] --> Inputs[\"Inputs for each segment<br/>Category, country, channel,<br/>payment agreement and costs\"]\n    Existing[\"Changes within existing scope<br/>Better acquisition or conversion;<br/>earned renewals or paid services\"] --> Inputs\n    Future[\"Optional future categories<br/>or countries\"] -.->|\"Measure local inputs\"| Inputs\n    Business[\"Optional professional offers\"] -.->|\"Adapt account unit<br/>and event counts first\"| Inputs\n    Inputs --> Model[\"Cohorts, paid events,<br/>continuation, costs and collections\"]\n    Model --> Unit[\"Customer contribution<br/>and break-even thresholds\"]\n    Model --> Profit[\"Company operating result\"]\n    Model --> Cash[\"Cash result and funding needs\"]\n    classDef core fill:#173247,color:#fff,stroke:#173247;\n    classDef option fill:#eaf3f5,color:#173247,stroke:#007d89;\n    class Model core;\n    class Current,Existing,Future,Business,Inputs,Unit,Profit,Cash option;"
+  },
+  "status": "pass",
+  "total_words_after": 5925,
+  "prose_words_after": 4939,
+  "total_reduction_percent": 28.1,
+  "prose_reduction_percent": 36.1,
+  "numerical_sha256_after": "94b092f331172ab1aeb9bb6f0d196ba73da912dbe32bfacfcf585a29bc1cb3e8",
+  "numerical_results_unchanged": true,
+  "source_sha256": "80d82e407a6504357114ec8a4216ae8b60a632d9c10b2a75abacf287d94becbd",
+  "reading_order": [
+    "actors",
+    "events",
+    "opportunity-states",
+    "independent-clocks",
+    "cash",
+    "scope"
+  ],
+  "manual_review": "Glossary links deliberately selected. Counting units, conditional chances, state labels, paid starts, acquisition ceilings and customer versus company time windows explained in context. Tables and calculation lines kept free of glossary links; numerical examples unchanged.",
+  "supporting_experiments_retained": 52,
+  "problem_introduction_added": true,
+  "problem_coverage_review_added": true,
+  "model_version": 2,
+  "new_extension_cases": 15,
+  "legacy_numeric_results_unchanged": true,
+  "audience": "External readers; plain, calm advisory voice",
+  "definition_blocks": 0,
+  "definition_format": "Shared glossary with first-use links; contextual explanation stays with the examples",
+  "shared_glossary": "Objais Glossary.md",
+  "glossary_terms": 100,
+  "glossary_migration_word_counts": {
+    "before": 5482,
+    "after": 5925,
+    "visible_prose_after": 4939
+  }
+}

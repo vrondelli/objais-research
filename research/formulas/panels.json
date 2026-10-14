@@ -1,0 +1,74 @@
+[
+  {
+    "id": "payment-chance",
+    "title": "Chance of earning the first fee",
+    "description": "q: first-fee chance per eligible owner-month; n: need; p: qualified request given need; alpha: contractual fee earned given a qualified request.",
+    "formula": "q = n × p × α",
+    "source": "Objais Revenue Model.tex; monthly need extension",
+    "width": 900,
+    "height": 211
+  },
+  {
+    "id": "owner-contribution",
+    "title": "One-visit contribution per acquired owner",
+    "description": "C/A is group contribution per acquired owner, with fee reversals and processing deducted before multiplying by payment chance, then owner service and acquisition deducted. Numerical result minus 2.40 euros, before overhead.",
+    "formula": "C / A = q × [f × (1 − ω) − h] − v_E − k",
+    "source": "Objais Revenue Model.tex; minimal one-visit model",
+    "width": 900,
+    "height": 315
+  },
+  {
+    "id": "click-cost-ceiling",
+    "title": "Maximum advertising cost per click",
+    "description": "5 percent requests per entry click times 50 percent payable requests times 18 euros retained per paid lead, less 0.10 euros other cost per click, leaves 0.35 euros for advertising.",
+    "formula": "5% × 50% × €18 − €0.10 = €0.35",
+    "source": "Objais Funnels Advertising Metrics and UX Research.md; acquisition limits",
+    "width": 900,
+    "height": 211
+  },
+  {
+    "id": "retention-states",
+    "title": "Retention before and after the first fee",
+    "description": "E waits for a first fee; M has already earned Objais a fee; L is new paid leads. At 80 percent continuation, next month has 720 waiting owners and 80 completed owners, without dormancy or reset.",
+    "formula": "E_next = ρ_E × (E − L); M_next = ρ_M × (M + L)",
+    "source": "Objais Revenue Model.tex; one-opportunity retention",
+    "width": 900,
+    "height": 247
+  },
+  {
+    "id": "retained-contribution",
+    "title": "From monthly results to contribution per owner",
+    "description": "Sum all monthly group contributions at a one percent monthly discount, then divide by the original cohort. Acquisition is already included once in month 1. Result 1.17 euros before fixed costs.",
+    "formula": "U_36 = Σ(a=0..35) δ^a C_a / A",
+    "source": "Objais Revenue Model.tex; equivalent finite V_H minus k",
+    "width": 900,
+    "height": 287
+  },
+  {
+    "id": "repeat-eligibility",
+    "title": "A new opportunity needs a genuine payment right",
+    "description": "80 percent continuation and 10 percent reset applied to 100 completed owners gives 8 newly eligible owners. Existing owner identity remains; another fee needs its own valid payment condition.",
+    "formula": "ΔE = ρ_M × λ × (M + L)",
+    "source": "Objais Revenue Model.tex; repeat-eligibility transition",
+    "width": 900,
+    "height": 267
+  },
+  {
+    "id": "policy-renewal",
+    "title": "Renewal revenue at the first annual due date",
+    "description": "For one original policy group at age 12 months: payment rights times 100 started policies times 98 percent monthly eligibility to power 12 times 15 euro renewal fee, earning 1177.08 euros before policy costs. Without rights, zero.",
+    "formula": "Rπ = zπ × B × ζ12 × φπ",
+    "source": "Objais Revenue Model.tex; one cohort annual renewal",
+    "width": 900,
+    "height": 267
+  },
+  {
+    "id": "paid-software",
+    "title": "Paid software follows its own billing clock",
+    "description": "Software monthly contribution is paid-start share times original owners times billing continuation to age a times net price less extra account cost. Month 2 gives 356.25 euros, before acquisition, shared costs and fixed overhead.",
+    "formula": "C^S_a = κ × A × η^a × (b − v_S)",
+    "source": "Objais Revenue Model.tex; software cohort billing and extra account cost",
+    "width": 900,
+    "height": 315
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "status": "pass",
+  "engine": "Mermaid 11.12.0 in Chrome via Playwright",
+  "diagrams": 6,
+  "dimensions": [
+    {
+      "id": "actors",
+      "wide_bounds": {
+        "x": 327.390625,
+        "y": 77.828125,
+        "width": 745.203125,
+        "height": 1033
+      }
+    },
+    {
+      "id": "events",
+      "wide_bounds": {
+        "x": 267,
+        "y": -184.328125,
+        "width": 866,
+        "height": 1345.125
+      }
+    },
+    {
+      "id": "opportunity-states",
+      "wide_bounds": {
+        "x": 145,
+        "y": 106.640625,
+        "width": 1110,
+        "height": 763.109375
+      }
+    },
+    {
+      "id": "independent-clocks",
+      "wide_bounds": {
+        "x": 145,
+        "y": 500.59375,
+        "width": 1110,
+        "height": 397.5
+      }
+    },
+    {
+      "id": "cash",
+      "wide_bounds": {
+        "x": 357.140625,
+        "y": 132.9375,
+        "width": 685.703125,
+        "height": 708.984375
+      }
+    },
+    {
+      "id": "scope",
+      "wide_bounds": {
+        "x": 145,
+        "y": 88.765625,
+        "width": 1110,
+        "height": 809.78125
+      }
+    }
+  ],
+  "narrow_screenshots": [
+    "actors-narrow.png",
+    "events-narrow.png"
+  ],
+  "offline_gallery": true,
+  "native_codex_markdown_rendering": "not inspected"
+}

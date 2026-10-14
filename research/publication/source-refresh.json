@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://objais.com/en/faq",
+    "checked": "2026-10-14",
+    "http_status": 200,
+    "access": "Direct public-page retrieval; official site; no login"
+  },
+  {
+    "url": "https://objais.com/en/how-it-works",
+    "checked": "2026-10-14",
+    "http_status": 200,
+    "access": "Direct public-page retrieval; official site; no login"
+  },
+  {
+    "url": "https://objais.com/en/insurance",
+    "checked": "2026-10-14",
+    "http_status": 200,
+    "access": "Direct public-page retrieval; official site; no login"
+  },
+  {
+    "url": "https://objais.com/en/privacy",
+    "checked": "2026-10-14",
+    "http_status": 200,
+    "access": "Direct public-page retrieval; official site; no login"
+  },
+  {
+    "url": "https://objais.com/en/business",
+    "checked": "2026-10-14",
+    "http_status": 200,
+    "access": "Direct public-page retrieval; official site; no login"
+  }
+]

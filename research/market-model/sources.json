@@ -1,0 +1,44 @@
+[
+  {
+    "source": "Objais public FAQ",
+    "url": "https://www.objais.com/en/faq",
+    "supports": "Broker commissions and service referrals are described; payment trigger and renewal rights undisclosed",
+    "ceiling": "Official indexed page refreshed 13 Oct 2026; direct browser extraction unavailable"
+  },
+  {
+    "source": "Collectr PRO",
+    "url": "https://www.getcollectr.com/pro",
+    "supports": "USD 59.99 annual advertised price; paid features and free alternative",
+    "ceiling": "Direct official page refreshed 13 Oct 2026; not Objais paid conversion"
+  },
+  {
+    "source": "Pop Price Guide plans",
+    "url": "https://www.hobbydb.com/marketplaces/poppriceguide/subs/pop-price-guide-landing-page",
+    "supports": "USD 29.99 annual advertised price",
+    "ceiling": "Direct official page refreshed 13 Oct 2026; not Objais price or willingness to pay"
+  },
+  {
+    "source": "Collectibles Insurance Services",
+    "url": "https://collectinsure.com/pokemon-insurance/",
+    "supports": "US collection product, inventory, additions and automatic growth option",
+    "ceiling": "Direct official page refreshed 13 Oct 2026; no Brazil/Europe product availability inferred"
+  },
+  {
+    "source": "Howden Portugal",
+    "url": "https://www.howdengroup.com/pt-en/sector/fine-art-and-specie",
+    "supports": "Portugal specialist fine art and valuable goods insurance precedent",
+    "ceiling": "Direct official page refreshed 13 Oct 2026; no Objais agreement inferred"
+  },
+  {
+    "source": "Current markets research",
+    "url": "Objais Current Markets Research.md",
+    "supports": "Current scope, 104 observations and category caveats",
+    "ceiling": "Existing research dated 13 Oct 2026; no actual Objais economics"
+  },
+  {
+    "source": "Collectibles research",
+    "url": "Collectibles Market Research.md",
+    "supports": "Category evidence, 116 observations and geographic caveats",
+    "ceiling": "Existing research dated 13 Oct 2026; not a conversion/retention dataset"
+  }
+]

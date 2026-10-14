@@ -1,0 +1,44 @@
+{
+  "status": "pass",
+  "basis": "Editorial review from the perspective of a reader unfamiliar with the terminology, plus local-link, layout and arithmetic checks; no reader study performed",
+  "documents": {
+    "Objais Revenue Model Numerical Summary.md": {
+      "glossary_links_before": 66,
+      "glossary_links_after": 21,
+      "most_glossary_links_in_one_paragraph": 2,
+      "glossary_links_in_tables": 0,
+      "glossary_links_in_calculation_lines": 0,
+      "remaining_diagram_sources_unchanged": true,
+      "source_sha256": "80d82e407a6504357114ec8a4216ae8b60a632d9c10b2a75abacf287d94becbd"
+    },
+    "Objais Acquisition Numerical Summary.md": {
+      "glossary_links_before": 53,
+      "glossary_links_after": 21,
+      "most_glossary_links_in_one_paragraph": 1,
+      "glossary_links_in_tables": 0,
+      "glossary_links_in_calculation_lines": 0,
+      "remaining_diagram_sources_unchanged": true,
+      "source_sha256": "e593c60e5e294f00ffddea3e9299e159421914498e7258b1ef91985cd3e9c83a"
+    }
+  },
+  "changes": [
+    "Glossary links deliberately placed in explanatory prose; no automatic keyword linking in the regenerated revenue guide",
+    "Payment chances, state labels and software paid starts introduced in context",
+    "Owner versus click examples explicitly separated",
+    "Acquisition contribution, \u20ac0.35 click ceiling, \u20ac14 payable-event ceiling and ROAS walked through with amounts",
+    "Customer and company forecasts distinguished by their time windows",
+    "Current-product and sourced advertising-price additions preserved and their acronyms clarified"
+  ],
+  "published_price_sensitivity_arithmetic": "pass",
+  "numerical_inputs_and_existing_examples_unchanged": {
+    "research/revenue-summary/numerical-examples.json": true,
+    "research/revenue-model/extension-examples.json": true,
+    "research/acquisition/central-examples.json": true,
+    "Objais Funnels Advertising Metrics and UX Research.md": true
+  },
+  "formula_highlighting": {
+    "report": "research/formulas/validation.json",
+    "formula_panels": 8,
+    "glossary_links_in_formulas": 0
+  }
+}

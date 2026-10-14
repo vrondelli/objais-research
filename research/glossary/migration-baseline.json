@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "research/revenue-summary/numerical-examples.json": "94b092f331172ab1aeb9bb6f0d196ba73da912dbe32bfacfcf585a29bc1cb3e8",
+    "research/revenue-model/extension-examples.json": "6d1945fe7a72a661dd0027daad9234ba0f61b328bbfac20836770da0a2c26e40",
+    "research/acquisition/central-examples.json": "8ef8c358e4613b1c1ddd96567d294c87a558fd78c8832415ba4c3b50f4108447",
+    "Objais Funnels Advertising Metrics and UX Research.md": "bfe06c114fca2bf3fc08968e985ee226743ba198a72cfb15c46fb2efa99b337c"
+  },
+  "guide_words": {
+    "Objais Revenue Model Numerical Summary.md": 5482,
+    "Objais Acquisition Numerical Summary.md": 5226
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "scope": "Markdown coverage, local links, structure and illustrative arithmetic; no live research or measurement validation",
+  "central_file": "Objais Acquisition Numerical Summary.md",
+  "focused_files": 14,
+  "original_sections_preserved": 9,
+  "local_links_checked": 202,
+  "metrics": 38,
+  "supplemental_community_metrics": 10,
+  "events": 22,
+  "example_scenarios": 6,
+  "community_acquisition_example": "pass",
+  "original_report_sha256_unchanged": "bfe06c114fca2bf3fc08968e985ee226743ba198a72cfb15c46fb2efa99b337c",
+  "word_counts": {
+    "Objais Acquisition Numerical Summary.md": 6063,
+    "Objais Funnels Research.md": 1059,
+    "Objais Advertising Platforms Research.md": 1570,
+    "Objais Metrics Research.md": 2830,
+    "Objais Measurement and Attribution Research.md": 2042,
+    "Objais User Experience Research.md": 1238,
+    "Objais Acquisition Experiments Research.md": 1758,
+    "Objais External Advertising Inventory Research.md": 1640,
+    "Objais Advertising Prices and Requirements.md": 2282,
+    "Objais Networks and Communities Research.md": 2580,
+    "Objais Established Offers and Category Capture Strategy.md": 1642,
+    "Objais Pets Market Capture Research.md": 956,
+    "Objais Boats Market Capture Research.md": 970,
+    "Objais Jewellery Market Capture Research.md": 1015,
+    "Objais Watches Market Capture Research.md": 983
+  }
+}

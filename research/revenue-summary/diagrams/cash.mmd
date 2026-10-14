@@ -1,0 +1,13 @@
+flowchart TB
+    Event["Payable event occurs"] --> Revenue["Earned revenue"]
+    Revenue --> Profit["Operating result<br/>Revenue less variable,<br/>acquisition and fixed costs"]
+    Event --> Invoice["Invoice or payment statement"]
+    Invoice --> Due["Receivable<br/>Amount awaiting collection"]
+    Due -->|"Payment received"| Receipts["Cash receipts"]
+    Receipts --> Balance["Cash result<br/>Receipts less expenses paid"]
+    Costs["Costs and expenses"] -->|"Cost incurred"| Profit
+    Costs -->|"Expense paid"| Balance
+    classDef earned fill:#eaf3f5,color:#173247,stroke:#007d89;
+    classDef waiting fill:#fff4df,color:#173247,stroke:#b88b67;
+    class Revenue,Profit,Receipts,Balance earned;
+    class Due waiting;

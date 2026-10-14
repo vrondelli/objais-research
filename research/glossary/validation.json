@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "scope": "Shared glossary and reader integration; no live research or empirical calibration",
+  "terms": 100,
+  "previous_revenue_definitions_preserved": 64,
+  "new_acquisition_terms": 36,
+  "plain_language_terms": 65,
+  "formal_concepts": 35,
+  "cross_scope_terms": 25,
+  "unresolved_vocabulary": [],
+  "commercial_gaps": [
+    "Actual contractual payment conditions and renewal rights",
+    "Observed need, return, conversion and adoption rates",
+    "Full attributable costs, distinct identities and collection dates",
+    "Future paid demand, professional account units and country-specific availability"
+  ],
+  "local_links_and_anchors_checked": 346,
+  "input_and_example_hashes_unchanged": {
+    "research/revenue-summary/numerical-examples.json": true,
+    "research/revenue-model/extension-examples.json": true,
+    "research/acquisition/central-examples.json": true,
+    "Objais Funnels Advertising Metrics and UX Research.md": true
+  },
+  "standalone_revenue_definition_blocks": 0,
+  "diagrams": {
+    "revenue": 6,
+    "acquisition": 2,
+    "revenue_sources_match_exports": true
+  },
+  "guide_link_counts": {
+    "Objais Revenue Model Numerical Summary.md": 21,
+    "Objais Acquisition Numerical Summary.md": 21
+  },
+  "word_counts": {
+    "Objais Revenue Model Numerical Summary.md": {
+      "before": 5482,
+      "after": 5925,
+      "visible_prose_after": 4939
+    },
+    "Objais Acquisition Numerical Summary.md": {
+      "before": 5226,
+      "after": 6063,
+      "visible_prose_after": 5770
+    }
+  }
+}

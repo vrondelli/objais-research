@@ -1,0 +1,59 @@
+{
+  "authoritative_math": "Objais Revenue Model.tex",
+  "reference_implementation": "research/revenue-model/revenue_model.py (public API); episodic_model.py (extended engine)",
+  "numerical_input_status": "synthetic; not actual Objais metrics",
+  "period": "month",
+  "horizon": 36,
+  "scenario_currency": "EUR",
+  "state_order": [
+    "active eligible E",
+    "active completed M",
+    "dormant eligible DE",
+    "dormant completed DM",
+    "permanent opportunity exit X"
+  ],
+  "event_architectures": [
+    "accepted_lead",
+    "bound_policy"
+  ],
+  "subscription_state": "separate billed-account cohort",
+  "policy_state": "separate survival cohort with renewal events at positive age multiples of interval",
+  "general_formal_extensions": [
+    "completed-service event ledger",
+    "explicit currency conversion",
+    "collection and write-off kernels",
+    "professional multi-client account units",
+    "later software upgrades",
+    "joint cross-segment partner capacity allocation"
+  ],
+  "restricted_example_assumptions": [
+    "Profiles repeat at supplied length; explicit contacts/budget schedules match horizon",
+    "At most one initial payable event per active eligible owner-month; history-dependent eligibility",
+    "Lead OR binding initial payment; renewal rights require binding",
+    "Mutually exclusive owner groups; contact duplicates removed before input",
+    "Allocated segment capacity with proportional thinning and no request backlog",
+    "Software starts on acquisition; billing and policy survival separate from opportunity exit",
+    "Immediate net invoicing, no late credits or bad debt",
+    "Same collection lag for all streams within each segment; costs paid when incurred"
+  ],
+  "version": 2,
+  "legacy_state_order": [
+    "eligible E",
+    "completed opportunity M"
+  ],
+  "implemented_extensions": [
+    "age/calendar need profiles and conditional request/acceptance",
+    "owner-history rolling payment caps and cooldown",
+    "dormant return preserving owner identity and paid history",
+    "separate dormant cost and reactivation cost",
+    "direct/delegated adoption and segment economics",
+    "quadratic acquisition spend and budget inversion",
+    "time-specific adoption, acceptance, fee and competition profiles",
+    "contact capacity and reachable prospect pool",
+    "allocated segment payment capacity and failed request costs",
+    "independent software and policy cohorts",
+    "market aggregation with fixed costs charged once and native-currency guard"
+  ],
+  "legacy_benchmark_compatibility": "Six original cases reproduced exactly by disabling the added features",
+  "advanced_workbook_mode": "Python-generated forecast snapshots plus live acquisition-cost curve; legacy benchmark formulas remain live"
+}

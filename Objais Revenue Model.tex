@@ -1,0 +1,367 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=23mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,booktabs,longtable,array,xcolor,hyperref}
+\hypersetup{colorlinks=true,linkcolor=teal,urlcolor=teal,pdftitle={Objais Formal Revenue Model}}
+\definecolor{navy}{HTML}{173247}
+\newcommand{\E}{\mathbb E}
+\newcommand{\R}{\mathcal R}
+\newcommand{\LTV}{\operatorname{LTV}}
+\newcommand{\CAC}{\operatorname{CAC}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\title{\textcolor{navy}{Objais Formal Revenue Model}\\\large Episodic need, dormant return, segmented adoption and acquisition economics}
+\author{Mathematical specification and executable reference model}
+\date{13 October 2026}
+\begin{document}
+\maketitle
+
+\textbf{Purpose.} Model expected revenue and contribution from acquired owners, rather than infer revenue from market size. The one-off lead sale remains the baseline. The finite model includes age/calendar-specific need, dormant return, direct/delegated adoption, owner-level payment limits, nonlinear acquisition spend and service capacity. Contractual policy renewals and paid software keep independent clocks. Stationary derivations provide restricted special cases. All numerical examples are synthetic counterfactuals, not estimates of Objais's performance.
+
+\textbf{Main result.} Retention before the first paid lead can increase conversion. Retention after that lead cannot create another lead payment unless eligibility resets or a different payable event exists. With positive ongoing cost, post-sale retention alone reduces customer contribution.
+
+\tableofcontents
+\newpage
+
+\section{Objects, units and assumptions}
+
+Time is monthly. An acquired-owner cohort begins in calendar month $c$; its age is $a=t-c$. A lane $g$ is a specified segment, country and channel. Counts below are expected counts, so fractional values are legitimate. Parameters are conditional on the lane and period; these subscripts are omitted in the stationary derivations.
+
+\begin{longtable}{@{}p{25mm}p{118mm}@{}}
+\toprule Symbol & Definition and unit \\
+\midrule\endhead
+$A_c$ & Newly acquired owners in cohort $c$, owners. Anonymous sessions must not be silently identified as owners.\\
+$E_{c,a}$ & Retained owners with one unexhausted eligible opportunity at the start of age $a$, owners.\\
+$M_{c,a}$ & Retained owners whose current opportunity has already monetised, owners.\\
+$q=p\alpha$ & Probability of the first payable event per eligible owner-month. For leads, $p$ is the qualified-request probability and $\alpha$ paid acceptance conditional on that request. This stationary factorisation absorbs need into $p$; the expanded model instead uses $q=n p\alpha$, with $p$ conditional on need. Neither form assumes independence.\\
+$\rho_E,\rho_M$ & End-of-month continuation probabilities before and after monetisation, respectively.\\
+$\lambda$ & Conditional probability of a genuinely new eligible opportunity after monetisation and continuation. Browsing, rescanning and repricing the same insured object do not by themselves reset eligibility.\\
+$f,\omega,h$ & Payment per event, expected fraction reversed, and processing cost per event, all in the lane's currency except dimensionless $\omega$.\\
+$\bar f=f(1-\omega)$ & Expected net earned payment per event. A fee is not the insurance premium.\\
+$v_E,v_M$ & Monthly variable cost per retained owner in each opportunity state. Immediate processing is separately charged through $h$.\\
+$k,F_t$ & Acquisition cost per acquired owner and fixed operating cost per calendar month.\\
+$\delta=(1+i)^{-1}$ & Monthly discount factor; $i\geq0$ is the monthly discount rate.\\
+\bottomrule
+\end{longtable}
+
+The basic opportunity episode allows at most one payable event per owner-month and one per episode. Multiple simultaneous assets or insurer buyers require an expanded event/opportunity model; the one-lead lifetime bound is not universal in such a model. State continuation describes the opportunity workflow, not policy survival or a subscriber's billing status.
+
+No acquisition, acceptance, fee or survival parameter is inferred from global market sales. Unsupported contractual revenue stays a symbolic hypothesis. Different currencies are aggregated only through an explicit dated conversion factor.
+
+\section{Minimal one-visit lead model}
+
+For a single visit, expected payable leads and revenue are
+\begin{equation}
+ L_t=A_t p_t\alpha_t=A_tq_t,
+ \qquad R_t^{L}=\bar f_t A_tq_t.
+ \label{eq:minimal}
+\end{equation}
+With no future activity and immediate variable cost $v_E$,
+\begin{equation}
+ C_t=A_t\{q_t(\bar f_t-h_t)-v_{E,t}-k_t\},
+ \qquad \Pi_t=C_t-F_t.
+ \label{eq:singleprofit}
+\end{equation}
+Thus the maximum sustainable acquisition cost before allocating fixed cost is
+\begin{equation}
+ k^{*}=q(\bar f-h)-v_E.
+ \label{eq:cac}
+\end{equation}
+Positive unit contribution is necessary but does not cover fixed operating cost automatically. Acquisition cost, customer payment, insurer premium, revenue and profit remain different quantities.
+
+\section{Retention with one lifetime payable opportunity}
+
+Set $\lambda=0$. A new cohort starts with $E_{c,0}=A_c$ and $M_{c,0}=0$. Monetisation occurs during the month and continuation afterward:
+\begin{align}
+ L_{c,a}&=qE_{c,a},\\
+ E_{c,a+1}&=\rho_E(E_{c,a}-L_{c,a}),\\
+ M_{c,a+1}&=\rho_M(M_{c,a}+L_{c,a}).
+ \label{eq:states}
+\end{align}
+Owners move from $E$ to $M$ when the opportunity pays; they are not acquired again. The churned count is
+\begin{equation}
+ D_{c,a}=(1-\rho_E)(E_{c,a}-L_{c,a})
+       +(1-\rho_M)(M_{c,a}+L_{c,a}),
+\end{equation}
+so $E_{c,a+1}+M_{c,a+1}=E_{c,a}+M_{c,a}-D_{c,a}$.
+
+The expected undiscounted lifetime number of payable leads per acquired owner is
+\begin{equation}
+ \frac{\E[L_{c,\infty}]}{A_c}
+ =\frac{q}{1-\rho_E(1-q)}\leq1.
+ \label{eq:leadceiling}
+\end{equation}
+For the boundary $q=0,\rho_E=1$, define the lead count as zero rather than evaluate $0/0$. For $q>0$, perfect pre-sale continuation permits eventual conversion, but still no more than one lead. Consequently expected lifetime lead revenue is at most $\bar f$ under this constant-fee, one-opportunity assumption.
+
+Notice that $\rho_M$ does not appear in equation~\eqref{eq:leadceiling}. Retaining an already monetised owner cannot increase the lead count in this model. Increasing $\rho_E$ can increase conversion before the first sale. This is why product retention must not be treated as a single scalar.
+
+\section{Discounted customer contribution and the retention result}
+
+Let $m=\bar f-h$. Define customer value over $H$ months before acquisition and fixed cost as
+\begin{equation}
+ V_H=\frac{1}{A_c}\sum_{a=0}^{H-1}\delta^a
+       \{mL_{c,a}-v_EE_{c,a}-v_MM_{c,a}\}.
+ \label{eq:ltvfinite}
+\end{equation}
+The customer's net unit value is $V_H-k$. A finite-horizon value need not be a lower bound on infinite-horizon value: later retained periods can carry costs without any new income.
+
+If $d_E=1-\delta\rho_E(1-q)>0$ and $\delta\rho_M<1$, summing the two state recurrences gives
+\begin{align}
+ \frac{1}{A_c}\sum_{a\geq0}\delta^aE_{c,a}&=\frac{1}{d_E},\\
+ \frac{1}{A_c}\sum_{a\geq0}\delta^aM_{c,a}
+ &=\frac{\delta\rho_Mq}{(1-\delta\rho_M)d_E},\\
+ V_\infty&=
+ \frac{mq-v_E-\displaystyle v_M\frac{\delta\rho_Mq}{1-\delta\rho_M}}
+ {1-\delta\rho_E(1-q)}.
+ \label{eq:ltvclosed}
+\end{align}
+Holding all other parameters fixed,
+\begin{equation}
+ \frac{\partial V_\infty}{\partial\rho_M}
+ =-\frac{v_M\delta q}{(1-\delta\rho_M)^2d_E}\leq0.
+ \label{eq:negative}
+\end{equation}
+This is a structural result, not an empirical claim about Objais. If $v_M=0$, post-sale continuation is economically neutral within this restricted model. If ongoing cost is positive, more continuation reduces value.
+
+If an independently justified continuing activity earns expected gross payment $g_M$ per post-monetisation owner-month, replace $-v_M$ by $g_M-v_M$ in the reward. Then
+\begin{equation}
+ \frac{\partial V_\infty}{\partial\rho_M}
+ =\frac{(g_M-v_M)\delta q}{(1-\delta\rho_M)^2d_E}.
+ \label{eq:recurring}
+\end{equation}
+The marginal economic effect becomes positive precisely when the recurring payment exceeds its incremental cost, under the stated constant-parameter assumptions.
+
+\section{Genuine repeat eligibility and the state transition matrix}
+
+Allow $\lambda>0$ only when a new asset, new portfolio episode or another contractual trigger permits a new payable event. Reset occurs after monetisation and continuation:
+\begin{align}
+ E_{c,a+1}&=\rho_E(E_{c,a}-L_{c,a})
+             +\rho_M\lambda(M_{c,a}+L_{c,a}),\\
+ M_{c,a+1}&=\rho_M(1-\lambda)(M_{c,a}+L_{c,a}).
+\end{align}
+Set $z_{c,a}=(E_{c,a},M_{c,a})^\top$ and $e_E=(1,0)^\top$. Then
+\begin{equation}
+ z_{c,a+1}=Tz_{c,a},\qquad
+ T=\begin{pmatrix}
+ \rho_E(1-q)+\rho_M\lambda q & \rho_M\lambda\\
+ \rho_M(1-\lambda)q & \rho_M(1-\lambda)
+ \end{pmatrix}.
+ \label{eq:matrix}
+\end{equation}
+The columns of $T$ sum to at most one. Counts remain nonnegative, and eligibility resets do not create additional owners. For changing parameters, use $z_{c,a}=T_{c,a-1}\cdots T_{c,0}A_ce_E$ in the stated order.
+
+Let $w=(mq-v_E,-v_M)^\top$. The stationary finite and infinite opportunity values are
+\begin{align}
+ V_H^{\mathrm{opp}}&=w^\top\sum_{a=0}^{H-1}(\delta T)^ae_E,\\
+ V_\infty^{\mathrm{opp}}&=w^\top(I-\delta T)^{-1}e_E,
+ \quad\text{if }\operatorname{spr}(\delta T)<1.
+ \label{eq:resolvent}
+\end{align}
+Here $\operatorname{spr}$ is the spectral radius. Divergent boundaries require finite-horizon analysis; a singular inverse must never become a financial forecast.
+
+In a no-churn stationary population ($\rho_E=\rho_M=1$), with $q,\lambda>0$, the long-run eligible fraction and payable event rate are
+\begin{equation}
+ \pi_E=\frac{\lambda}{q+\lambda-q\lambda},
+ \qquad \ell^{*}=q\pi_E=\frac{q\lambda}{q+\lambda-q\lambda}.
+\end{equation}
+For example, frequent TCG purchases matter commercially only to the extent that they create \emph{new payable eligibility}. Frequent inventory additions to an unchanged policy may produce $\lambda=0$ for a lead-selling contract.
+
+\section{Other contractual revenue streams}
+
+\subsection{Binding commissions and policy renewals}
+
+Lead sales and binding commissions are different event architectures. In a lead architecture, $q$ is payable lead probability and $f$ a lead fee. In a binding architecture, $q$ is probability of an eligible bound policy and the initial payment can be
+\begin{equation}
+ \phi^{N}=\bar P\,\nu_N s_N,
+\end{equation}
+where $\bar P$ is eligible premium, $\nu_N$ commission rate and $s_N$ Objais's retained share. Do not reuse a paid-lead acceptance rate as a policy-binding rate.
+
+For $B_c$ policies originated in month $c$, let $\zeta_{c,a}$ be the probability that a policy is still eligible at age $a$, including cancellation and non-renewal. Consumer app continuation does not define $\zeta$. For annual renewals,
+\begin{equation}
+ R_t^{\pi}=z_\pi\sum_{c<t}
+  \mathbf1\{t-c\in12\mathbb N\}\,B_c\zeta_{c,t-c}\phi^{\pi}_{c,t},
+ \qquad z_\pi\in\{0,1\}.
+ \label{eq:renewal}
+\end{equation}
+The rights indicator $z_\pi$ is zero under a lead-only contract without renewal remuneration. A renewed policy extends an existing policy term; it does not add another owner or an additional new policy to the active stock.
+
+The reference example uses $\zeta_a=s_\pi^a$, a homogeneous monthly survival assumption. General annual-contract survival can instead change at renewal boundaries. With policy cost $v_\pi$ per active policy-month, the future value per newly bound policy is
+\begin{equation}
+ V_\pi=z_\pi\phi^\pi\frac{u}{1-u}-\frac{v_\pi}{1-\delta s_\pi},
+ \qquad u=(\delta s_\pi)^{12},
+\end{equation}
+when the sums converge. Multiply this by the discounted number of new policies per acquired owner; it is not multiplied by app retention.
+
+\subsection{Paid tools and service referrals}
+
+Let $\kappa A_c$ start paid software in acquisition month $c$, $\eta_a$ describe billed-account continuation and $b_a$ payment per service month. With cost $v_{S,a}$,
+\begin{align}
+ S_{c,a}&=\kappa A_c\prod_{j=0}^{a-1}\eta_j,\\
+ R_t^{S}&=\sum_{c\leq t}b_{t-c}S_{c,t-c},\\
+ V_\infty^{S}&=\frac{\kappa(b-v_S)}{1-\delta\eta}
+ \quad\text{for constant parameters and }\delta\eta<1.
+\end{align}
+A paying account can persist without using the lead workflow. This billed-account cohort must therefore be distinguished from opportunity-state continuation; no statistical independence of observed conversion is claimed.
+
+For referrals, if $J_{g,t}$ is the number of completed, contractually payable services and $\phi^J_{g,t}$ their net fee,
+\begin{equation}
+ R_t^{J}=\sum_g\phi^J_{g,t}J_{g,t}.
+\end{equation}
+Clicks and uncompleted requests are not $J$. An equivalent expected-event rate can be added to the state reward only with a defined denominator, attribution and incremental cost.
+
+\subsection{Event ledger and currency aggregation}
+
+For a unique economic event $e$, let $a_{e,s}$ be the earned amount in stream $s$ and $z_{e,s}$ its contractual eligibility mask. A general net revenue identity is
+\begin{equation}
+ R_t=\sum_{s}\sum_{e:\tau(e)=t}z_{e,s}a_{e,s}-\mathrm{credits}_t.
+\end{equation}
+The default is mutually exclusive lead and initial binding remuneration for an opportunity. Both may be included only when documented incremental rights justify them. Renewal, subscription and referral events have distinct identifiers. Acquisition cost is charged once per acquired owner, not again for each stream.
+
+For lane revenue in its native currency, consolidated EUR revenue is $R_t^{\mathrm{EUR}}=\sum_g\chi_{g,t}R_{g,t}$, with $\chi_{g,t}$ explicitly defined as EUR per unit of the native currency. A mathematical symbol is not an observed exchange rate.
+
+\section{Calendar revenue, costs and cash}
+
+Superpose acquired cohorts; for example $R_t^L=\sum_{c\leq t}\bar f_{c,t}q_{c,t}E_{c,t-c}$. Define
+\begin{align}
+ R_t&=R_t^{L}+R_t^{N}+R_t^{\pi}+R_t^{S}+R_t^{J},\\
+ V_t&=\sum_c(v_EE_{c,t-c}+v_MM_{c,t-c}+hL_{c,t-c})
+       +v_SS_t+v_\pi P_t+V_t^{J},\\
+ C_t&=R_t-V_t-k_tA_t,\qquad \Pi_t=C_t-F_t-W_t.
+\end{align}
+$W_t$ is bad-debt expense when applicable; it is not a second cash outflow. Stream inclusion still follows the event architecture above.
+
+Invoicing and cash are separate from revenue. For invoiced amounts $I^s_t$, collection and write-off kernels $K_{s,j},H_{s,j}\geq0$ obey $\sum_j(K_{s,j}+H_{s,j})=1$ when eventual resolution is assumed:
+\begin{align}
+ X_t&=\sum_s\sum_j K_{s,j}I^s_{t-j},\qquad
+ W_t=\sum_s\sum_jH_{s,j}I^s_{t-j},\\
+ AR_t&=AR_{t-1}+I_t-X_t-W_t,\\
+ \mathrm{CashSurplus}_t&=X_t-\mathrm{OperatingCashCost}_t
+                         -\mathrm{AcquisitionCashCost}_t.
+\end{align}
+Late credits and unbilled revenue require their own entries. The executable examples use immediate net invoicing, no bad debt or late credits, a shared fixed collection lag and same-period cash costs. They validate that restricted case, not statutory accounting.
+
+Break-even acquisition cost is $k^*=V_H$ before fixed cost. Payback is the first cohort age at which cumulative discounted or undiscounted contribution---with the convention stated---covers acquisition cost. If this never occurs in the horizon, report ``not reached'' rather than extrapolate a date.
+
+\section{Illustrative counterfactuals and falsifiable implications}
+
+The executable examples hold $q=0.10$, lead payment EUR 20, reversal fraction $0.05$, processing cost EUR 1, $v_E=0.20$, $v_M=0.30$, acquisition cost EUR 4, and monthly discount rate $0.01$, unless a scenario explicitly changes them. These are assumptions, not industry benchmarks. A single acquired-owner cohort is valued over 36 months; the calendar forecast separately adds 1,000 owners monthly and EUR 1,000 monthly fixed cost.
+
+\begin{center}
+\begin{tabular}{@{}p{91mm}rr@{}}
+\toprule Synthetic scenario & $V_{36}$ & $V_{36}-k$\\
+\midrule
+One visit, no continuation & 1.600 & -2.400\\
+Post-lead continuation only, $\rho_M=0.8$ & 1.486 & -2.514\\
+Pre- and post-lead continuation, both $0.8$ & 5.175 & 1.175\\
+Same continuation, new eligibility $\lambda=0.1$ & 5.877 & 1.877\\
+Post-lead continuation plus paid tools & 3.358 & -0.642\\
+Binding commission and renewal hypothesis & 4.249 & 0.249\\
+\bottomrule
+\end{tabular}
+\end{center}
+The original paid-tool benchmark assumes conversion $\kappa=0.05$ (the reader guide also tests 15\% paid starts), billed survival $\eta=0.95$, monthly payment EUR 3 and incremental cost EUR 0.50. The policy scenario changes the payable event to binding, initial commission to EUR 30, reversal to zero, rights mask to one, monthly policy survival to $0.98$, annual renewal payment to EUR 15 and policy-month cost to EUR 0.10. Its $q=0.10$ is a binding probability, not measured paid-lead acceptance. No contractual availability is established by those switches.
+
+Three conclusions follow from the structure:
+\begin{enumerate}
+\item A one-off lead model need not be unprofitable; the inequality $V_H>k$ is the test. Low visit frequency alone does not decide it.
+\item Post-sale engagement alone cannot defeat a one-payment ceiling. New eligibility or an independently paid service must explain additional revenue.
+\item More recurring revenue does not automatically mean positive value: it must cover incremental cost, acquisition and fixed operation, with appropriate cash timing.
+\end{enumerate}
+
+Actual use requires defining what Objais is paid for, measuring the correct denominator and distinguishing $\rho_E$, $\rho_M$, $\lambda$, policy survival and paid-software continuation. The formal model is usable before those observations exist; a calibrated forecast is not.
+
+
+\section{Updated finite model: episodic need and segmented acquisition}
+
+\subsection{Business questions and measurement}
+The model tests occasional insurance need, reported lack of retention, possible delegation by frequent wealthy buyers, and dependence on small fees versus acquisition cost. Once or twice yearly use is a scenario to test, not an empirical fact or a mandatory cap. The same rules apply to existing asset categories and optional future offers. Frequent inventory activity does not automatically create an insurance payment.
+
+A segment $g$ specifies a mutually exclusive owner group, country, channel and direct or delegated workflow. A representative is not another acquired owner. A delegated consumer workflow still counts owners; a dealer serving many clients requires its own account/opportunity unit model. All coefficients below need measurement or explicit hypothetical status. Segmentation represents different demand assumptions, not an explanation of why people adopt.
+
+\subsection{Prospects, adoption, budget and competition}
+Let $N_{g,t}$ be distinct prospects reached, $d_{g,t}\in[0,1]$ adoption among those prospects, $b_g$ base cost per prospect, $m_{g,t}\geq0$ an assumed competition-cost multiplier, $\beta_g\geq0$ acquisition curvature, $N_g^*>0$ reference volume, and $o_g$ onboarding cost per acquired owner. Define
+\begin{align}
+ A_{g,t}&=d_{g,t}N_{g,t},\\
+ K_{g,t}&=b_gm_{g,t}N_{g,t}
+       \left(1+\beta_g\frac{N_{g,t}}{N_g^*}\right)+o_gA_{g,t},\\
+ \operatorname{CAC}_{g,t}&=K_{g,t}/A_{g,t}\quad (A_{g,t}>0).
+\end{align}
+CAC is undefined when there are no acquired owners, even if marketing spend is positive. With $a=b_gm_{g,t}\beta_g/N_g^*$ and $\ell=b_gm_{g,t}+o_gd_{g,t}$, a budget $B$ implies
+\begin{equation}
+ N=\frac{2B}{\ell+\sqrt{\ell^2+4aB}}\quad(a>0),
+ \qquad N=B/\ell\quad(a=0,\ell>0).
+\end{equation}
+Monthly contact capacity and a finite reachable-prospect pool can restrict $N$. Report any unused budget; do not spend it automatically. The curve and multipliers are assumed or estimated inputs, not a prediction of auction competition. Contacts must exclude duplicate owners across cohorts and segments; returning owners have a separately priced reactivation event.
+
+\subsection{Dormant states, permanent exit and paid history}
+Each original cohort $c$ has expected counts in five states: $E$ (active, unexhausted opportunity), $M$ (active, monetised opportunity), $D_E$ and $D_M$ (dormant versions preserving their opportunity status), and $X$ (permanently exited). Initial owners split between $E$ and $D_E$ using an initial-active fraction. Dormancy means possible future return; absence of an app visit is not itself permanent exit.
+
+Buckets additionally retain the last initial paid-event month $l$ and a history $h$ of paid months in a rolling window. These histories stay with the same owner on dormancy or return. $X$ is absorbing for this opportunity relationship; it does not cancel independent policy or software records.
+
+Before this month's activity, dormant owners first survive permanent-exit probability $\mu_g$, then return with cohort-age probability $r_{g,a}$. Returned $D_M$ owners gain genuinely new eligibility with contractual-reset probability $\xi_g$. Suppressing history subscripts,
+\begin{align}
+ \widetilde E&=E+(1-\mu)rD_E+(1-\mu)r\xi D_M,\\
+ \widetilde M&=M+(1-\mu)r(1-\xi)D_M,\\
+ D_E^{\rm wait}&=(1-\mu)(1-r)D_E,
+ \qquad D_M^{\rm wait}=(1-\mu)(1-r)D_M.
+\end{align}
+New dormant acquisitions cannot reactivate in their acquisition month. A return incurs reactivation cost but no new-owner CAC. A return without new payment rights does not pay for an already monetised lead again.
+
+\subsection{Need, request, acceptance and enforceable frequency}
+Let $n_{g,a,t}\in[0,1]$ be need probability (the executable version multiplies an age profile by a specified calendar gate or modifier, rather than assuming two independent need estimates), $p_g$ qualified request conditional on need, and $\alpha_{g,t}$ paid acceptance or binding conditional on request. Their product is a chain of conditional probabilities, not an independence claim.
+
+For an optional cap $J_g$ in $W_g$ rolling months and minimum gap $w_g$, define a bucket's eligibility mask
+\begin{equation}
+ b_{t,h,l}=\mathbf1\{|\{u\in h:t-W_g<u\leq t\}|<J_g\}
+            \mathbf1\{l<0\ \text{or}\ t-l\geq w_g\}.
+\end{equation}
+Omit the cap factor when no cap is specified. Requests and candidate payments are
+\begin{equation}
+ Q_{g,t}=\sum_{c,h,l}\widetilde E_{g,c,h,l}\,b_{t,h,l}n_{g,t-c,t}p_g,
+ \qquad \widehat L_{g,t}=Q_{g,t}\alpha_{g,t}.
+\end{equation}
+A segment's independently allocated monthly event capacity $H_g$ yields
+\begin{equation}
+ s_{g,t}=\min(1,H_g/\widehat L_{g,t}),
+ \qquad L_{g,c,h,l}=s_{g,t}\widetilde E_{g,c,h,l}b_{t,h,l}n_{g,t-c,t}p_g\alpha_{g,t},
+\end{equation}
+with $s=1$ when candidate count is zero or capacity is unspecified. All qualified requests incur any request-processing cost, including requests failing acceptance or capacity. Shared partner capacity must be allocated across segments before using separate $H_g$ values.
+
+Every paid branch appends $t$ to its history and moves from $E$ to $M$. Every unpaid branch keeps its history. At month end, the existing $\rho_E,\rho_M,\lambda$ rules apply to active branches. Of noncontinuing branches, fractions $d_E,d_M$ become dormant; the rest move to $X$. Waiting dormant branches remain dormant. Resetting an opportunity does not erase paid-event history.
+
+Thus every owner path, not just the aggregate mean, has at most $J_g$ \emph{initial} payments in any $W_g$-month window. Policy renewals and software charges are separate streams and are not counted against that initial-event cap. A six-month gap can represent spaced repeat events; a two-event annual cap alone does not impose a six-month gap. Age and calendar profiles are distinct: a need every sixth cohort month is not the same as a season shared by all customers.
+
+\subsection{Revenue, costs, value and recovery of the baseline}
+Initial revenue is $f_{g,t}(1-\omega_g)L_{g,t}$. Software starts are $\kappa_gA_{g,t}$, with billed survival independent of opportunity states. Policy births are $L_{g,t}$ only under the binding architecture; renewal rights, survival and dates remain as previously defined. Segment fee and acceptance profiles can represent assumed fee pressure or changing quality.
+
+Let $U_{g,t}$ be returned owners, $D_{g,t}$ dormant owners after returns, $j_g$ cost per qualified request, $v_D$ dormant-month cost and $v_R$ reactivation cost. Total variable cost adds
+\begin{equation}
+ V_{g,t}=v_E\widetilde E+v_M\widetilde M+v_DD+v_RU+j_gQ+h_gL
+                 +v_SS_{g,t}+v_\pi P_{g,t}.
+\end{equation}
+Group contribution is $C_{g,t}=R_{g,t}-V_{g,t}-K_{g,t}$. Company operating result sums groups and subtracts fixed cost once. Costs are paid when incurred; fees are immediately net-invoiced and collected with each segment's assumed lag. Native currencies are run separately. Bad debt, late credits and stream-specific settlement remain extensions of the event-ledger specification.
+
+The finite standalone cohort value is
+\begin{equation}
+ u_{g,c,H}=\frac{1}{A_{g,c}}\sum_{a=0}^{H-1}\delta_g^a C_{g,c+a}^{(c)}.
+\end{equation}
+Its acquisition cost uses the stated acquisition volume. With binding shared service capacity, a standalone cohort is not its actual allocation inside a multi-cohort forecast; assess the company simulation directly. Profiles repeat at their supplied length; explicit contact or budget schedules instead match the forecast horizon. Paid software starts on acquisition in this implementation; later paid upgrades are not modeled.
+
+Setting adoption to one, prospect cost to the original CAC, curvature to zero, need to one, request probability to the original $q$, acceptance to one, dormancy to zero and caps/cooldown/capacity to absent recovers the original executable examples exactly. The stationary closed forms above apply to those restricted cases; the updated history-dependent process uses finite bucket propagation.
+
+\subsection{Synthetic findings and validation}
+With two assumed need dates yearly, complete scheduled dormant return and the original lead fee/CAC, first-fee-only value is EUR 1.20 per owner; documented new payable enquiries increase it to EUR 3.22. Adding 2\% monthly permanent exit among dormant users reduces that to EUR 1.62. These returns are strong hypothetical assumptions, not observed retention.
+
+For the frequent-service example, restricting insurance need to two dates yearly changes value at 15\% software paid starts from EUR 1.09 to EUR -0.56. At 25\% paid starts it becomes EUR 3.19. At the same EUR 2 prospect cost, adoption of 50\% versus 10\% produces CAC EUR 4 versus EUR 20. With base prospect cost EUR 1 and curvature 0.5, 1,000 versus 2,000 monthly prospects produces CAC EUR 1.50 versus EUR 2; growing volume can worsen the operating result.
+
+The extension tests baseline equivalence, owner conservation, conditional funnels, annual schedules, path-level rolling caps, cooldown, dormant return without reacquisition, preserved history, no automatic repeat rights, separate renewal/billing clocks, failed-request cost, adoption/CAC, budget inversion, saturation, fee/acceptance profiles, capacity and company cash identities. No result establishes demand, actual contractual rights or a competitive moat.
+
+\section{Reference implementation and validation}
+
+The companion Python model retains the restricted two-state benchmark and exposes \texttt{Segment}, \texttt{simulate\_segment}, \texttt{simulate\_market} and \texttt{cohort\_value} for the updated finite process. The benchmark implements the two-state process, cohort superposition, independent billed software cohorts, bound-policy cohorts, annual renewals, costs, cash delay and discounted values. The spreadsheet implements the same six restricted synthetic architectures with editable parameters and live formulas. A source-linked scenario label prevents illustrative values being presented as Objais actuals.
+
+Validation compares finite numerical cohort sums with the closed form, tests conservation and positivity of opportunity states, limits one-episode lead counts, checks that post-sale continuation cannot create another lead, tests the derivative sign, validates annual renewal timing and rights, verifies acquisition is charged once, and reconciles invoice/receipt/receivable identities. Invalid probabilities and unsupported rights combinations are rejected.
+
+The specification, executable formulas and synthetic examples support conditional financial comparisons. Commercial calibration requires contracts, observed user behaviour and cost data. These scenarios do not establish measured performance or select a commercial expansion.
+\end{document}
